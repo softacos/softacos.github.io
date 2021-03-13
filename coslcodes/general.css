@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,200;1,400;1,700&display=swap');
+html[data-theme="dark"] .lybase { color: rgba(240,240,240); background: rgba(0,0,0,1); } html[data-theme="dark"] .lybase i { color: rgba(180,180,180); }
+html[data-theme="light"] .lybase { color: rgba(25,25,25); background: rgba(50,50,50,0.05); }
+html[data-theme="light"] .lybase i { color: rgba(110,110,110); }
+.lybase p { margin: 12px 0 0 0; }
+.lybase { width: 220px; text-align: justify; background: rgba(50,50,50,0.1); padding: 40px; border-radius: 40px; font: 11px Montserrat; line-height: 17px; }
+.lybase b { color: rgba(var(--accent),1); font-size: 14px; line-height: 17px; }
+.lybase i {font-size: 14px; line-height: 17px; }
+.lybase img { border-radius: 15px; width: 220px; height: 138px; object-fit: cover; object-position: center; margin-bottom: 20px; }
+
+.lybase tag { font: bold 8px montserrat; text-align: center; display: block; text-transform: uppercase; margin-top: 12px; line-height: 12px; }
+.lybase tag .fas { font: 8px montserrat; text-transform: uppercase; line-height: 12px; }
+tag .fa { font-size: 10px; line-height: 12px; }
+.lybase h1 { font: bold 20px montserrat; text-align: center; display: block; margin: 0 0 12px 0; padding: 0px; letter-spacing: -0.5px; color: rgba(var(--accent),1); }
+.lybase h2 { font: bold 14px montserrat; text-align: center; text-transform: uppercase; margin: 0 0 12px 0; padding: 0px; color: rgba(var(--accent),1); }
+.lybase h3 { font: bold 8px montserrat; text-align: center; text-transform: uppercase; margin: 0 0 12px 0; padding: 0px; color: rgba(var(--accent),1); }
+.lybase a { color: rgba(var(--accent),0.8); }
+.lybase a:hover { color: rgba(var(--accent),1); }
+
+.lybase .development, .lybase .two, .lybase .three { display: flex; flex-flow: row wrap; align-content: space-between; width: 220px; justify-content: space-between; }
+.lybase .development img { width: 220px; height: auto!important; border-radius: 20px; }
+.lybase .two img { width: 100px!important; height: auto!important; object-fit: cover; object-position: center; }
+.lybase .three img { width: 60px!important; height: auto!important; object-fit: cover; object-position: center; }
+
+.lybase video { border-radius: 20px; margin-bottom: 30px; width: 220px; height: auto; object-fit: cover; object-position: center; }
+
+.lybase ul { margin: 0px 0px 12px 15px; padding: 0px; }
+.lybase post { white-space: pre-line; }

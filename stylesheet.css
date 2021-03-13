@@ -19,3 +19,5 @@ p {
   padding: 0px;
   text-align: justify; 
 }
+
+a, a:link, a:active, a:visited { color: rgba(0, 63, 155, 1); 
