@@ -9,6 +9,7 @@ html[data-theme="light"] .lybase i { color: rgba(110,110,110); }
 .lybase img { border-radius: 15px; width: 220px; height: 138px; object-fit: cover; object-position: center; margin-bottom: 20px; }
 
 .lybase tag { font: bold 8px montserrat; text-align: center; display: block; text-transform: uppercase; margin-top: 12px; line-height: 12px; }
+.lybase tag .fas { font: 8px montserrat; text-transform: uppercase; line-height: 12px; }
 tag .fa { font-size: 10px; line-height: 12px; }
 .lybase h1 { font: bold 20px montserrat; text-align: center; display: block; margin: 0 0 12px 0; padding: 0px; letter-spacing: -0.5px; color: rgba(var(--accent),1); }
 .lybase h2 { font: bold 14px montserrat; text-align: center; text-transform: uppercase; margin: 0 0 12px 0; padding: 0px; color: rgba(var(--accent),1); }
