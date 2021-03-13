@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Mulish:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 html, body {
+  --beetlejuice: 0, 63, 155; 
   font-family: Mulish, sans-serif;
   font-size: 12px;
   line-height: 20px;
@@ -20,4 +21,4 @@ p {
   text-align: justify; 
 }
 
-a, a:link, a:active, a:visited { color: rgba(0, 63, 155, 1); 
+a, a:link, a:active, a:visited { color: rgba(var(--beetlejuice), 1); text-decoration: none; }
