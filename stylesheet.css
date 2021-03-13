@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Mulish:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+html, body {
+  font-family: Mulish, sans-serif;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+h1 {
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+}
+
+p {
+  width: 300px;
+  margin: 2em auto 0px;
+  padding: 0px;
+  text-align: justify; 
+}
