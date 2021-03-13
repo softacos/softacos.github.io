@@ -1,0 +1,19 @@
+/*************************
+ GENERAL TEMPLATE FOR COSL
+ by LYDIA // 196 
+*************************/
+
+html[data-theme="dark"] .lyreq1 {--lybg: 50,50,50; --lybor: 255,255,255; }
+.lyreq1 { --lybg: 245,245,245; --lybor: 0,0,0; width: 350px; padding: 5px; border: 1px solid rgba(var(--mgrgb),0.4); margin: 0px auto; background: rgba(var(--lybor),0.05); }
+.lyreq1 .counter {  background: rgba(var(--lybg),1); text-align: justify; font: 12px karla; line-height: 150%; border: 1px solid rgba(var(--mgrgb),1); padding: 0px 0px 50px; }
+.lyreq1 .bodytxt { margin: -20px 50px 0px; padding: 15px; border: 1px solid rgba(var(--mgrgb),1); background: rgba(var(--mgrgb),0.1); border-radius: 15px; text-transform: lowercase; }
+.bodytxt scroll { display: block; max-height: 120px; overflow: auto; padding-right: 5px; }
+
+.lyreq1 h1:before { width: 348px; height: 1px; background: rgba(var(--mgrgb),1); display: block; content: ''; padding: 0px; margin: 50px 0px -6px -5px; } 
+.lyreq1 h1 { font: bold 9px montserrat; text-transform: uppercase; padding: 5px; margin: 0px 0px 40px; text-align: center; }
+.lyreq1 m { text-align: center; width: auto; background: rgba(var(--lybg),1); border-radius: 5px; padding: 5px 10px; border: 1px solid rgba(var(--mgrgb),1); }
+
+.lyreq1 h2 { font: bold 9px montserrat; text-transform: uppercase; padding: 0px; margin: 0px; color: rgba(var(--mgrgb),1); }
+.lyreq1 i { border-bottom: 1px dashed rgba(var(--mgrgb),1); }
+.lyreq1 b { font: bold 9px montserrat; text-transform: uppercase; }
+.lyreq1 ul {  margin: 0px 0px 0px 5px; padding: 0px; }
