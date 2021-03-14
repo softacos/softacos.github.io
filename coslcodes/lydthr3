@@ -1,0 +1,18 @@
+/************************************
+THREAD TEMPLATE 3 BY LYDIA (196)
+MARCH 2021 FOR USE ON COSL ONLY
+************************************/
+html[data-theme="dark"] .appalachianwine { color: 240,240,240; }
+html[data-theme="light"] .appalachianwine { color: 75,75,75; }
+.lythr3 { --bg: 0,0,0; background: rgba(var(--bg),0.05) ; font-family: muli;
+width: 300px;border-radius: 25px; margin: 0px auto; text-align: center; border: 1px solid rgba(var(--accent),1); }
+.lythr3 classy { padding: 50px 39px; display: block; border-bottom: 1px solid rgba(var(--accent),1); }
+.lythr3 .lythr3img { border-radius: 5px; }
+.lythr3 img { border-radius: 10px; padding: 10px; background-color: rgba(var(--accent),0.3); background-image: linear-gradient(-45deg, rgba(var(--accent),0.3) 0%, rgba(var(--accent2),0.3) 100%); width: 178px; border: 1px solid rgba(var(--accent),1); }
+.lythr3 .appalachianwine { text-align: justify; padding: 30px 40px 40px; font: 12px muli; line-height: 19px; }
+.lythr3 p { padding: 10px 0px 0px; margin: 0px; }
+.lythr3 tag { display: block; background: rgba(var(--accent),.3); background-image: linear-gradient(-45deg, rgba(var(--accent),0.3) 0%, rgba(var(--accent2),0.3) 100%); border-radius: 0px 0px 25px 25px; border-top: 1px solid rgba(var(--accent),1); padding: 20px 40px; text-align: justify; }
+.lythr3 .fas { color: rgba(var(--accent),1); }
+.lythr3 tag a { font-weight: bold; color: rgba(var(--accent),1)!important; }
+.lythr3 i { color: rgba(var(--accent),1); font-size: 14px; line-height: 19px; }
+.lythr3 b { color: transparent; background-image: linear-gradient(-45deg, rgba(var(--accent),1), rgba(var(--accent2),1)); background-clip: text; -webkit-background-clip: text; font: bold 14px muli; }
