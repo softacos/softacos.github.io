@@ -2,6 +2,12 @@
 THREAD TEMPLATE 3 BY LYDIA (196)
 MARCH 2021 FOR USE ON COSL ONLY
 ************************************/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,200;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;1,200;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,200;1,400;1,700&display=swap');
+
+
+
 html[data-theme="dark"] .appalachianwine { color: 240,240,240; }
 html[data-theme="light"] .appalachianwine { color: 75,75,75; }
 .lythr3 { --bg: 0,0,0; background: rgba(var(--bg),0.05) ; font-family: muli;
