@@ -1,0 +1,15 @@
+
+/******************************
+ BIO TRACKER [2] BY LYDIA [196]
+ FOR USE ON COSL ONLY â€¢ FEB 2021
+******************************/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+
+.lytr2user { margin: 30px auto; width: 100%; text-align: center; display: block; font: 700 25px poppins; } 
+.lytr2 { --bg: 0,0,0; 
+background: rgba(var(--bg),0.01); 
+border: 3px double rgba(var(--bg),0.2); 
+margin: 0px auto; width: 380px; padding: 5px; border-radius: 50px; } .lytr2 .more {background: rgba(var(--bg),0.02); border: 1px solid rgba(var(--bg),0.2); padding-bottom: 30px; border-radius: 44px; } .lytr2 img { width: 65px; height: 65px; border-radius: 100%; object-fit: cover; object-position: center; padding: 4px; border: 1px dotted rgba(var(--bg),0.2); margin: 5px ; float: left; background: rgba(var(--mgrgb),0.1); } .lytr2 character { text-align: center; display: block; font: 900 25px Poppins; padding: 25px 15px; border-bottom: 1px solid rgba(var(--bg),0.2); line-height: 25px;  } .lytr2 face, .lytr2 rel { font: 700 8px montserrat; letter-spacing: 1px; display: block; text-transform: uppercase; text-align: center; } .lytr2 bio { display: block; font: 400 11px montserrat; text-align: justify; padding: 15px; margin: 20px 30px 0px; line-height: 120%;background: rgba(var(--mgrgb),0.1);   border: 1px dotted rgba(var(--bg),0.2); border-radius: 15px; } .lytr2 b, .lytr2 i, .lytr2 a { color: rgba(var(--mgrgb),1); } .lytr2 ul { padding-left: 15px; margin: 0px; }
