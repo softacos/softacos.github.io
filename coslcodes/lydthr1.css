@@ -1,0 +1,20 @@
+/*******************************
+ CODES FOR COSL BY LYDIA [196] 
+ FEBRUARY 2021 - THREAD TEMPLATE 001
+*******************************/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+html[data-theme="dark"] .temp1 { --bg: 51,51,51; --text: 204,204,204; --border: 0,0,0; --tagbg: 68,68,68; }
+html[data-theme="light"] .temp1 { --bg: 239,239,239; --text: 85,85,85; --border: 205,205,205; --tagbg: 250,250,250; }
+
+.temp1 { width: 360px; background: rgba(var(--bg),1); border: 1px solid rgba(var(--border),1); color: rgba(var(--text),1); }
+.temp1 .imag { margin: 30px; width: 300px; height: 180px; background-position: center; background-size: cover; background-repeat: no-repeat; }
+.temp1 .imag img { width: 300px; height: 180px; object-position: center; object-fit: cover; }
+.temp1 .tagnote { padding: 12px 0px; text-align: center; font: bold 8px poppins; text-transform: uppercase; letter-spacing: 1px; 
+  background: rgba(var(--tagbg),1); border-top: 1px solid rgba(var(--border),1); border-bottom: 1px solid rgba(var(--border),1); 
+}
+.temp1 .textpost { width: 300px; padding: 30px; text-align: justify; font: 10px poppins; line-height: 150%;  }
+.temp1 b { font-weight: bold; font-size: 12px; line-height: 15px; }
+.temp1 i { font-style: italic; font-size: 12px; line-height: 15px; }
+.temp1 a { font: bold 8px poppins; text-transform: uppercase; }
