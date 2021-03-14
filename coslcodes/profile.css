@@ -1,3 +1,4 @@
+.lydiaex { line-height: 150%; }
 .lydiaex quote { display: block; text-align: center; padding-bottom: 9px; font: bold italic 12px times new roman; line-height: 100%; }
 .lydiaex quote:first-letter { color: rgba(var(--mgrgb),1); }
 
