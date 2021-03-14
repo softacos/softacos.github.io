@@ -4,7 +4,7 @@
 ****************************************/
 @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,200;1,400;1,700&display=swap');
 
-.luckycharmed { width: 250px; margin: 0px auto; text-align: justify; color: rgba(var(--charmtxt),1); background: rgba(var(--charmbg),1); padding: 35px; font-size: 12px; line-height: 120%; font-family: karla; } 
+.luckycharmed { width: 250px; margin: 0px auto; text-align: justify; color: rgba(var(--charmtxt),1); background: rgba(var(--charmbg),1); padding: 35px; font-family: karla; font-size: 12px; line-height: 160%; } 
 .soraaa { border-radius: 100%; margin: -15px auto 25px; width: 80px; height: 80px; padding: 5px; border-top: 1px solid rgba(var(--charm),1); border-bottom: 1px solid rgba(var(--charm),1); border-left: 1px solid rgba(var(--charmbg),1); border-right: 1px solid rgba(var(--charmbg),1); background: rgba(var(--charmbg),1); z-index: 1; } 
 .soraaa img { width: 80px; height: 80px; border-radius: 100%; object-fit: cover; object-position: center; } 
 .soraaaliner { height: 1px; background: rgba(var(--charm),1); margin: 45px 0px -45px; z-index: -1; } 
