@@ -4,9 +4,9 @@
 ****************************************/
 @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-html[data-theme="dark"] .icontain { --bg: 25,25,25; --highlight: 50,50,50; } 
-html[data-theme="light"] .icontain { --bg: 230,230,230; --highlight: 250,250,250; } 
-.icontain { width: 300px; background: rgba(var(--bg),.5); border: 1px solid rgba(var(--bg),1); font: 11px Karla; line-height: 160%; }  
+html[data-theme="dark"] .icontain { --bg: 25,25,25; --highlight: 50,50,50; --text: 230,230,230; } 
+html[data-theme="light"] .icontain { --bg: 230,230,230; --highlight: 250,250,250; --text: 50,50,50; } 
+.icontain { width: 300px; background: rgba(var(--bg),.5); border: 1px solid rgba(var(--bg),1); font: 11px Karla; line-height: 160%; color: rgba(var(--text),1); }  
 .iconic { border: 1px solid rgba(var(--bg),0.2); line-height: 160%; }  
 .iconicly { padding: 50px 50px 20px 50px; } 
 .holdon { width: 80px; background: rgba(var(--highlight),.9); border: 1px solid rgba(var(--bg),1); padding: 5px; border-radius: 100%; height: 80px; } 
