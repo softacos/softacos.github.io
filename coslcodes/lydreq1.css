@@ -1,7 +1,10 @@
 /*************************
- GENERAL TEMPLATE FOR COSL
+ REQUEST TEMPLATE FOR COSL
  by LYDIA // 196 
 *************************/
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 
 html[data-theme="dark"] .lyreq1 {--lybg: 50,50,50; --lybor: 255,255,255; }
 .lyreq1 { --lybg: 245,245,245; --lybor: 0,0,0; width: 350px; padding: 5px; border: 1px solid rgba(var(--mgrgb),0.4); margin: 0px auto; background: rgba(var(--lybor),0.05); }
