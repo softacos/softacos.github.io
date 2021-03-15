@@ -13,8 +13,7 @@
 .next-to-normal msgs { display: block; width: 90%; margin: 0px auto; height: 287px; position: relative; top: 100px; overflow: auto; }
 .next-to-normal pads { display: block; padding: 10px; }
 ::-webkit-scrollbar, ::-webkit-scrollbar-thumb { border-radius: 10px!important; width: 3px; }
-.next-to-normal p { float: right; background: linear-gradient(45deg, rgba(var(--color1),0.3), rgba(var(--color2),0.3)); border-radius: 10px; padding: 10px; margin: 0px 0px 9px; display: inline-block; position: relative; right: 0px;  height: auto;  text-align: justify; font: 12px karla; 
-  : 18px; }
+.next-to-normal p { float: right; background: linear-gradient(45deg, rgba(var(--color1),0.3), rgba(var(--color2),0.3)); border-radius: 10px; padding: 10px; margin: 0px 0px 9px; display: inline-block; position: relative; right: 0px;  height: auto;  text-align: justify; font: 12px karla; line-height: 18px; }
 .next-to-normal p img { max-width: 230px; border-radius: 5px; }
 .next-to-normal b { color: rgba(var(--color1),1); }
 .next-to-normal i { font: italic 12px poppins; color: rgba(150,150,150,1); line-height: 18px; }
