@@ -13,11 +13,10 @@
 .next-to-normal msgs { display: block; width: 90%; margin: 0px auto; height: 287px; position: relative; top: 100px; overflow: auto; }
 .next-to-normal pads { display: block; padding: 10px; }
 ::-webkit-scrollbar, ::-webkit-scrollbar-thumb { border-radius: 10px!important; width: 3px; }
-.next-to-normal p { float: right; background: linear-gradient(45deg, rgba(var(--color1),0.3), rgba(var(--color2),0.3)); border-radius: 10px; padding: 10px; margin: 0px 0px 9px; display: inline-block; position: relative; right: 0px;  height: auto;  text-align: justify; font: 12px karla; line-height: 18px; }
+.next-to-normal p { float: right; clear: both; background: linear-gradient(45deg, rgba(var(--color1),0.3), rgba(var(--color2),0.3)); border-radius: 10px; padding: 10px; margin: 0px 0px 9px; display: inline-block; position: relative; right: 0px;  height: auto;  text-align: justify; font: 12px karla; line-height: 18px; }
 .next-to-normal p img { max-width: 230px; border-radius: 5px; }
 .next-to-normal b { color: rgba(var(--color1),1); }
 .next-to-normal i { font: italic 12px poppins; color: rgba(150,150,150,1); line-height: 18px; }
 
 .next-to-normal msgs { display: block; width: 90%; margin: 0px auto; height: 278px; position: relative; top: 100px; overflow: auto; }
-.next-to-normal p:after { display: block; width: 100%; height: 10px; position: relative; top: 26px; content: ''; }
 .next-to-normal messaging { display: block; border-radius: 15px; padding: 10px; background: rgba(150,150,150,0.1); width: 241px; position: absolute; bottom: 10px; left: 24px; z-index: 1; height: 18px; line-height: 18px; margin: 0px; }
