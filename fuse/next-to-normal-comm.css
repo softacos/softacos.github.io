@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.next-to-normal { width: 325px; height: 570px; background: rgba(150,150,150,0.1); margin: 0px auto; border-radius: 50px; padding: 10px 10px 30px; }
+.next-to-normal screened { display: block; width: 100%; height: 100%; background: linear-gradient(45deg, rgba(var(--color1),0), rgba(var(--color1),0.3)); border-radius: 40px; position: relative; overflow: hidden; }
+.next-to-normal overhead { display: block; width: 100%; height: 40px; position: absolute; top: 10px; font: bold 8px poppins; text-transform: uppercase; color: rgba(var(--color1),1); }
+.next-to-normal service { float: left; display: block; margin-left: 30px; }
+.next-to-normal batt{ float: right; display: block; margin-right: 30px; }
+.next-to-normal iconic{ display: block; width: 90px; height: 90px; margin: 0px auto; position: relative; top: 80px; padding: 5px; background: linear-gradient(45deg, rgba(var(--color1),0.5), rgba(var(--color2),0.5)); border-radius: 100%; border: 3px double rgba(var(--color1),0.7); }
+.next-to-normal iconic img { width: 90px; height: 90px; border-radius: 100%; object-fit: cover; object-position: center; }
+.next-to-normal namely { display: block; width: 100%; text-align: center; font: bold 25px poppins; position: relative; top: 90px; color: transparent; background: linear-gradient(45deg, rgba(var(--color1),1), rgba(var(--color2),1)); background-clip: text; -webkit-background-clip: text; }
+.next-to-normal home { width: 40%; margin: 0px 98px; background: rgba(var(--color1),1); display: block; height: 5px; border-radius: 5px; position: absolute; bottom: 5px; z-index: 1; }
+.next-to-normal msgs { display: block; width: 90%; margin: 0px auto; height: 325px; position: relative; top: 100px; overflow: auto; }
+.next-to-normal pads { display: block; padding: 10px; }
+::-webkit-scrollbar, ::-webkit-scrollbar-thumb { border-radius: 10px!important; width: 3px; }
+.next-to-normal p { float: right; background: linear-gradient(45deg, rgba(var(--color1),0.3), rgba(var(--color2),0.3)); border-radius: 10px; padding: 10px; margin: 0px 0px 9px; display: inline-block; position: relative; right: 0px;  height: auto;  text-align: justify; font: 12px karla; 
+  : 18px; }
+.next-to-normal p img { max-width: 250px; border-radius: 5px; }
+.next-to-normal b { color: rgba(var(--color1),1); }
+.next-to-normal i { font: italic 12px poppins; color: rgba(150,150,150,1); line-height: 18px; }
