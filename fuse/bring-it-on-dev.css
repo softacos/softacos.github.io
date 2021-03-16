@@ -1,0 +1,21 @@
+/************************************
+ BRING IT ON DEVELOPMENT TEMPLATE
+ BY LYDIA [163] OF FUSERP - MARCH 2021
+*************************************/
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,700;1,300;1,400;1,700&display=swap');
+
+.bring-it-on { width: 500px; margin: 0px auto; border-radius: 50px; overflow: hidden; display: flex; flex-flow: row wrap;  justify-content: space-between; align-content: space-between; background: rgba(150,150,150,0.2); font-family: work sans; font-weight: 300; } 
+.bring-it-on h1 { writing-mode: vertical-lr; transform: rotate(180deg); font: 700 25px work sans; background: linear-gradient(rgba(var(--color1),1), rgba(var(--color2),1));  background-clip: text; -webkit-background-clip: text; color: transparent; box-sizing: border-box; text-transform: uppercase; padding: 20px 0px ; margin: 0px; width: 50px; text-align: left; line-height: 100%; } 
+.bring-it-on .perfect { width: calc(100% - 70px); background: linear-gradient(45deg, rgba(var(--color1),0.4), rgba(var(--color2),0.4)); padding: 50px 50px 30px; box-sizing: border-box; display: flex; align-items: stretch;  justify-content: space-between; align-content: space-between; flex-flow: row wrap;  } 
+.bring-it-on .perfect img { width: 100%; box-sizing: border-box; border-radius: 15px; object-fit: cover; object-position: center; background: linear-gradient(45deg, rgba(var(--color1),1), rgba(var(--color2),1)); padding: 10px; margin: 0px 0px 20px; }
+.bring-it-on .two img { width: calc(50% - 10px); box-sizing: border-box; border-radius: 15px; object-fit: cover; object-position: center; background: linear-gradient(45deg, rgba(var(--color1),1), rgba(var(--color2),1)); padding: 10px; margin-bottom: 20px; } 
+.bring-it-on .three img { width: calc(33% - 10px); box-sizing: border-box; border-radius: 15px; object-fit: cover; object-position: center; background: linear-gradient(45deg, rgba(var(--color1),1), rgba(var(--color2),1)); padding: 10px; margin-bottom: 20px; } 
+.bring-it-on quote, .bring-it-on drabble { display: block; margin-bottom: 20px; text-align: justify; box-sizing: border-box; width: 100%; } 
+.bring-it-on drabble, .bring-it-on p, .bring-it-on ol, .bring-it-on ul, .bring-it-on li { font: 12px work sans; line-height: 20px; }
+.bring-it-on b { font-size: 14px; line-height: 20px; color: rgba(var(--color1),1); } 
+.bring-it-on i { font-size: 14px; line-height: 20px; position: relative; padding-bottom: 2px; text-decoration: none; }
+.bring-it-on i:after { content: ""; position: absolute; bottom: 2px; left: 0;  height: 1px; width: 100%; background: linear-gradient(45deg, rgba(var(--color1),1), rgba(var(--color2),1)); }
+.bring-it-on quote { font-size: 25px; font-style: italic; line-height: 28px; padding: 0px 0px 20px 40px ; }
+.bring-it-on quote:before { display: block; content: '❝'; width: 40px; text-align: center; font-size: 40px; font-weight: bold; font-style: normal; line-height: 40px; color: rgba(var(--color1),1); padding: 10px 0px 0px; margin: 0px 0px -50px -40px; }
+.bring-it-on video { width: 100%; box-sizing: border-box; border-radius: 15px; object-fit: cover; object-position: center; background: linear-gradient(45deg, rgba(var(--color1),1), rgba(var(--color2),1)); padding: 10px; margin: 0px 0px 20px; }
