@@ -1,6 +1,6 @@
   @import url("https://use.typekit.net/rqp3ltz.css");
 
-.superstar { width: 450px; margin: 0px auto; background: rgba(150,150,150,0.2); text-align: center; } 
+.superstar { width: 450px; margin: 0px auto; background: rgba(150,150,150,0.2); text-align: center; font-family: ff-zwo-corr-web-pro, sans-serif; } 
 .superstar img { 
   width: 120px; height: 120px; 
   margin: 25px auto; text-align: center; 
@@ -16,7 +16,7 @@
   text-align: center; margin: 0px; padding: 0px; 
   background: linear-gradient(45deg, rgba(var(--color1),1), rgba(var(--color2),1)); 
   background-clip: text; -webkit-background-clip: text; color: transparent; 
-  font: bold 25px poppins; line-height: 150%;
+  font: bold 25px ff-zwo-corr-web-pro; line-height: 150%;
 }
 .superstar bio { display: block; padding: 10px 25px 25px; text-align: justify; }
 .superstar p { padding: 10px 0px 0px; margin: 0px; }
