@@ -8,3 +8,4 @@
 
 .superstar bio { display: block; padding: 10px 25px 25px; text-align: justify; }
 .superstar p { padding: 10px 0px 0px; margin: 0px; }
+.superstar ul { padding: 0px 0px 0px 10px; }
