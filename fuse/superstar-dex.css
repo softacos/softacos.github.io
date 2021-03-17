@@ -4,7 +4,16 @@
 .superstar blink { height: 25px; width: 100%; display: block; background: linear-gradient(45deg, rgba(var(--color1),0.4), rgba(var(--color2),0.4)); } 
 .superstar blank { height: 25px; width: 100%; display: block; background: linear-gradient(45deg, rgba(var(--color2),0.4), rgba(var(--color1),0.4)); }
 
-.superstar h1 { text-align: center; margin: 0px; padding: 0px; background: linear-gradient(45deg, rgba(var(--color1),1), rgba(var(--color2),1)); background-clip: text; -webkit-background-clip: text; color: transparent; }
+.superstar h1 { 
+  text-align: center; 
+  margin: 0px; padding: 0px; 
+  background: linear-gradient(45deg, rgba(var(--color1),1), rgba(var(--color2),1)); 
+  background-clip: text; 
+  -webkit-background-clip: text; 
+  color: transparent; 
+  font: bold 25px poppins; 
+  line-height: 150%;
+}
 
 .superstar bio { display: block; padding: 10px 25px 25px; text-align: justify; }
 .superstar p { padding: 10px 0px 0px; margin: 0px; }
