@@ -4,7 +4,7 @@
 html[data-theme="dark"] .in-the-heights { --reqbg: 70,70,70; }
 html[data-theme="light"] .in-the-heights { --reqbg: 220,220,220; }
 
-.in-the-heights { --font1: ff-zwo-corr-web-pro; --font2: poppins; width: 500px; margin: 0px auto; border-radius: 25px; overflow: hidden; background: linear-gradient(to right, rgba(var(--accent1),1) 0%, rgba(var(--accent2),1) 50%, rgba(var(--accent1),1) 100%);  padding: 20px; }
+.in-the-heights { --font1: ff-zwo-corr-web-pro; --font2: poppins; width: 500px; margin: 0px auto; border-radius: 25px; overflow: hidden; background: linear-gradient(to right, rgba(var(--accent1),0.7) 0%, rgba(var(--accent2),0.7) 50%, rgba(var(--accent1),0.7) 100%);  padding: 20px; }
 .in-the-heights piragua { background: rgba(var(--reqbg), 1); display: flex; flex-flow: row wrap; justify-content: space-between; align-content: space-between; border-radius: 5px; overflow: hidden; } 
 
 .in-the-heights .nomediga { writing-mode: vertical-rl; transform: rotate(180deg); padding: 20px; font: bold italic 20px var(--font1); line-height: 20px; border-left: 3px double rgba(var(--accent1),1); text-align: left; color: rgba(var(--accent1),1); text-transform: lowercase; }
