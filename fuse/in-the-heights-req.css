@@ -1,2 +1,23 @@
   @import url("https://use.typekit.net/rqp3ltz.css");
  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+html[data-theme="dark"] .in-the-heights { --reqbg: 70,70,70; }
+html[data-theme="light"] .in-the-heights { --reqbg: 220,220,220; }
+
+.in-the-heights { --font1: ff-zwo-corr-web-pro; --font2: poppins; width: 500px; background: rgba(150,150,150,0.2); margin: 0px auto; display: flex; flex-flow: row wrap; justify-content: space-between; align-content: space-between; border-radius: 25px; overflow: hidden; }
+.in-the-heights .siempre { background: linear-gradient(to right, rgba(var(--accent1),0.4) 0%, rgba(var(--accent2),0.4) 50%, rgba(var(--accent1),0.4) 100%); width: calc(100% - 63px);  }
+.in-the-heights .nomediga { writing-mode: vertical-rl; transform: rotate(180deg); padding: 20px; font: bold italic 20px var(--font1); line-height: 20px; border-left: 3px double rgba(var(--accent1),1); text-align: left; background: radial-gradient(circle, rgba(var(--accent1),1) 0%, rgba(var(--accent2),1) 100%); background-clip: text; -webkit-background-clip: text; color: transparent; text-transform: lowercase; }
+
+.in-the-heights alabanza { display: block; padding: 30px; font: 12px var(--font2); line-height: 20px; background: rgba(var(--reqbg), 1); box-sizing: border-box; height: 100%; border-radius: 5px; }
+.in-the-heights piragua { display: block; margin: 20px; height: calc(100% - 40px); box-sizing: border-box; border-radius: 15px; padding: 10px; background: linear-gradient(to right, rgba(var(--accent1),1) 0%, rgba(var(--accent2),1) 50%, rgba(var(--accent1),1) 100%);  }  
+.in-the-heights p { font: 12px var(--font2); line-height: 20px;  margin: 0px; padding: 12px 0px 0px; }
+
+.in-the-heights h1 { padding: 0px 0px 0px 10px; margin: 0px; position: relative; padding-bottom: 2px; text-decoration: none; font-family: var(--font1); line-height: 150%; }
+.in-the-heights h1::after { content: ""; position: absolute; bottom: 2px; left: 0;  height: 2px; width: 100%; background: linear-gradient(45deg, rgba(var(--accent1),1), rgba(var(--accent2),1));  }
+.in-the-heights h2 { font: bold italic 14px var(--font1); line-height: 20px; background: linear-gradient(45deg, rgba(var(--accent1),1) 10%, rgba(var(--accent2),1) 90%); background-clip: text; -webkit-background-clip: text; color: transparent; padding: 10px 0px 0px 10px; margin: 12px 0px 0px; }
+.in-the-heights blockquote, .in-the-heights b { background: linear-gradient(45deg, rgba(var(--accent1),0.2), rgba(var(--accent2),0.2)); padding: 7px; border-radius: 5px; font: 12px var(--font1); line-height: 20px; } .in-the-heights b { font-weight: bold; font-style: italic; }
+.in-the-heights i { padding: 0px; margin: 0px; position: relative; padding-bottom: 2px; text-decoration: none; line-height: 20px; font: italic 12px var(--font1); line-height: 20px; }
+.in-the-heights i::after { content: ""; position: absolute; bottom: 2px; left: 0;  height: 1px; width: 100%; background: linear-gradient(45deg, rgba(var(--accent1),1), rgba(var(--accent2),1));  }
+.in-the-heights blockquote { display: block; width: 100%; box-sizing: border-box; margin: 20px 0px 0px; }
+.in-the-heights img { display: block; width: 100%; box-sizing: border-box; border-radius: 12px; padding: 10px; margin: 0px 0px 10px; background: linear-gradient(to right, rgba(var(--accent1),0.5) 0%, rgba(var(--accent2),0.5) 50%, rgba(var(--accent1),0.5) 100%);  }  
+
