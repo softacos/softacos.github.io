@@ -1,8 +1,8 @@
 @import url("https://use.typekit.net/rqp3ltz.css");
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-html[data-theme="dark"] .beetlejuice { --bg: 240,240,240; --text: #272727; }
-html[data-theme="light"] .beetlejuice { --bg: 50,50,50; --text: #fefefe; }
+html[data-theme="light"] .beetlejuice { --bg: 240,240,240; --text: #272727; }
+html[data-theme="dark"] .beetlejuice { --bg: 50,50,50; --text: #fefefe; }
 .beetlejuice { --bg: 240,240,240; --text: #272727; width: 550px; text-align: justify; margin: 0px auto; background: linear-gradient(45deg, rgba(var(--color1),0.5), rgba(var(--color2),0.5)); font-family: ff-zwo-corr-web-pro; padding: 40px; border-radius: 35px; box-sizing: border-box; color: var(--text); font-size: 12px; line-height: 18px; } 
 .beetlejuice readyset { display: block; background: rgba(var(--bg),0.6); border: 10px solid rgba(var(--bg),1); border-radius: 14px; padding: 13px 25px 25px; }
 .beetlejuice h1 { display: inline-block; background: linear-gradient(45deg, rgba(var(--color1),1), rgba(var(--color2),1)); background-clip: text; -webkit-background-clip: text; color: transparent; margin: 12px 0px 0px; line-height: 30px; }
