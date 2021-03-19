@@ -19,6 +19,7 @@
   font: bold 25px ff-zwo-corr-web-pro; line-height: 150%;
 }
 .superstar bio { display: block; padding: 10px 25px 25px; text-align: justify; }
+.superstar bio img { width: 100%!important; border-radius: 15px!important; height: auto!important; box-sizing: border-box; }
 .superstar p { padding: 10px 0px 0px; margin: 0px; }
 .superstar ul { padding: 0px 0px 0px 15px; }
 .superstar b { 
