@@ -17,3 +17,5 @@ html[data-theme="dark"] .beetlejuice { --bg: 50,50,50; --text: #fefefe; }
 .beetlejuice .dayo { display: flex; flex-flow: row wrap;  justify-content: space-between; align-content: space-between; align-items: center; padding: 10px 5px; width: calc(100% + 50px); box-sizing: border-box; margin: 15px 0px 0px -25px; color: rgba(var(--color1),1); }
 .beetlejuice .dayo a { display: inline-block; border-radius: 5px; background: rgba(var(--color1),0.5); background: linear-gradient(45deg, rgba(var(--color1),0.3), rgba(var(--color2),0.3)); color: rgba(var(--color1),1)!important;  padding: 3px 5px; }
 .beetlejuice b { font-weight: bold; font-size: 14px; color: rgba(var(--color1),1); }
+.beetlejuice ch { display: inline-block; background: linear-gradient(45deg, rgba(var(--color1),1), rgba(var(--color2),1)); background-clip: text; -webkit-background-clip: text; color: transparent; font-size: 14px; line-height: 20px;  }
+.beetlejuice bq { background: linear-gradient(45deg, rgba(var(--color1),0.4), rgba(var(--color2),0.4)); display: block; padding: 7px; border-radius: 10px; }
