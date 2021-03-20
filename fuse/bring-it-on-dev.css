@@ -3,6 +3,7 @@
  BY LYDIA [163] OF FUSERP - MARCH 2021
 *************************************/
 
+@import url("https://use.typekit.net/rqp3ltz.css");
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,700;1,300;1,400;1,700&display=swap');
 
 .bring-it-on { width: 500px; margin: 0px auto; border-radius: 50px; overflow: hidden; display: flex; flex-flow: row wrap;  justify-content: space-between; align-content: space-between; background: rgba(150,150,150,0.2); font-family: work sans; font-weight: 300; } 
