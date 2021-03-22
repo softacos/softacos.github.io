@@ -24,5 +24,5 @@ background: linear-gradient(45deg, rgba(var(--color1),1) 0%, rgba(var(--color2),
 .mmagica gif2 { display: block; background: rgba(var(--basis),1); width: 100%; border-radius: 20px; 
 box-sizing: border-box; }
 .mmagica gif img { width: 100%; height: 150px; object-fit: cover; object-position: center; border-radius: 20px; background: linear-gradient(45deg, rgba(var(--color1),0.1) 0%, rgba(var(--color2),0.1) 50%, rgba(var(--color3),0.1) 100%); padding: 5px; box-sizing: border-box; }
-.mmagica b { font-weight: 700; color: rgba(var(--color1),1); }
-.mmagica i { font-weight: 300; font-style: italic; color: rgba(150,150,150,0.5); }
+.mmagica b { font-family: input-mono, monospace; font-weight: 700; color: rgba(var(--color1),1); }
+.mmagica i { font-family: input-mono, monospace; font-weight: 300; font-style: italic; color: rgba(var(--color3),1); }
