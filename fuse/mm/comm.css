@@ -1,0 +1,28 @@
+@import url("https://use.typekit.net/rqp3ltz.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+html[data-theme="light"] .mmagica { --basis: 255,255,255; --base: 50,50,50; }
+html[data-theme="dark"] .mmagica { --basis: 0,0,0; --base: 200,200,200; }
+
+.mmagica { width: 300px; height: 520px; border-radius: 20px; border: 1px solid rgba(var(--base),0.5);  margin: 0px auto; background: rgba(var(--base),0.05); position: relative; overflow: hidden; }
+.mmagica .blink { width: 500px; height: 250px; border-radius: 0% 0% 100% 100%; position: absolute; left: -100px; border-bottom: 1px solid rgba(var(--base),0.5); border-right: 1px solid transparent; border-left: 1px solid transparent; top: 0px; background: rgba(var(--base),0.1); }
+.mmagica notif { background: linear-gradient(90deg, rgba(var(--color1),0.7) 0%, rgba(var(--color2),0.7) 50%, rgba(var(--color3),0.7) 100%); display: block; border-radius: 15px; font-weight: 700; font-size: 8px; font-family: input-mono, monospace; line-height: 20px; text-transform: uppercase;  text-align: right; padding: 15px 12px; width: calc(100% - 10px); margin: 5px auto; box-sizing: border-box; }
+.mmagica .kyubey { overflow: auto; box-sizing: border-box; position: absolute; bottom: 61px; width: 100%; height: 200px; }
+.mmagica h1 { margin: 0px; padding: 12px 0px 0px; font: 700 20px input-mono; line-height: 24px; text-align: center; text-transform: uppercase; background: rgba(var(--color3), 1); background: linear-gradient(90deg, rgba(var(--color1),1) 0%, rgba(var(--color2),1) 100%); background-clip: text; -webkit-background-clip: text; color: transparent; }
+.mmagica h2 { margin: 0px; padding: 0px; font: 700 9px input-mono; line-height: 20px; text-align: center; text-transform: uppercase; background: linear-gradient(90deg, rgba(var(--color2),1) 0%, rgba(var(--color3),1) 100%); background-clip: text; -webkit-background-clip: text; color: transparent;  }
+.mmagica .madoka { display: flex; justify-content: space-between; align-content: space-between; flex-flow: row wrap; width: 100%; box-sizing: border-box; margin: 4px auto 0px; background: rgba(var(--base),0.1); padding: 12px; border-radius: 0px 0px 15px 15px; position: absolute; bottom: 0px; border-top: 1px solid rgba(var(--base),0.5); }
+.mmagica p { float: right; clear: both; border-radius: 12px; padding: 7px; background: linear-gradient(45deg, rgba(var(--color1),0.3) 0%, rgba(var(--color2),0.3) 50%, rgba(var(--color3),0.3) 100%); margin: 5px 12px; font-family: poppins; line-height: 150%; text-align: justify; }
+.mmagica p img { width: 259px; border-radius: 3px; }
+
+.mmagica m { border: 1px solid rgba(var(--base),0.5); border-radius: 15px; padding: 0px 5px; line-height: 25px; width: calc(100% - 40px); display: block; text-align: left; }
+.mmagica .fab { width: 25px; height: 25px; line-height: 25px; border-radius: 100%; background: rgba(var(--color3), 1); background: linear-gradient(90deg, rgba(var(--color1),1) 0%, rgba(var(--color2),1) 50%, rgba(var(--color3),1) 100%); text-align: center; }
+.mmagica ans { content: '⋯'; display: inline-block; }
+
+.mmagica gif { display: block; margin: 30px auto 0px; padding: 1px; 
+width: 250px;  
+background: linear-gradient(45deg, rgba(var(--color1),1) 0%, rgba(var(--color2),1) 50%, rgba(var(--color3),1) 100%); border-radius: 21px; box-sizing: border-box; }
+.mmagica gif2 { display: block; background: rgba(var(--basis),1); width: 100%; border-radius: 20px; 
+box-sizing: border-box; }
+.mmagica gif img { width: 100%; height: 150px; object-fit: cover; object-position: center; border-radius: 20px; background: linear-gradient(45deg, rgba(var(--color1),0.1) 0%, rgba(var(--color2),0.1) 50%, rgba(var(--color3),0.1) 100%); padding: 5px; box-sizing: border-box; }
+.mmagica b { font-weight: 700; color: rgba(var(--color1),1); }
+.mmagica i { font-weight: 300; font-style: italic; color: rgba(150,150,150,0.5); }
