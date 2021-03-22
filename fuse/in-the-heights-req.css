@@ -1,4 +1,9 @@
-  @import url("https://use.typekit.net/rqp3ltz.css");
+/*****************************************************
+ CODE BY LYDIA OF FUSE [163], MARCH 2021
+ REQUEST TEMPLATE - IN THE HEIGHTS
+*****************************************************/
+
+@import url("https://use.typekit.net/rqp3ltz.css");
  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 html[data-theme="dark"] .in-the-heights { --reqbg: 70,70,70; }
