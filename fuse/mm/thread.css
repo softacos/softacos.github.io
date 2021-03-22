@@ -1,10 +1,9 @@
 @import url("https://use.typekit.net/rqp3ltz.css");
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-html[data-theme="light"] .mmagica-th { --basis: 255,255,255; --base: 50,50,50; }
 html[data-theme="dark"] .mmagica-th { --basis: 0,0,0; --base: 200,200,200; }
 
-.mmagica-th { width: 350px; border-radius: 20px; border: 1px solid rgba(var(--base),0.5);  margin: 0px auto; background: rgba(var(--base),0.05); position: relative; overflow: hidden; }
+.mmagica-th { --basis: 255,255,255; --base: 50,50,50; width: 350px; border-radius: 20px; border: 1px solid rgba(var(--base),0.5);  margin: 0px auto; background: rgba(var(--base),0.05); position: relative; overflow: hidden; }
 .mmagica-th .blink { width: 500px; height: 275px; border-radius: 0% 0% 100% 100%; position: absolute; left: -75px; border-bottom: 1px solid rgba(var(--base),0.5); border-right: 1px solid transparent; border-left: 1px solid transparent; top: 0px; background: rgba(var(--base),0.1); }
 .mmagica-th h2 { margin: 20px 0px 0px; padding: 0px; font: 700 9px input-mono; line-height: 20px; text-align: center; text-transform: uppercase; background: linear-gradient(90deg, rgba(var(--color2),1) 0%, rgba(var(--color3),1) 100%); background-clip: text; -webkit-background-clip: text; color: transparent;  }
 .mmagica-th h2 a { font: 700 9px input-mono; line-height: 20px; text-align: center; text-transform: uppercase; background: linear-gradient(90deg, rgba(var(--color2),1) 0%, rgba(var(--color3),1) 100%)!important; background-clip: text!important; -webkit-background-clip: text!important; color: transparent!important; }
