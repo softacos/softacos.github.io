@@ -15,7 +15,7 @@ html[data-theme="dark"] .mmagica { --basis: 0,0,0; --base: 200,200,200; }
 .mmagica p img { max-width: 259px; border-radius: 3px; }
 
 .mmagica m { border: 1px solid rgba(var(--base),0.5); border-radius: 15px; padding: 0px 5px; line-height: 25px; width: calc(100% - 40px); display: block; text-align: left; }
-.mmagica .la-telegram { width: 25px; height: 25px; line-height: 25px; border-radius: 100%; background: rgba(var(--color3), 1); background: linear-gradient(90deg, rgba(var(--color1),1) 0%, rgba(var(--color2),1) 50%, rgba(var(--color3),1) 100%); text-align: center; }
+.mmagica .fab { width: 25px; height: 25px; line-height: 25px; border-radius: 100%; background: rgba(var(--color3), 1); background: linear-gradient(90deg, rgba(var(--color1),1) 0%, rgba(var(--color2),1) 50%, rgba(var(--color3),1) 100%); text-align: center; }
 .mmagica ans { content: '⋯'; display: inline-block; }
 
 .mmagica gif { display: block; margin: 30px auto 0px; padding: 1px; 
