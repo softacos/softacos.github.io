@@ -9,7 +9,7 @@
 html[data-theme="dark"] .mmagica { --basis: 0,0,0; --base: 200,200,200; }
 
 .mmagica { --basis: 255,255,255; --base: 50,50,50; width: 300px; height: 520px; border-radius: 20px; border: 1px solid rgba(var(--base),0.5);  margin: 0px auto; background: rgba(var(--base),0.05); position: relative; overflow: hidden; }
-.mmagica .blink { width: 500px; height: 250px; border-radius: 0% 0% 100% 100%; position: absolute; left: -100px; border-bottom: 1px solid rgba(var(--base),0.5); border-right: 1px solid transparent; border-left: 1px solid transparent; top: 0px; background: rgba(var(--base),0.1); }
+.mmagica .blink { width: 500px; height: 250px; border-radius: 0% 0% 100% 100%; position: absolute; left: -100px; border-bottom: 1px solid rgba(var(--base),0.5); border-right: 1px solid transparent; border-left: 1px solid transparent; top: 0px; background: rgba(var(--base),0.1); z-index: 0; }
 .mmagica notif { background: linear-gradient(90deg, rgba(var(--color1),0.7) 0%, rgba(var(--color2),0.7) 50%, rgba(var(--color3),0.7) 100%); display: block; border-radius: 15px; font-weight: 700; font-size: 8px; font-family: input-mono, monospace; line-height: 20px; text-transform: uppercase;  text-align: right; padding: 15px 12px; width: calc(100% - 10px); margin: 5px auto; box-sizing: border-box; }
 .mmagica .kyubey { overflow: auto; box-sizing: border-box; position: absolute; bottom: 61px; width: 100%; height: 200px; }
 .mmagica h1 { margin: 0px; padding: 12px 0px 0px; font: 700 20px input-mono; line-height: 24px; text-align: center; text-transform: uppercase; background: rgba(var(--color3), 1); background: linear-gradient(90deg, rgba(var(--color1),1) 0%, rgba(var(--color2),1) 100%); background-clip: text; -webkit-background-clip: text; color: transparent; }
@@ -22,10 +22,10 @@ html[data-theme="dark"] .mmagica { --basis: 0,0,0; --base: 200,200,200; }
 .mmagica .fa-telegram { width: 25px; height: 25px; font-size: 25px; line-height: 25px; border-radius: 100%; background: rgba(var(--color3), 1); background: linear-gradient(45deg, rgba(var(--color1),1) 0%, rgba(var(--color2),1) 50%, rgba(var(--color3),1) 100%); background-clip: text; -webkit-background-clip: text; color: transparent; text-align: center; }
 
 .mmagica gif { display: block; margin: 30px auto 0px; padding: 1px; 
-width: 250px;  
+width: 250px; position: relative; z-index: 1; 
 background: linear-gradient(45deg, rgba(var(--color1),1) 0%, rgba(var(--color2),1) 50%, rgba(var(--color3),1) 100%); border-radius: 21px; box-sizing: border-box; }
 .mmagica gif2 { display: block; background: rgba(var(--basis),1); width: 100%; border-radius: 20px; 
-box-sizing: border-box; }
-.mmagica gif img { width: 100%; height: 150px; object-fit: cover; object-position: center; border-radius: 20px; background: linear-gradient(45deg, rgba(var(--color1),0.1) 0%, rgba(var(--color2),0.1) 50%, rgba(var(--color3),0.1) 100%); padding: 5px; box-sizing: border-box; }
+box-sizing: border-box; position: relative; z-index: 1; }
+.mmagica gif img { width: 100%; height: 150px; object-fit: cover; object-position: center; border-radius: 20px; background: linear-gradient(45deg, rgba(var(--color1),0.1) 0%, rgba(var(--color2),0.1) 50%, rgba(var(--color3),0.1) 100%); padding: 5px; box-sizing: border-box; position: relative; z-index: 1; }
 .mmagica p b { font-family: input-mono, monospace; font-weight: 700; color: rgba(var(--color1),1); }
 .mmagica p i { font-family: input-mono, monospace; font-weight: 300; font-style: italic; color: rgba(var(--color3),1); }
