@@ -3,7 +3,7 @@
 @media only screen and (max-width: 760px) {
  .save-rocknroll  { width: 100%!important; }
  .save-rocknroll .yes { padding: 20px!important; }
- .save-rocknroll .yes img { width: 50px!important; height: 50px!important; margin: 0px auto 10px!important; padding: 10px!important; }
+ .save-rocknroll .yes img { width: 65px!important; height: 65px!important; margin: 0px auto 10px!important; padding: 10px!important; }
  .save-rocknroll .yes b { color: rgb(var(--color3))!important; background: rgba(var(--color2),0.0)!important; background-clip: none!important; -webkit-background-clip: none!important; }
 }
 
