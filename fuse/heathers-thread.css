@@ -1,0 +1,15 @@
+@import url("https://use.typekit.net/rqp3ltz.css");
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,600;1,300;1,600&display=swap');
+html[data-theme="dark"] .heathers { --bg: 60,60,60; } 
+.heathers { width: 350px; margin: 0px auto; background: rgba(var(--bg),1); --bg: 240,240,240; text-transform: lowercase; position: relative; overflow: hidden; font-family: work sans, sans-serif; }
+.heathers .lifeboat { width: 5px; border-right: 1px solid rgb(var(--color1)); border-left: 1px solid rgb(var(--color2)); position: absolute; top: 0px; left: 30px; height: 100%; z-index: 1; }
+.heathers .blue { height: 5px; border-top: 1px solid rgb(var(--color2)); border-bottom: 1px solid rgb(var(--color1)); position: absolute; top: 145px; left: 0px; width: 100%; z-index: 1; }
+.heathers candystore { display: block; padding: 40px 50px 20px 70px; text-align: justify; font: 12px work sans; line-height: 1.2em; }
+.heathers tag { display: block; text-align: right; padding: 10px 20px 20px; font-family: pique-web, sans-serif;
+font-style: normal; font-weight: 900; font-size: 18px; line-height: 1em; }
+.heathers .fas { background: linear-gradient(45deg, rgb(var(--color1)) 0%, rgb(var(--color2)) 100%) ; background-clip: text; -webkit-background-clip: text; color: transparent; font-size: 10px; line-height: 18px; }
+
+.heathers candystore b { font-size: 14px; line-height: 14.4px; position: relative; padding-bottom: 2px; text-decoration: none; }
+.heathers candystore b::after{ content: ""; height: 1px; width: 100%; position: absolute; bottom: 1px; left: 0; background: linear-gradient(45deg, rgb(var(--color1)) 0%, rgb(var(--color2)) 100%); }
+.heathers candystore i { color: rgb(var(--color1)); font-size: 14px; line-height: 14.4px; }
+@media only screen and (max-width: 760px) { .heathers { width: 100%!important; } }
