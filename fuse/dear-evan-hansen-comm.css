@@ -20,3 +20,10 @@ html[data-theme="dark"] .dear-evan-hansen { --emphasis: 240,240,240; --bg: 50,50
 .dear-evan-hansen b2, .dear-evan-hansen b { font-size: 8px; font-weight: bold; text-transform: uppercase; }
 .dear-evan-hansen .onlyus { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
 .dear-evan-hansen .sobig p { padding: 9px 0px 0px; margin: 0px; }
+
+@media only screen and (max-width: 760px) { .dear-evan-hansen { width: 100%!important; } 
+.dear-evan-hansen gif { width: 40px!important; height: 40px!important; margin: 5px !important;}
+.dear-evan-hansen gif img { width: 40px!important; height: 40px!important; }
+.dear-evan-hansen .willbefound { width: calc(100% - 60px); }
+.dear-evan-hansen box { font: bold 5px poppins !important; }
+}
