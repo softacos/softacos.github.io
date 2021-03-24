@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,700;1,300;1,400;1,700&display=swap');
+
+html[data-theme="dark"] .dear-evan-hansen { --emphasis: 240,240,240; --bg: 50,50,50; --bg2: 70,70,70; --txt: 230,230,230; }
+
+.dear-evan-hansen { width: 400px; margin: 0px auto; background: rgba(var(--bg),1); --txt: 100,100,100; --bg: 240,240,240; --bg2: 255,255,255; --emphasis: 0,0,0; border: 5px solid rgb(var(--bg)); font-family: work sans, sans-serif; color: rgb(var(--txt)); border-radius: 10px; }
+.dear-evan-hansen .map { display: flex; flex-flow: row wrap; align-centent: space-between; justify-content: space-between; align-items: center; }
+.dear-evan-hansen gif { display: block; width: 60px; height: 60px; border-radius: 100px; overflow: hidden; margin: 10px 20px; }
+.dear-evan-hansen gif img { width: 60px; height: 60px; object-fit: cover; object-position: center; }
+.dear-evan-hansen .willbefound { display: flex; flex-flow: column wrap; align-items: center; height: 100px; width: calc(100% - 100px); background: rgb(var(--bg2)); }
+.dear-evan-hansen l { display: block; text-align: left; height: 33%; border-bottom: 1px solid rgb(var(--bg)); box-sizing: border-box; position: relative; font-size: 12px; padding: 0px 12px; width: 100%; line-height: 33px; }
+.dear-evan-hansen .line3 { display: flex; flex-flow: row wrap; align-centent: space-between; justify-content: space-between; align-items: center; text-align: left; border-bottom: 1px solid rgb(var(--bg)); box-sizing: border-box; position: relative; font-size: 12px; padding: 0px 12px; width: 100%; line-height: 40px; height: 40px; background: rgb(var(--bg2)); } 
+.dear-evan-hansen .line2 { font-size: 12px; padding: 0px 12px; width: 100%; line-height: 40px; height: 40px; background: rgb(var(--bg2)); text-align: left; border-bottom: 1px solid rgb(var(--bg)); box-sizing: border-box; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.dear-evan-hansen box { display: inline-block; color: rgb(var(--color1)); font: 10px poppins; line-height: 11px; padding: 5px 10px; border: 1px solid rgb(var(--color1)); border-radius: 5px; background: linear-gradient(45deg, rgba(var(--color1),0.3) 0%, rgba(var(--color2),0.3) 50%, rgba(var(--color3),0.3) 100%); margin: 9px 0px; font-weight: bold; }
+.dear-evan-hansen i.fas { font-size: 10px; line-height: 11px; position: relative; top: -2px;  }
+.dear-evan-hansen .sobig { padding: 50px; text-align: justify; font-size: 12px; line-height: 1.4em; }
+.dear-evan-hansen .sincerelyme { height: 15px; text-align: left; }
+.dear-evan-hansen x, .dear-evan-hansen y, .dear-evan-hansen z { display: inline-block; margin: 0px 5px 0px 0px; width: 7px; height: 7px; border-radius: 100%; }
+.dear-evan-hansen x { background: rgb(var(--color1)); }  .dear-evan-hansen y { background: rgb(var(--color2)); } .dear-evan-hansen z { background: rgb(var(--color3)); }
+.dear-evan-hansen b2 { color: rgb(var(--color2)); }.dear-evan-hansen b { color: rgb(var(--color1)); } .dear-evan-hansen .sobig i { color: rgb(var(--emphasis)); } .dear-evan-hansen .sobig b { text-transform: none; font-size: 14px;  color: rgb(var(--color1)); } 
+.dear-evan-hansen b2, .dear-evan-hansen b { font-size: 8px; font-weight: bold; text-transform: uppercase; }
+.dear-evan-hansen .onlyus { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.dear-evan-hansen .sobig p { padding: 9px 0px 0px; margin: 0px; }
