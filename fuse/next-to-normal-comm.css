@@ -28,4 +28,5 @@
 
 @media only screen and (max-width: 760px) {
  .next-to-normal { width: 100%!important; }
+ .next-to-normal messaging { left: 10px; }
 }
