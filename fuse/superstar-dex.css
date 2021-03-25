@@ -32,3 +32,8 @@
   background: linear-gradient(45deg, rgba(var(--color1),1), rgba(var(--color2),1)); 
   background-clip: text; -webkit-background-clip: text; color: transparent; 
 }
+@media only screen and (max-width: 760px) {
+ .superstar { width: 100%!important; }
+ .superstar img { width: 60px!important; height: 60px!important; }
+ .superstar b { color: rgb(var(--color1))!important; background-clip: none!important; -webkit-background-clip: none!important; background: transparent!important; }
+}
