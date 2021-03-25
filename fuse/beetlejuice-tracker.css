@@ -24,3 +24,9 @@ html[data-theme="dark"] .beetlejuice { --bg: 50,50,50; --text: #fefefe; }
 .beetlejuice b { font-weight: bold; font-size: 14px; color: rgba(var(--color1),1); }
 .beetlejuice ch { display: inline-block; background: linear-gradient(45deg, rgba(var(--color1),1), rgba(var(--color2),1)); background-clip: text; -webkit-background-clip: text; color: transparent; font-size: 14px; line-height: 20px; margin: 12px 0px 0px; }
 .beetlejuice bq { background: linear-gradient(45deg, rgba(var(--color1),0.4), rgba(var(--color2),0.4)); display: block; padding: 7px; border-radius: 10px; margin: 5px 0px; }
+
+@media only screen and (max-width: 760px) {
+ .beetlejuice { width: 100%!important; }
+ .beetlejuice readyset { padding: 10px!important; }
+ .beetlejuice notyet img { width: 40px!important; height: 50px!important; }
+}
