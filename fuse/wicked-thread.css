@@ -1,0 +1,38 @@
+@import url("https://use.typekit.net/yld2uri.css");
+.wicked { --bg: 230,230,230; --border: 240,240,240; --font: obliqua; --line45: linear-gradient(45deg, rgb(var(--color3)) 0%, rgb(var(--color2)) 50%, rgb(var(--color1)) 100%); --line90: linear-gradient(90deg, rgb(var(--color3)) 0%, rgb(var(--color2)) 50%, rgb(var(--color1)) 100%); 
+width: 350px; background: var(--line90); padding: 25px; font-family: var(--font), sans-serif; font-size: 13px; line-height: 18px; border: 2px solid rgb(var(--border)); padding: 1px; }
+
+.wickeder { --bg: 230,230,230; --border: 240,240,240; --font: obliqua; --ital: 150,150,150; width: 350px; background: rgb(var(--bg)); padding: 25px; font-family: var(--font), sans-serif; font-size: 13px; line-height: 18px; border: 2px solid rgb(var(--border)); padding: 1px; }
+.wicked .oldshiz, .wickeder .oldshiz { width: 100%; box-sizing: border-box; background: rgba(var(--border),1); }
+.wickeder gificon, .wickeder gif, .wicked gificon, .wicked gif { display: block; padding: 50px 50px 35px; }
+
+.wicked gificon img, .wickeder gificon img { width: 100px; height: 100px; object-fit: cover; object-position: center; border-radius: 15px; }
+.wickeder gificon img { border: 2px solid rgb(var(--bg)); }
+.wicked gificon img { background: var(--line45); padding: 2px; }
+
+.wicked gif img, .wickeder gif img { width: 100%; height: 150px; object-fit: cover; object-position: center; }
+.wickeder gif img { border: 2px solid rgb(var(--bg));  }
+.wicked gif img { background: var(--line45); padding: 2px; }
+.wickeder .loathing, .wicked .loathing { padding: 35px 0px 0px; width: calc(100% - 100px); text-align: justify; } .wickeder .loathing:after, .wicked .loathing:after { display: block; position: relative; height: 50px; content:''; }
+.wickeder .scroll, .wicked .scroll { max-height: 400px; overflow: auto; padding-right: 8px; }
+.wickeder .loathing b, .wickeder .loathing i, .wicked .loathing b, .wicked .loathing i { font-size: 16px; line-height: 18px; }
+.wicked .loathing b { background: var(--line45); background-clip: text; -webkit-background-clip: text; color: transparent; }
+.wickeder .dancingthroughlife span, .wickeder .loathing b { color: rgba(var(--color3),1)!important; }
+.wickeder .loathing i, .wicked .loathing i { color: rgba(var(--color3),1); text-decoration: underline; }
+.wickeder .dancingthroughlife, .wicked .dancingthroughlife { width: 100%; box-sizing: border-box; padding: 15px; background: rgb(var(--bg)); font-size: 8px; font-weight: bold; letter-spacing: 0.5px; } 
+
+.wickeder .dancingthroughlife span { background: var(--line45); color: transparent; background-clip: text; -webkit-background-clip: text; }
+.wicked .dancingthroughlife span { background: var(--line45); color: transparent; background-clip: text; -webkit-background-clip: text; }
+.wicked .defyinggravity { padding: 1px 0px; background: var(--line45); }
+.wickeder .defyinggravity { padding: 1px 0px; background: rgb(var(--bg)); }
+
+.wickeder .loathing p, .wicked .loathing p { margin: 0px; padding: 9px 0px; }
+
+html[data-theme="dark"] .wickeder { --bg: 40,40,40; --border: 25,25,25;  }
+html[data-theme="dark"] .wicked { --bg: 40,40,40; --border: 25,25,25;  }
+
+@media only screen and (max-width: 760px) {
+  .wicked { width: 100%!important; }
+  .wickeder { width: 100%!important; }
+  .wicked .loathing b { background: transparent!important; background-clip: none; -webkit-background-clip: none; color: rgb(var(--color3))!important; }
+}
