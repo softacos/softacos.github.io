@@ -13,7 +13,9 @@
 .lesmis .stars { margin: 20px 0px 40px; text-align: justify; line-height: 115%; }
 .lesmis b { font-family: input-mono, monospace; font-weight: 700; font-style: normal; color: rgba(var(--color1),1); }
 .lesmis i { font-family: input-mono, monospace; font-weight: 200; font-style: italic; }
-.lesmis .confrontation { width: calc(100% + 100px); background: rgba(150,150,150,0.1); margin: 0px 0px -50px -50px; text-align: left; position: relative; text-transform: uppercase; padding: 20px; box-sizing: border-box; line-height: 12px;  }
+.lesmis .confrontation { width: calc(100%); background: rgba(150,150,150,0.1); margin: 0px 0px -50px -50px; text-align: left; position: relative; text-transform: uppercase; padding: 20px; box-sizing: border-box; line-height: 12px;  }
+
 @media only screen and (max-width: 760px) {
- .lesmis { width: 100%!important; padding: 50px 20px!important; }
+ .lesmis { width: 100%!important; }
+ .lesmis .confrontation, .lesmis .onmyown { margin: 0px; }
 }
