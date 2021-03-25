@@ -45,9 +45,15 @@ html[data-theme="dark"] #LYDIA .codebank { --bg: 30,30,30; --border: 0,0,0; }
   background-clip: text; 
   color: transparent; 
 }
+.codebank .musical i { font-size: 14px; font-style: italic; position: relative; padding-bottom: 2px; text-decoration: none; white-space: nowrap;
+}
+.codebank .musical i:after { content: "";
+  position: absolute; bottom: 2px; left: 0; height: 1px; width: 100%; background: rgb(var(--color3));
+  background: linear-gradient(45deg, rgba(var(--color3),1) 0%, rgba(var(--color2),1) 100%);  }
 .codebank .musical a { font-size: 14px; font-weight: bold; font-style: italic; }
+
 @media only screen and (max-width: 760px) {
-  #LYDIA .codebank { width: 100%; }
+  #LYDIA .codebank { width: 100%!important; }
   .codebank title { padding: 0px 20px 0px 5px!important;
   font-size: 20px!important; }
 }
