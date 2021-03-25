@@ -1,6 +1,6 @@
   @import url("https://use.typekit.net/tzk8xzu.css");
 
-html[data-theme="dark"] #LYDIA .codebank { --bg: 40,40,40; --border: 0,0,0; }
+html[data-theme="dark"] #LYDIA .codebank { --bg: 30,30,30; --border: 0,0,0; }
 
 #LYDIA .codebank { 
   --color2: 199,121,208; --color3: 75,192,200;
