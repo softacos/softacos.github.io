@@ -21,3 +21,7 @@
 .bring-it-on quote:before { display: block; content: '❝'; width: 40px; text-align: center; font-size: 40px; font-weight: bold; font-style: normal; line-height: 40px; color: rgba(var(--color1),1); padding: 10px 0px 0px; margin: 0px 0px -50px -40px; }
 .bring-it-on video { width: 100%; box-sizing: border-box; border-radius: 15px; object-fit: cover; object-position: center; background: linear-gradient(45deg, rgba(var(--color1),1), rgba(var(--color2),1)); padding: 10px; margin: 0px 0px 20px; }
 .bring-it-on wordy { display: block; height: 400px; overflow: auto; padding-right: 5px; }
+
+@media only screen and (max-width: 760px) {
+ .bring-it-on { width: 100%!important; }
+}
