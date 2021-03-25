@@ -1,0 +1,51 @@
+  @import url("https://use.typekit.net/tzk8xzu.css");
+
+html[data-theme="dark"] #LYDIA .codebank { --bg: 40,40,40; --border: 0,0,0; }
+#LYDIA .codebank { 
+  --bg: 233,233,233; --border:210,210,210;
+  width: 470px; 
+  background: rgb(var(--bg));
+  display: flex; flex-wrap: row wrap; 
+  align-content: center; justify-content: space-between; 
+  align-items: center; 
+  border-radius: 30px;
+  border: 1px solid rgb(var(--border)); 
+}
+.codebank title {
+  display: block; height: auto; 
+  margin: 0px; padding: 10px 40px 10px 10px; 
+  writing-mode: vertical-lr; 
+  transform: rotate(180deg); 
+  font-family: six-hands-chalk, sans-serif;
+  font-weight: 400; font-style: normal;  text-transform: lowercase; 
+  font-size: 30px; line-height: 1em; 
+  background: linear-gradient(45deg, rgba(var(--color3),1) 0%, rgba(var(--color2),1) 100%); 
+  -webkit-background-clip: text; 
+  background-clip: text; 
+  color: transparent; 
+  
+}
+.codebank .space {
+  display: block; width: 5px; height: 70px;
+  background: linear-gradient(45deg, rgb(var(--color3)) 0%, rgb(var(--color2)) 100%); 
+}
+.codebank .musical {
+  text-align: justify;
+  line-height: 1.5em; padding: 40px 40px 40px 20px; 
+  font-size: 11px; 
+  font-family: proxima-nova, sans-serif; font-weight: 300;
+  font-style: normal;
+}
+.codebank .musical a, .codebank .musical b {
+  color: rgb(var(--color3));
+    background: linear-gradient(45deg, rgba(var(--color3),1) 0%, rgba(var(--color2),1) 100%); 
+  -webkit-background-clip: text; 
+  background-clip: text; 
+  color: transparent; 
+}
+.codebank .musical a { font-size: 14px; font-weight: bold; font-style: italic; }
+@media only screen and (max-width: 760px) {
+  #LYDIA .codebank { width: 100%; }
+  .codebank title { padding: 0px 20px 0px 5px!important;
+  font-size: 20px!important; }
+}
