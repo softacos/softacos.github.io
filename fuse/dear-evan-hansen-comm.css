@@ -1,3 +1,8 @@
+/*****************************************************
+ CODE BY LYDIA OF FUSE [163], MARCH 2021
+ EMAIL TEMPLATE - DEAR EVAN HANSEN
+*****************************************************/
+
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,700;1,300;1,400;1,700&display=swap');
 
 html[data-theme="dark"] .dear-evan-hansen { --emphasis: 240,240,240; --bg: 50,50,50; --bg2: 70,70,70; --txt: 230,230,230; }
