@@ -24,7 +24,7 @@
 .next-to-normal i { font: italic 12px poppins; color: rgba(150,150,150,1); line-height: 18px; }
 
 .next-to-normal msgs { display: block; width: 90%; margin: 0px auto; height: 278px; position: relative; top: 100px; overflow: auto; }
-.next-to-normal messaging { display: block; border-radius: 15px; padding: 10px; background: rgba(150,150,150,0.1); width: 241px; position: absolute; bottom: 10px; left: 24px; z-index: 1; height: 18px; line-height: 18px; margin: 0px; }
+.next-to-normal messaging { display: block; border-radius: 15px; padding: 10px; background: rgba(150,150,150,0.1); box-sizing: border-box; width: 90%; position: absolute; bottom: 10px; z-index: 1; height: 18px; line-height: 18px; margin: 0px; }
 
 @media only screen and (max-width: 760px) {
  .next-to-normal { width: 100%!important; }
