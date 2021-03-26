@@ -2,9 +2,10 @@
 
 html[data-theme="dark"] #LYDIA .codebank { --bg: 60,60,60; --border: 0,0,0; }
 
-#LYDIA .codebank { 
+#LYDIA { 
   --color2: 199,121,208; --color3: 75,192,200;
-  --bg: 233,233,233; --border:210,210,210;
+  --bg: 233,233,233; --border:210,210,210; }
+#LYDIA .codebank {
   width: 470px; 
   background: rgb(var(--bg));
   display: flex; flex-wrap: row wrap; 
