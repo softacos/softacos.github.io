@@ -26,7 +26,7 @@ width: 350px; background: rgb(var(--bg)); padding: 25px; font-family: var(--font
 
 .wickeder .loathing i, .wicked .loathing i { color: rgba(var(--color3),1); text-decoration: underline; }
 .wickeder .dancingthroughlife, .wicked .dancingthroughlife { width: 100%; box-sizing: border-box; padding: 15px; background: rgb(var(--bg)); font-size: 8px; font-weight: bold; letter-spacing: 0.5px; text-transform: uppercase; } 
-.wickeder .dancingthroughlife a, .wicked .dancingthroughlife a { color: transparent!important; }
+.wickeder .dancingthroughlife a.user-tagged, .wicked .dancingthroughlife a.user-tagged, .wickeder .dancingthroughlife a, .wicked .dancingthroughlife a { color: transparent!important; }
 
 .wicked .defyinggravity { padding: 1px 0px;  linear-gradient(45deg, rgb(var(--color1)) 0%, rgb(var(--color2)) 50%, rgb(var(--color3)) 100%);  }
 .wickeder .defyinggravity { padding: 1px 0px; background: rgb(var(--bg)); }
