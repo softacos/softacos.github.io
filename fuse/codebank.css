@@ -64,7 +64,7 @@ html[data-theme="dark"] #LYDIA .codebank { --bg: 60,60,60; --border: 0,0,0; }
   --color2: 199,121,208; --color3: 75,192,200;
     font-family: six-hands-chalk, sans-serif;
   font-weight: 400; font-style: normal;  text-transform: lowercase; 
-  font-size: 30px; line-height: 1em; 
+  font-size: 30px; line-height: 1em; padding: 20px; 
   background: linear-gradient(45deg, rgba(var(--color3),1) 0%, rgba(var(--color2),1) 100%); 
   -webkit-background-clip: text; 
   background-clip: text; 
