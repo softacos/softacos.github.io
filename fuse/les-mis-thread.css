@@ -9,11 +9,11 @@
 .lesmis .poke { width: 100px; height: 100px; border-radius: 100%; overflow: hidden; position: absolute; top: 70px; left: 150px;  } 
 .lesmis line:before { display: block; height: 1px; width: 100px; background: #fff; position: relative; top: 10px; left: -40px; content: ''; }
 .lesmis line { display: block; position: absolute; height: 20px; width: 20px; border-radius: 100%; background: #fff; top: 40px; left: 40px; }
-.lesmis .onmyown { width: calc(100%); margin: -50px 0px 30px -50px; background: rgba(var(--color1),0.5); background: linear-gradient(45deg, rgba(var(--color1),0.5) 0%, rgba(var(--color2),0.5) 50%, rgba(var(--color3), 0.5) 100%); height: 52px; }
+.lesmis .onmyown { width: calc(100% + 100px); margin: -50px 0px 30px -50px; background: rgba(var(--color1),0.5); background: linear-gradient(45deg, rgba(var(--color1),0.5) 0%, rgba(var(--color2),0.5) 50%, rgba(var(--color3), 0.5) 100%); height: 52px; }
 .lesmis .stars { margin: 20px 0px 40px; text-align: justify; line-height: 115%; }
 .lesmis b { font-family: input-mono, monospace; font-weight: 700; font-style: normal; color: rgba(var(--color1),1); }
 .lesmis i { font-family: input-mono, monospace; font-weight: 200; font-style: italic; }
-.lesmis .confrontation { width: calc(100%); background: rgba(150,150,150,0.1); margin: 0px 0px -50px -50px; text-align: left; position: relative; text-transform: uppercase; padding: 20px; box-sizing: border-box; line-height: 12px;  }
+.lesmis .confrontation { width: calc(100% + 100px); background: rgba(150,150,150,0.1); margin: 0px 0px -50px -50px; text-align: left; position: relative; text-transform: uppercase; padding: 20px; box-sizing: border-box; line-height: 12px;  }
 
 @media only screen and (max-width: 760px) {
  .lesmis { width: 100%!important; }
