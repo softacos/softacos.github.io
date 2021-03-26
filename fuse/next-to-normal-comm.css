@@ -14,19 +14,18 @@
 .next-to-normal iconic{ display: block; width: 90px; height: 90px; margin: 0px auto; position: relative; top: 80px; padding: 5px; background: linear-gradient(45deg, rgba(var(--color1),0.5), rgba(var(--color2),0.5)); border-radius: 100%; border: 3px double rgba(var(--color1),0.7); }
 .next-to-normal iconic img { width: 90px; height: 90px; border-radius: 100%; object-fit: cover; object-position: center; }
 .next-to-normal namely { display: block; width: 100%; text-align: center; font: bold 25px poppins; position: relative; top: 90px; color: transparent; background: linear-gradient(45deg, rgba(var(--color1),1), rgba(var(--color2),1)); background-clip: text; -webkit-background-clip: text; }
-.next-to-normal home { width: 40%; margin: 0px 98px; background: rgba(var(--color1),1); display: block; height: 5px; border-radius: 5px; position: absolute; bottom: 5px; z-index: 1; }
+.next-to-normal home { width: 40%; margin: 0px 92px; background: rgba(var(--color1),0.7); display: block; height: 5px; border-radius: 5px; position: absolute; bottom: 5px; z-index: 1; }
 .next-to-normal msgs { display: block; width: 90%; margin: 0px auto; height: 287px; position: relative; top: 100px; overflow: auto; }
 .next-to-normal pads { display: block; padding: 10px 10px 20px; }
 ::-webkit-scrollbar, ::-webkit-scrollbar-thumb { border-radius: 10px!important; width: 3px; }
-.next-to-normal p { float: right; clear: both; background: linear-gradient(45deg, rgba(var(--color1),0.3), rgba(var(--color2),0.3)); border-radius: 10px; padding: 10px; margin: 0px 0px 9px; display: inline-block; position: relative; right: 0px;  height: auto;  text-align: justify; font: 12px karla; line-height: 18px; }
+.next-to-normal p { float: right; clear: both; background: linear-gradient(45deg, rgba(var(--color1),0.3), rgba(var(--color2),0.3)); border-radius: 10px; padding: 10px; margin: 0px 0px 9px; display: inline-block; position: relative; right: 0px;  height: auto;  text-align: justify; font: 12px karla; line-height: 18px; }
 .next-to-normal p img { max-width: 230px; border-radius: 5px; }
 .next-to-normal b { color: rgba(var(--color1),1); }
 .next-to-normal i { font: italic 12px poppins; color: rgba(150,150,150,1); line-height: 18px; }
 
 .next-to-normal msgs { display: block; width: 90%; margin: 0px auto; height: 278px; position: relative; top: 100px; overflow: auto; }
-.next-to-normal messaging { display: block; border-radius: 15px; padding: 10px; background: rgba(150,150,150,0.1); box-sizing: border-box; width: 90%; position: absolute; bottom: 10px; z-index: 1; height: 18px; line-height: 18px; margin: 0px; }
+.next-to-normal messaging { display: block; border-radius: 15px; padding: 10px; height: 38px; font-size: 12px; line-height: 18px; margin: 0px; background: rgba(150,150,150,0.1); box-sizing: border-box; width: 90%; position: absolute; bottom: 20px; left: 15px; z-index: 1; }
 
 @media only screen and (max-width: 760px) {
  .next-to-normal { width: 100%!important; }
- .next-to-normal messaging { left: 10px; }
 }
