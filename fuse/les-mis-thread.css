@@ -4,7 +4,7 @@
 *****************************************************/
 
 @import url("https://use.typekit.net/rqp3ltz.css");
-.lesmis { width: 400px; padding: 50px; background: rgba(150,150,150,0.2); margin: 0px auto; text-align: center; position: relative; box-sizing: border-box; }
+.lesmis { width: 400px; padding: 50px; background: rgba(150,150,150,0.2); margin: 0px auto; text-align: center; position: relative; box-sizing: border-box; overflow: hidden; }
 .lesmis img { width: 100px; height: 100px; border-radius: 100%; object-fit: cover; object-position: center; padding: 10px; background: rgba(var(--color1),0.5); background: linear-gradient(90deg, rgba(var(--color1),0.5) 0%, rgba(var(--color2),0.5) 50%, rgba(var(--color3), 0.5) 100%);  }
 .lesmis .poke { width: 100px; height: 100px; border-radius: 100%; overflow: hidden; position: absolute; top: 70px; left: 150px;  } 
 .lesmis line:before { display: block; height: 1px; width: 100px; background: #fff; position: relative; top: 10px; left: -40px; content: ''; }
