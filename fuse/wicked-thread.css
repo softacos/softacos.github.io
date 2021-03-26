@@ -16,13 +16,12 @@ width: 350px; background: var(--line90); padding: 25px; font-family: var(--font)
 .wickeder .loathing, .wicked .loathing { padding: 35px 0px 0px; width: calc(100% - 100px); text-align: justify; } .wickeder .loathing:after, .wicked .loathing:after { display: block; position: relative; height: 50px; content:''; }
 .wickeder .scroll, .wicked .scroll { max-height: 400px; overflow: auto; padding-right: 8px; }
 .wickeder .loathing b, .wickeder .loathing i, .wicked .loathing b, .wicked .loathing i { font-size: 16px; line-height: 18px; }
-.wicked .loathing b { background: var(--line45); background-clip: text; -webkit-background-clip: text; color: transparent; }
-.wickeder .dancingthroughlife span, .wickeder .loathing b { color: rgba(var(--color3),1)!important; }
+
+.wicked .dancingthroughlife span, .wickeder .dancingthroughlife span, .wickeder .loathing b, .wicked .loathing b { background: var(--line45); background-clip: text; -webkit-background-clip: text; color: transparent; }
+
 .wickeder .loathing i, .wicked .loathing i { color: rgba(var(--color3),1); text-decoration: underline; }
 .wickeder .dancingthroughlife, .wicked .dancingthroughlife { width: 100%; box-sizing: border-box; padding: 15px; background: rgb(var(--bg)); font-size: 8px; font-weight: bold; letter-spacing: 0.5px; text-transform: uppercase; } 
 
-.wickeder .dancingthroughlife span { background: var(--line45); color: transparent; background-clip: text; -webkit-background-clip: text; }
-.wicked .dancingthroughlife span { background: var(--line45); color: transparent; background-clip: text; -webkit-background-clip: text; }
 .wicked .defyinggravity { padding: 1px 0px; background: var(--line45); }
 .wickeder .defyinggravity { padding: 1px 0px; background: rgb(var(--bg)); }
 
