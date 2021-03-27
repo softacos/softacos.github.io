@@ -1,5 +1,6 @@
 html[data-theme="dark"] .thoroughly-modern {  --bg: 60,60,60; --stk: 0,0,0; --txt: 200,200,200; --mbtxt: 255,255,255;}
-::-webkit-scrollbar, ::-webkit-scrollbar-thumb { width: 3px!important; border-radius: 5px; height: 3px!important; }
+::-webkit-scrollbar, ::-webkit-scrollbar-thumb { width: 3px!important; border-radius: 5px; height: 3px!important; background: linear-gradient(45deg, rgba(var(--color1), 0.7) 0%, rgba(var(--color2),0.7) 50%, rgba(var(--color3),0.7) 100%) !important;}
+
 .thoroughly-modern { 
 --bg: 244,244,244; --stk: 222,222,222; --txt: 122,122,122; --mbtxt: 0,0,0;
 --font: poppins; 
