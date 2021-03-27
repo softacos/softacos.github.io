@@ -1,5 +1,5 @@
 html[data-theme="dark"] .thoroughly-modern {  --bg: 60,60,60; --stk: 0,0,0; --txt: 200,200,200; --mbtxt: 255,255,255;}
-::-webkit-scrollbar { width: 3px!important; border-radius: 5px; height: 3px!important; background: linear-gradient(45deg, rgba(var(--color1), 0.4) 0%, rgba(var(--color2),0.4) 50%, rgba(var(--color3),0.4) 100%) !important;}
+::-webkit-scrollbar { width: 3px!important; border-radius: 5px; height: 3px!important; background: rgba(var(--bg),1)!important;}
 ::-webkit-scrollbar-thumb { width: 3px!important; border-radius: 5px; height: 3px!important; background: linear-gradient(45deg, rgba(var(--color1), 0.8) 0%, rgba(var(--color2),0.8) 50%, rgba(var(--color3),0.8) 100%) !important;}
 
 .thoroughly-modern { 
