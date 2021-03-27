@@ -2,8 +2,7 @@ html[data-theme="dark"] .thoroughly-modern {   --bg: 60,60,60; --stk: 0,0,0; --t
 ::-webkit-scrollbar, ::-webkit-scrollbar-thumb { width: 3px!important; border-radius: 5px; height: 3px!important; }
 .thoroughly-modern { 
   --bg: 60,60,60; --stk: 0,0,0; --font: poppins; 
-  width: 100%; background: rgb(var(--bg)); 
-  box-sizing: border-box; 
+width: 706px; background: rgb(var(--bg)); box-sizing: border-box; 
 }
 .thoroughly-modern nuttycracker2, .thoroughly-modern nuttycracker { 
   display: block; 
@@ -15,12 +14,7 @@ html[data-theme="dark"] .thoroughly-modern {   --bg: 60,60,60; --stk: 0,0,0; --t
 .thoroughly-modern .speedtest { 
   display: flex; flex-wrap: row wrap; align-self: flex-start; align-content: space-between; justify-content: space-between; align-items: flex-start; 
 }
-
-
-
-
 .thoroughly-modern .mugin { width: 100%; padding: 10px; font: 11px var(--font); text-align: justify; box-sizing: border-box; }
-
 .thoroughly-modern .onlyinny, .mugin section, .thoroughly-modern .gimme, .thoroughly-modern .mugin { border-radius: 17px; background: rgba(var(--stk),0.2); box-sizing: border-box; border: 1px solid rgba(var(--stk),1); margin-bottom: 10px; }
 
 /* stickies */
@@ -42,7 +36,7 @@ html[data-theme="dark"] .thoroughly-modern {   --bg: 60,60,60; --stk: 0,0,0; --t
 
 
 /* --mugin things */
-.mugin app { display: block; margin-bottom: 10px; max-height: 300px; overflow: auto; font-size: 12px; line-height: 1.4em; padding: 5px; }
+.mugin app { display: block; margin-bottom: 10px; max-height: 300px; overflow: auto; font-size: 12px; line-height: 17px; padding: 5px; }
 .mugin gifline { display: block; height: 110px; width: 100%; white-space: nowrap; overflow-x: auto; margin-bottom: 10px; overflow-y: hidden; }
 .mugin gifline img { height: 100px; box-sizing: border-box; padding: 3px; border-radius: 10px; background: linear-gradient(45deg, rgba(var(--color3), 0.4) 0%, rgba(var(--color2),0.4) 50%, rgba(var(--color1),0.4) 100%); }
 .mugin h1 { padding: 5px 0px; margin: 0px; font: normal italic 14px monospace; text-transform: uppercase; text-align: center; letter-spacing: -1px; }
@@ -67,4 +61,10 @@ html[data-theme="dark"] .thoroughly-modern {   --bg: 60,60,60; --stk: 0,0,0; --t
 .mugin handle { display: block; width: 100%; font: bold 16px var(--font); padding: 15px; }
 
 /* GRADIENT TEXT */
-.mugin handle span, .thoroughly-modern .onlyinny h1, .mugin h1 { background: linear-gradient(45deg, rgba(var(--color3), 1) 0%, rgba(var(--color2),1) 50%, rgba(var(--color1),1) 100%); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.thoroughly-modern b, .thoroughly-modern i, .mugin handle span, .thoroughly-modern .onlyinny h1, .mugin h1 { background: linear-gradient(45deg, rgba(var(--color3), 1) 0%, rgba(var(--color2),1) 50%, rgba(var(--color1),1) 100%); -webkit-background-clip: text; background-clip: text; color: transparent; }
+
+.thoroughly-modern b, .thoroughly-modern i { font-size: 13px; line-height: 17px; }
+
+@media only screen and (max-width: 760px) {
+  .thoroughly-modern { width: 100%!important; }
+}
