@@ -68,4 +68,6 @@ width: 706px; background: rgb(var(--bg)); box-sizing: border-box;
 
 @media only screen and (max-width: 760px) {
   .thoroughly-modern { width: 100%!important; }
+  .thoroughly-modern .left { width: 62px; height: inherit; position: sticky; position: -webkit-sticky; top: 130px; }
+  .thoroughly-modern .right { margin: 0px; padding: 0px; width: calc(100% - 90px); } 
 }
