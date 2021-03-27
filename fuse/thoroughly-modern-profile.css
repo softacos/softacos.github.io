@@ -73,3 +73,6 @@ width: 706px; background: rgb(var(--bg)); box-sizing: border-box;
   .thoroughly-modern .left { width: 62px!important; }
   .thoroughly-modern .right { width: calc(100% - 90px)!important; } 
 }
+
+.thoroughly-modern .code-top { background: linear-gradient(90deg, rgba(var(--color1),.35) 0%, rgba(var(--color2),.35) 50%, rgba(var(--color3),.35) 100%);}
+.thoroughly-modern #CODE { background-color: rgba(var(--stk),0.5); border: 1px solid rgba(var(--stk),0.9); border-radius: 0 0 5px 5px; word-break: break-word; white-space: normal;  }
