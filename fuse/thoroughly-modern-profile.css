@@ -21,7 +21,7 @@ width: 706px; background: rgb(var(--bg)); box-sizing: border-box;
 .thoroughly-modern .onlyinny, .mugin section, .thoroughly-modern .gimme, .thoroughly-modern .mugin { border-radius: 17px; background: rgba(var(--stk),0.2); box-sizing: border-box; border: 1px solid rgba(var(--stk),1); margin-bottom: 10px; }
 
 /* stickies */
-.thoroughly-modern .left { width: 122px; height: inherit; position: sticky; position: -webkit-sticky; top: 130px; }
+.thoroughly-modern .left { width: 152px; height: inherit; position: sticky; position: -webkit-sticky; top: 130px; }
 .thoroughly-modern gif { display: block; width: 150px; height: 100px; border: 1px solid rgb(var(--stk)); border-radius: 17px; }
 .thoroughly-modern gif img {width: 100%; height: 100%; border-radius: 15px; object-position: center; object-fit: cover; background: linear-gradient(45deg, rgba(var(--color3), 0.4) 0%, rgba(var(--color2),0.4) 50%, rgba(var(--color1),0.4) 100%); padding: 5px; box-sizing: border-box; }
 .thoroughly-modern .gimme { width: 152px; padding: 10px; font: 10px var(--font); text-align: justify; margin-top: 10px; }
@@ -70,7 +70,8 @@ width: 706px; background: rgb(var(--bg)); box-sizing: border-box;
 
 @media only screen and (max-width: 760px) {
   .thoroughly-modern { width: 100%!important; }
-  .thoroughly-modern .left { width: 62px!important; }
+  .thoroughly-modern .left { width: 62px!important; top: 10px!important;}
+.thoroughly-modern gif { width: 50px!important; height: 50px!important; }
   .thoroughly-modern .right { width: calc(100% - 90px)!important; } 
 }
 
