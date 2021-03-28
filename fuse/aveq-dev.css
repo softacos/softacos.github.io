@@ -25,7 +25,7 @@ html[data-theme="dark"] .aveq { --bg: 15,15,15; }
 .aveq .ships line { width: 462px; height: 1px; background: rgb(var(--color3)); display: block; margin: 5px 0px; }
 .aveq .ships dets { width: calc(462px - 150px); text-align: justify; display: block; }
 
-.aveq b {   background: linear-gradient(45deg, rgba(var(--color1), 1) 0%, rgba(var(--color2),1) 50%, rgba(var(--color3),1) 100%); 
+.aveq b { background: linear-gradient(45deg, rgba(var(--color1), 1) 0%, rgba(var(--color2),1) 50%, rgba(var(--color3),1) 100%); 
   -webkit-background-clip: text; background-clip: text; color: transparent; }
 
 @media only screen and (max-width: 760px) {
