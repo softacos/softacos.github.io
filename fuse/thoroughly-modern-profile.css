@@ -73,7 +73,7 @@ width: 706px; background: rgb(var(--bg)); box-sizing: border-box;
   .thoroughly-modern .millie { padding: 10px!important; }
   .thoroughly-modern .left { width: 62px!important; top: 10px!important;}
 .thoroughly-modern gif { width: 50px!important; height: 50px!important; }
-  .thoroughly-modern .right { width: calc(100% - 90px)!important; } 
+  .thoroughly-modern .right { width: calc(100% - 85px)!important; } 
   .thoroughly-modern .onlyinny h1 { font-size: 15px!important; } 
 .thoroughly-modern .onlyinny h2 { font-size: 5px!important; } 
 
