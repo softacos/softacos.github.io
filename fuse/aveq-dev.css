@@ -24,3 +24,12 @@ html[data-theme="dark"] .aveq { --bg: 15,15,15; }
 .aveq h3 { color: rgb(var(--mgrgb3)); margin-bottom: 0px; padding-bottom: 0px; }
 .aveq .ships line { width: 462px; height: 1px; background: rgb(var(--mgrgb3)); display: block; margin: 5px 0px; }
 .aveq .ships dets { width: calc(462px - 150px); text-align: justify; display: block; }
+
+.aveq b {   background: linear-gradient(45deg, rgba(var(--mgrgb), 1) 0%, rgba(var(--mgrgb2),1) 50%, rgba(var(--mgrgb3),1) 100%); 
+  -webkit-background-clip: text; background-clip: text; color: transparent; }
+
+@media only screen and (max-width: 760px) {
+  .aveq b { color: rgb(var(--color3))!important; background-clip: none; -webkit-background-clip:none; background: transparent;  }
+  .aveq .ships name { width: 60px!important; font-size: 9px; } 
+  .aveq .ships dets { width: calc(100% - 80px)!important; font-size: 9px; }
+}
