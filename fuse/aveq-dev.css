@@ -6,7 +6,7 @@ html[data-theme="dark"] .aveq { --bg: 15,15,15; }
 .aveq .baenglish img { width: 100%; background: linear-gradient(45deg, rgba(var(--color1),0.3) 0%, rgba(var(--color2),0.3) 50%, rgba(var(--color3),0.3) 100%); border-radius: 20px; box-sizing: border-box; padding: 10px; border: 1px solid rgb(var(--color3)); object-position: center; object-fit: cover; } 
 .aveq .baenglish { padding: 30px; background: rgb(var(--bg)); }
 .aveq .mixtape { background: linear-gradient(45deg, rgba(var(--color3),0.5) 0%, rgba(var(--color2),0.5) 50%, rgba(var(--color1),0.5) 100%); text-align: right; border-top: 1px solid rgb(var(--color3)); }
-.aveq .fineline { background: linear-gradient(45deg, rgba(var(--color1),0.5) 0%, rgba(var(--color2),0.5) 50%, rgba(var(--color3),0.5) 100%); text-align: left; border-bottom: 1px solid rgb(var(--color3)); }
+.aveq .fineline { background: linear-gradient(45deg, rgba(var(--color1),0.5) 0%, rgba(var(--color2),0.5) 50%, rgba(var(--color3),0.5) 100%); text-align: left; border-bottom: 1px solid rgb(var(--color3)); text-transform: uppercase; }
 
 .aveq .three, .aveq .two { display: flex; flew-flow: row wrap; justify-content: space-between; align-content: space-between;  }
 .aveq .two img { width: 48%; border-box: box-sizing; }
