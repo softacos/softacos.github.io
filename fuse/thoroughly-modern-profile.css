@@ -34,8 +34,8 @@ width: 706px; background: rgb(var(--bg)); box-sizing: border-box;
 .thoroughly-modern .onlyinny { width: calc(100%); height: 100px; text-align: center; }
 .thoroughly-modern td.central { height: 100px; vertical-align: center; width: 0px; } .thoroughly-modern td.cap { width: 100%; }
 .thoroughly-modern .onlyinny h2, .thoroughly-modern .onlyinny h1 { margin: 0px; padding: 0px; } 
-.thoroughly-modern .onlyinny h1 { font-size: 25px; } 
-.thoroughly-modern .onlyinny h2 { font-size: 8px; } 
+.thoroughly-modern .onlyinny h1 { font-size: 25px; line-height: 1.4em; } 
+.thoroughly-modern .onlyinny h2 { font-size: 8px; text-transform: uppercase; } 
 
 
 /* --mugin things */
