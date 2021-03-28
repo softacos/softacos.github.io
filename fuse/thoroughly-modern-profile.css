@@ -64,7 +64,7 @@ width: 706px; background: rgb(var(--bg)); box-sizing: border-box;
 .mugin handle { display: block; width: 100%; font: bold 16px var(--font); padding: 15px; }
 
 /* GRADIENT TEXT */
-.thoroughly-modern b, .thoroughly-modern i, .mugin handle span, .thoroughly-modern .onlyinny h1, .mugin h1 { background: linear-gradient(45deg, rgba(var(--color3), 1) 0%, rgba(var(--color2),1) 50%, rgba(var(--color1),1) 100%); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.thoroughly-modern b, .thoroughly-modern i, .mugin handle span, .thoroughly-modern .onlyinny h1 span, .mugin h1 { background: linear-gradient(45deg, rgba(var(--color3), 1) 0%, rgba(var(--color2),1) 50%, rgba(var(--color1),1) 100%); -webkit-background-clip: text; background-clip: text; color: transparent; }
 
 .thoroughly-modern b, .thoroughly-modern i { font-size: 13px; line-height: 17px; }
 
