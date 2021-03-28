@@ -12,7 +12,7 @@ html[data-theme="dark"] .aveq { --bg: 15,15,15; }
 .aveq .two img { width: 48%; border-box: box-sizing; }
 .aveq .three img { width: 31%; border-box: box-sizing; }
 
-.aveq .drabble { width: 100%; background: linear-gradient(45deg, rgba(var(--color1),0.3) 0%, rgba(var(--color2),0.3) 50%, rgba(var(--color3),0.3) 100%); border-radius: 20px; box-sizing: border-box; padding: 10px; border: 1px solid rgb(var(--color3)); text-align: justify; font-family: montserrat; font-size: 12px; line-height: 1.3em;  }
+.aveq .drabble { width: 100%; background: linear-gradient(45deg, rgba(var(--color1),0.2) 0%, rgba(var(--color2),0.2) 50%, rgba(var(--color3),0.2) 100%); border-radius: 20px; box-sizing: border-box; padding: 10px; border: 1px solid rgb(var(--color3)); text-align: justify; font-family: montserrat; font-size: 12px; line-height: 1.3em;  }
 
 .aveq .ships { display: flex; flex-flow: row wrap; align-self: flex-start; align-content: space-between; justify-content: space-between; align-items: center; } 
 .aveq .ships name { 
@@ -27,6 +27,8 @@ html[data-theme="dark"] .aveq { --bg: 15,15,15; }
 
 .aveq b { background: linear-gradient(45deg, rgba(var(--color1), 1) 0%, rgba(var(--color2),1) 50%, rgba(var(--color3),1) 100%); 
   -webkit-background-clip: text; background-clip: text; color: transparent; }
+.aveq i { position: relative; text-decoration: none; padding-bottom: 2px; }
+.aveq i:after { width: 100%; position: absolute; bottom: 0px; background: linear-gradient(45deg, rgba(var(--color1), 1) 0%, rgba(var(--color2),1) 50%, rgba(var(--color3),1) 100%); content: ''; }
 
 @media only screen and (max-width: 760px) {
   .aveq b { color: rgb(var(--color3))!important; background-clip: none; -webkit-background-clip:none; background: transparent;  }
