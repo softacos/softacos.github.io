@@ -76,7 +76,8 @@ width: 706px; background: rgb(var(--bg)); box-sizing: border-box;
   .thoroughly-modern .right { width: calc(100% - 85px)!important; } 
   .thoroughly-modern .onlyinny h1 { font-size: 15px!important; } 
 .thoroughly-modern .onlyinny h2 { font-size: 5px!important; } 
-
+.thoroughly-modern .gimme { font-size: 8px!important; }
+  .thoroughly-modern .gimme b { font-size: 8px!important; }
 }
 
 .thoroughly-modern .code-top { background: linear-gradient(90deg, rgba(var(--color1),.35) 0%, rgba(var(--color2),.35) 50%, rgba(var(--color3),.35) 100%);}
