@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,300;0,700;1,300;1,700&family=Montserrat:ital,wght@0,300;0,700;1,300;1,700&display=swap');
 
 html[data-theme="dark"] .aveq { --bg: 15,15,15; } 
-.aveq { --stk: 255, 255, 255; --bg: 244,244,244; width: calc(100% - 150px); border-radius: 10px; border: 1px solid rgba(var(--mgrgb3),1); overflow: hidden; }
+.aveq { --stk: 255, 255, 255; --bg: 244,244,244; width: calc(100% - 150px); border-radius: 10px; border: 1px solid rgba(var(--color3),1); overflow: hidden; }
 .aveq .mixtape, .aveq .fineline { height: 40px; box-sizing: border-box; color: rgb(var(--stk)); font-weight: bold; padding: 0px 20px; font: 15px JetBrains Mono; line-height: 40px; }
 .aveq .baenglish img { width: 100%; background: linear-gradient(45deg, rgba(var(--color1),0.3) 0%, rgba(var(--color2),0.3) 50%, rgba(var(--color3),0.3) 100%); border-radius: 20px; box-sizing: border-box; padding: 10px; border: 1px solid rgb(var(--color3)); object-position: center; object-fit: cover; } 
 .aveq .baenglish { padding: 30px; background: rgb(var(--bg)); }
@@ -18,14 +18,14 @@ html[data-theme="dark"] .aveq { --bg: 15,15,15; }
 .aveq .ships name { 
   width: 130px; display: block; text-align: right; 
   font-weight: bold; line-height: 1em; 
-  background: linear-gradient(45deg, rgba(var(--mgrgb), 1) 0%, rgba(var(--mgrgb2),1) 50%, rgba(var(--mgrgb3),1) 100%); 
+  background: linear-gradient(45deg, rgba(var(--colorb), 1) 0%, rgba(var(--color2),1) 50%, rgba(var(--color3),1) 100%); 
   -webkit-background-clip: text; background-clip: text; color: transparent; 
 } 
-.aveq h3 { color: rgb(var(--mgrgb3)); margin-bottom: 0px; padding-bottom: 0px; }
-.aveq .ships line { width: 462px; height: 1px; background: rgb(var(--mgrgb3)); display: block; margin: 5px 0px; }
+.aveq h3 { color: rgb(var(--color3)); margin-bottom: 0px; padding-bottom: 0px; }
+.aveq .ships line { width: 462px; height: 1px; background: rgb(var(--color3)); display: block; margin: 5px 0px; }
 .aveq .ships dets { width: calc(462px - 150px); text-align: justify; display: block; }
 
-.aveq b {   background: linear-gradient(45deg, rgba(var(--mgrgb), 1) 0%, rgba(var(--mgrgb2),1) 50%, rgba(var(--mgrgb3),1) 100%); 
+.aveq b {   background: linear-gradient(45deg, rgba(var(--color), 1) 0%, rgba(var(--color2),1) 50%, rgba(var(--color3),1) 100%); 
   -webkit-background-clip: text; background-clip: text; color: transparent; }
 
 @media only screen and (max-width: 760px) {
