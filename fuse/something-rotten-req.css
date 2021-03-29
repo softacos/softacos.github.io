@@ -19,7 +19,7 @@
 .something-rotten info { display: block; width: calc(100% - 60px); }
 .something-rotten details { width: 100%; }
 .something-rotten ul, .something-rotten ol { padding: 0px 20px 0px 40px; }
-.something-rotten a { font-weight: bold; color: rgba(var(--opp),1)!important; background: transparent!important; background-clip: none!important; -webkit-background-clip: none!important; }
+.something-rotten a { font-weight: bold; color: rgba(var(--opp),1);  }
 
 html[data-theme="dark"] .something-rotten { --bg: 20,20,20; --opp: 250,250,250; } 
 @media only screen and (max-width: 760px) {
