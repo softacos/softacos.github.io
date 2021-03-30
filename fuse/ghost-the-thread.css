@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-html[data-theme="dark"] .ghost-tm { --bg: 40,40,40; --opp: 245, 245, 245; }
+html[data-theme="dark"] .ghost-tm { --bg: 33,33,33; --opp: 245, 245, 245; }
 .ghost-tm { --bg: 240,240,240; --opp: 45, 45, 45; }
 .ghost-tm { width: 440px; background: rgb(var(--bg)); display: flex; flex-flow: row wrap; justify-content: space-between; }
 .ghost-tm more, .ghost-tm gif, .ghost-tm threelittlewords, .ghost-tm unchainedmemory { display: block }
