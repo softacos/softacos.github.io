@@ -1,7 +1,7 @@
 @font-face {
 	font-family: 'lydia';
-	src: url('fonts/lydia.eot?15unt1');
-	src: url('fonts/lydia.eot?15unt1#iefix') format('embedded-opentype'), url('fonts/lydia.ttf?15unt1') format('truetype'), url('fonts/lydia.woff?15unt1') format('woff'), url('fonts/lydia.svg?15unt1#lydia') format('svg');
+	src: url('https://softacos.github.io/icons/lydia.eot?15unt1');
+	src: url('https://softacos.github.io/icons/lydia.eot?15unt1#iefix') format('embedded-opentype'), url('https://softacos.github.io/icons/lydia.ttf?15unt1') format('truetype'), url('https://softacos.github.io/icons/lydia.woff?15unt1') format('woff'), url('https://softacos.github.io/icons/lydia.svg?15unt1#lydia') format('svg');
 	font-weight: normal;
 	font-style: normal;
 	font-display: block;
