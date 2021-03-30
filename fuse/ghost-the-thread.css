@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+html[data-theme="dark"] .ghost-tm { --bg: 40,40,40; --opp: 245, 245, 245; }
+.ghost-tm { --bg: 240,240,240; --opp: 45, 45, 45; }
+.ghost-tm { width: 440px; background: rgb(var(--bg)); display: flex; flex-flow: row wrap; justify-content: space-between; }
+.ghost-tm more, .ghost-tm gif, .ghost-tm threelittlewords, .ghost-tm unchainedmemory { display: block }
+.ghost-tm unchainedmemory { width: calc(100% - 150px); color: rgba(var(--opp),0.7); min-height: 300px; box-sizing: border-box; padding: 25px; text-align: justify; font: 12px poppins; letter-spacing: 0px; line-height: 1.5em; }
+.ghost-tm .threelittlewords { background: rgba(var(--opp),0.05); width: 140px; position: relative; height: inherit; overflow: hidden; }
+.ghost-tm gif { background: rgba(var(--color2),0.5); background: linear-gradient(45deg, rgba(var(--color1),0.5) 0%, rgba(var(--color2),0.5) 50%, rgba(var(--color3), 0.5) 100%); border-radius: 0px 0px 250px 250px; width: 420px; position: absolute; margin-left: -140px; padding: 20px 0px 40px; height: 164px; }
+.ghost-tm gif img { width: 100px; height: 175px; object-fit: cover; object-position: center; border-radius: 7px; position: absolute; bottom: 30px; left: 160px; }
+.ghost-tm .more { position: absolute; bottom: 0px; font-size: 9px; text-transform: uppercase;  width: 100%; text-align: center; padding: 10px 15px; box-sizing: border-box; background: rgba(var(--color2),0.5); background: linear-gradient(45deg, rgba(var(--color1),0.5) 0%, rgba(var(--color2),0.5) 50%, rgba(var(--color3), 0.5) 100%); }
+.ghost-tm .more a { background: rgba(var(--opp),1); background-clip: text; -webkit-background-clip: text; }
+.ghost-tm unchainedmemory p { margin: 0px; padding: 9px 0px 0px; }
+.ghost-tm unchainedmemory b, .ghost-tm unchainedmemory i { background: rgba(var(--color2),0.5); background: linear-gradient(45deg, rgba(var(--color1),1) 0%, rgba(var(--color2),1) 50%, rgba(var(--color3), 1) 100%); background-clip: text; -webkit-background-clip: text; color: transparent; font-size: 13px; line-height: 15px; }
+
+@media only screen and (max-width: 760px) {
+  .ghost-tm { width: 100%; }
+  .ghost-tm unchainedmemory { width: calc(100% - 90px); padding: 5px!important; }
+  .ghost-tm .threelittlewords { width: 80px; }
+  .ghost-tm gif img { width: 60px; height: 100px; left: 180px; }
+.ghost-tm gif { margin-left:-170px; } 
+.ghost-tm unchainedmemory b, .ghost-tm unchainedmemory i { color: rgba(var(--color3), 1);  }
+}
