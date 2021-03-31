@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&family=Felipa&family=Homemade+Apple&family=Nanum+Pen+Script&family=Rock+Salt&family=Mulish:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.hedwig-atai .midnightradio .signoff, .hedwig-atai .midnightradio .hey  {
+  font-family: var(--script);
+}
+
+.hedwig-atai { 
+  --teacher: Homemade Apple; 
+  --print: Nanum Pen Script; 
+  --slantcursive: Aguafina Script; 
+  --calligraphy: Felipa;
+  --capsprint: Rock Salt; 
+  --bg: 219,211,189; --stk: 80, 80, 80; 
+  --icon: 219,211,189; --iwth: 220px; --font: Mulish; 
+  width: 270px; background-color: rgba(var(--bg));
+  background-image: url(https://softacos.github.io/fuse/assets/texture-PNG-by-PhotoshopSupply14.png); background-position: center; background-size: 70%; 
+  color: rgba(var(--stk),1); 
+  padding: 45px; 
+  font-size: 11px; 
+  font-family: var(--font);
+  position: relative; 
+  min-height: 200px; overflow: hidden; 
+}
+
+.hedwig-atai .lyd-owl { 
+  color: rgba(var(--icon),0.12); 
+  position: absolute; 
+  font-size: 160px; line-height: var(--iwth); 
+  width: var(--iwth); height: var(--iwth); 
+  border: 5px solid rgba(var(--icon),0.12);border-radius: 100%; 
+  bottom: -25px; left: -25px; 
+  text-align: center; 
+}
+.hedwig-atai .midnightradio { 
+  text-align: justify;
+}
+
+.hedwig-atai .midnightradio .hey { 
+  font-weight: bold; font-size: 15px; 
+  padding: 5px 15px; line-height: 15px; 
+}
+
+.hedwig-atai .midnightradio lament { 
+  display: block; text-align: right; padding: 0px 30px;
+} 
+.hedwig-atai .midnightradio .signoff {
+  text-align: right; padding: 0px 30px; 
+  font-size: 20px; line-height: 20px; 
+}
+
+.hedwig-atai .midnightradio ps {
+  display: block; padding: 20px 0px 0px; 
+}
+.hedwig-atai .midnightradio ps:before {
+  display: inline-block; content:'P.S. ';
+  font-weight: bold; 
+}
