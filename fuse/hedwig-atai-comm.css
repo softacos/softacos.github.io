@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&family=Felipa&family=Homemade+Apple&family=Nanum+Pen+Script&family=Rock+Salt&family=Mulish:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-@import url('https://softacos.github.io/icons/stylesheet.css'); 
+@import url('https://softacos.github.io/icons/stylesheet.css');
 
 .hedwig-atai .midnightradio .signoff, .hedwig-atai .midnightradio .hey  {
   font-family: var(--script);
@@ -12,30 +12,29 @@
   --calligraphy: Felipa;
   --capsprint: Rock Salt; 
   --bg: 219,211,189; --stk: 80, 80, 80; 
-  --icon: 219,211,189; --iwth: 220px; --font: Mulish; 
+  --iwth: 220px; --font: Mulish; 
   width: 270px; background-color: rgba(var(--bg));
   background-image: url(https://softacos.github.io/fuse/assets/texture-PNG-by-PhotoshopSupply14.png); background-position: center; background-size: 70%; 
-  background-repeat: repeat; 
   color: rgba(var(--stk),1); 
   padding: 45px; 
   font-size: 11px; 
   font-family: var(--font);
-  line-height: 15px; 
   position: relative; 
   min-height: 200px; overflow: hidden; 
 }
 
 .hedwig-atai .lyd-owl { 
-  color: rgba(var(--icon),0.12); 
-  position: absolute; 
+  color: rgba(var(--icon),0.1); 
+  position: absolute; z-index: 1;
   font-size: 160px; line-height: var(--iwth); 
   width: var(--iwth); height: var(--iwth); 
-  border: 5px solid rgba(var(--icon),0.12);border-radius: 100%; 
+  border: 5px solid rgba(var(--icon),.1);border-radius: 100%; 
   bottom: -25px; left: -25px; 
   text-align: center; 
 }
 .hedwig-atai .midnightradio { 
-  text-align: justify;
+  text-align: justify; position: relative; 
+  z-index: 2; 
 }
 
 .hedwig-atai .midnightradio .hey { 
