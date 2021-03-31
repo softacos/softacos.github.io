@@ -44,6 +44,7 @@ a:hover { color: rgba(var(--highlight),0.4); }
   padding: 5px 20px; box-sizing: border-box; 
   border-radius: 4px; color: rgba(var(--light),0.8);
 font-size: 13px; left: 0px; position: relative; top: 0px; 
+  margin-bottom: 7px; 
 }
 #codebank label:hover { cursor: crosshair; }
 #codebank .cont1, 
