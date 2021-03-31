@@ -2,11 +2,17 @@
 
 html, body {
   --highlight: 0, 63, 155; --dark: 42,42,42; --light: 242,242,242;
+  --highlight1: 34,193,195; --highlight2: 153,117,190;
+  --grad45-50: linear-gradient(45deg, rgba(var(--highlight1),0.5) 0%, rgba(var(--highlight2),0.5) 100%);
+  --grad45-100: linear-gradient(45deg, rgba(var(--highlight1),1) 0%, rgba(var(--highlight2),1) 100%);
   font-family: Mulish, sans-serif;
   font-size: 12px;
   background: rgba(var(--dark), 1); 
   line-height: 20px;
   color: rgb(var(--light)); 
+  
+}
+
 }
 body { 
   width: 700px; margin: 0px auto; 
@@ -17,6 +23,7 @@ h1 {
   font-size: 25px;
   font-weight: 700;
   text-align: center;
+  background: var(--grad45-100); background-clip: text; -webkit-background-clip: text; color: transparent;
 }
 
 p {
@@ -29,3 +36,34 @@ a, a:link, a:active, a:visited { color: rgba(var(--highlight), 1); text-decorati
 a:hover { color: rgba(var(--highlight),0.4); }
 
 .introduction { margin: 40px auto; width: 300px; }
+
+#codebank {height: 450px; width: 100%; margin: auto; position: relative; border: 1px solid #ccc; display: flex; flex-flow: row wrap; justify-content: space-between; align-content: flex-start; padding: 20px; margin: 0px; font-family: mulish; }
+#codebank input {display: none }
+#codebank label { 
+  width: auto; background: var(--grad45-50); white-space: nowrap; 
+  padding: 5px 20px; box-sizing: border-box; 
+  border-radius: 4px; color: rgba(var(--light),0.8);
+font-size: 13px; left: 0px; position: relative; top: 0px; 
+}
+#codebank label:hover { cursor: crosshair; }
+#codebank .cont1, 
+#codebank .cont2, 
+#codebank .cont3, 
+#codebank .cont4,
+#codebank .cont5,
+#codebank .cont6,
+#codebank .cont7 { 
+  height: inherit; width: 100%; position: absolute; top: 50px; bottom: 0; left: 0; background: none; border: 25px solid transparent; box-sizing: border-box; font-family: poppins; overflow: auto; font-size: 12px; text-align: justify; padding-right: 10px; border-right:15px solid transparent; opacity: 0; white-space: normal; }
+
+#codebank input:checked+label {
+  color: rgba(var(--light),1); font-weight: bold; background: var(--grad45-100); }
+
+#codebank #all:checked+label ~ .cont1, 
+#codebank #threads:checked+label ~ .cont2, 
+#codebank #comms:checked+label ~ .cont3, 
+#codebank #requests:checked+label ~ .cont4, 
+#codebank #dev:checked+label ~ .cont5,
+#codebank #trackers:checked+label ~ .cont6,
+#codebank #other:checked+label ~ .cont7 { 
+  opacity: 1; z-index: 5
+}
