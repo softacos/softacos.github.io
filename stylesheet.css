@@ -36,7 +36,7 @@ a, a:link, a:active, a:visited { color: rgba(var(--highlight), 1); }
 a:hover { color: rgba(var(--highlight),0.4); }
 
 .introduction { margin: 40px auto; width: 300px; }
-.home { display: fixed; top: 20px; left: 20px; padding: 10px 20px; background: var(--grad45-50); border-radius: 7px; }
+.home { position: fixed; top: 20px; left: 20px; padding: 10px 20px; background: var(--grad45-50); border-radius: 7px; }
 .home a { color: rgba(var(--light),0.8); }
 .home a:hover { color: rgba(var(--light),1); }
 
