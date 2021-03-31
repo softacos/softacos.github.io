@@ -19,6 +19,7 @@
   padding: 45px; 
   font-size: 11px; 
   font-family: var(--font);
+  line-height: 15px; 
   position: relative; 
   min-height: 200px; overflow: hidden; 
 }
