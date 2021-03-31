@@ -68,3 +68,43 @@ font-size: 13px; left: 0px; position: relative; top: 0px;
 #codebank #other:checked+label ~ .cont7 { 
   opacity: 1; z-index: 5
 }
+
+.sometimes {
+  width: 100%; display: flex;
+  flex-flow: row wrap;
+  align-items: stretch;  
+  justify-content: space-between;
+  height: 100%; font-family: Mulish;
+  text-align: justify;
+}
+.sometimes h3 { 
+  writing-mode: vertical-lr;
+  transform: rotate(180deg); 
+  text-align: center; 
+  background: var(--grad45-50); width: 51px;
+  line-height: 51px; font-family: montserrat; 
+  text-transform: uppercase; 
+  color: rgba(var(--light),0.6);
+  letter-spacing: 1px; 
+}
+.sometimes jarvis {
+  display: block; text-align: justify;
+  width: calc(100% - 80px);  
+  line-height: 1.7em
+}
+.sometimes a { 
+  display: inline-block; 
+  background: var(--grad45-100); 
+  background-clip: text; 
+  -webkit-background-clip: text; 
+  color: transparent;
+}
+.sometimes a:hover {
+  background: var(--grad45-50); 
+  background-clip: text; 
+  -webkit-background-clip: text; 
+  color: transparent;
+}
+.sometimes ul {
+  line-height: 100%; padding: 0px 30px; margin: 0px; 
+} .sometimes li { padding: 0px; line-height: 100%; margin: 0px; }
