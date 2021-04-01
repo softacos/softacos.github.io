@@ -1,27 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,300;1,500&display=swap');
 @import url('https://softacos.github.io/icons/stylesheet.css');
 /* MOBILE CODE */
-@media only screen and (max-width: 760px) {
-
-}
-
-
-/*
-LIGHT MODE 
-body { background: #fff;  color: #1a1a1a }
-*/
-
-
-/* FLEX BOX STUFF 
-display: flex; 
-flex-wrap: row wrap; 
-align-content: center; <- usually space-between
-justify-content: space-between; 
-
-v don't usually use these but hey
-align-self: flex-start; 
-align-items: stretch; 
-*/ 
+@media only screen and (max-width: 760px) { }
 html[data-theme="dark"] .w-sidestory {
     --bg: 15,15,15; --bgbd: 50,50,50; --stk: 250,250,250; 
 }
@@ -74,6 +54,8 @@ html[data-theme="dark"] .w-sidestory .sharks img { border: 1px solid rgb(var(--b
   font: 500 15px Roboto; 
   padding: 5px 0px 0px; margin: 0px; 
   line-height: 16px; 
+  color: rgb(var(--stk)); 
+  color: rgb(var(--accent));
 }
 .w-sidestory .pretty p {
   font: 300 12px Roboto;
@@ -111,7 +93,7 @@ html[data-theme="dark"] .w-sidestory .sharks img { border: 1px solid rgb(var(--b
 }
 
 .w-sidestory b,.w-sidestory i {
-  color: rgba(var(--stk),1);
+  color: rgba(var(--stk),1); color: rgba(var(--accent),1);
 }
 .w-sidestory b {
   font-weight: 500; 
