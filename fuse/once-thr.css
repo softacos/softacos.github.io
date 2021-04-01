@@ -23,7 +23,7 @@ html[data-theme="dark"] .once-tm {
   align-items: center; 
 
 }
-.once-tm .falling-slowly img { width: 80px; height: 80px; position: relative; }
+.once-tm .falling-slowly img { width: 80px; height: 80px; position: relative; object-fit: cover; object-position: center; }
 .once-tm .falling-slowly span2, .once-tm .falling-slowly span { display: block; }
 .once-tm .falling-slowly span:before { 
   width: 0px; height: 40px; 
