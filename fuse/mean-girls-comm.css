@@ -9,7 +9,13 @@ html[data-theme="dark"] .mean-girls-tm {
   height: 534px; background: rgb(var(--bgbd),0.1); font-family: lora, serif;
   border-radius: 12px; position: relative; 
 }
-.mean-girls-tm ::-webkit-scrollbar-thumb { background-image: none; background-color: rgba(var(--stk)); }
+.mean-girls-tm ::-webkit-scrollbar-thumb {
+  width: 3px; height: 3px; border-radius: 5px; 
+}
+.mean-girls-tm ::-webkit-scrollbar-thumb { 
+  background-image: none; background-color: rgba(var(--stk)); 
+  width: 3px; height: 3px; border-radius: 5px; 
+}
 .mean-girls-tm .cautionary { 
   display: block; width: 100%; margin: 40px auto; 
   box-sizing: border-box; color: rgba(var(--stk),1); 
