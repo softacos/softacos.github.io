@@ -75,6 +75,5 @@ background-clip: text!important; -webkit-background-clip: text!important; color:
 
 .once-tm .north-strand b { font-size: 14px; }
 .once-tm tag a:hover {
-background: linear-gradient(0deg, rgba(var(--txt),1), rgba(var(--txt),1))!important; 
-background-clip: text!important; -webkit-background-clip: text!important; color: transparent!important; 
+color: rgba(var(--txt),1)); 
 }
