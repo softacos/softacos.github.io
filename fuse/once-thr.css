@@ -69,8 +69,8 @@ background-clip: none!important; webkit-background-clip: none;
 padding: 0px 7px; text-decoration: none; 
 }
 .once-tm tag a {
-background: linear-gradient(0deg, rgba(var(--ltdk),1), rgba(var(--ltdk),1)); 
-background-clip: text; -webkit-background-clip: text; color: transparent; 
+background: linear-gradient(0deg, rgba(var(--ltdk),1), rgba(var(--ltdk),1))!important; 
+background-clip: text!important; -webkit-background-clip: text!important; color: transparent!important; 
 }
 
 .once-tm .north-strand b { font-size: 14px; }
