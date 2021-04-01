@@ -1,57 +1,91 @@
 @font-face {
-	font-family: 'lydia';
-	src: url('https://softacos.github.io/icons/lydia.eot?15unt1');
-	src: url('https://softacos.github.io/icons/lydia.eot?15unt1#iefix') format('embedded-opentype'), url('https://softacos.github.io/icons/lydia.ttf?15unt1') format('truetype'), url('https://softacos.github.io/icons/lydia.woff?15unt1') format('woff'), url('https://softacos.github.io/icons/lydia.svg?15unt1#lydia') format('svg');
-	font-weight: normal;
-	font-style: normal;
-	font-display: block;
+  font-family: 'lydia';
+  src:  url('https://softacos.github.io/icons/lydia.eot?foasfl');
+  src:  url('https://softacos.github.io/icons/lydia.eot?foasfl#iefix') format('embedded-opentype'),
+    url('https://softacos.github.io/icons/lydia.ttf?foasfl') format('truetype'),
+    url('https://softacos.github.io/icons/lydia.woff?foasfl') format('woff'),
+    url('https://softacos.github.io/icons/lydia.svg?foasfl#lydia') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
 }
-[class^="lyd-"],
-[class*=" lyd-"] {
-	/* use !important to prevent issues with browser extensions that change fonts */
-	font-family: 'lydia' !important;
-	speak: never;
-	font-style: normal;
-	font-weight: normal;
-	font-variant: normal;
-	text-transform: none;
-	line-height: 1;
-	/* Better Font Rendering =========== */
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+
+[class^="lyd-"], [class*=" lyd-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'lydia' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
-.lyd-text:before {
-	content: "\e900";
+
+.lyd-menu:before {
+  content: "\e90a";
+}
+.lyd-friends:before {
+  content: "\e90b";
+}
+.lyd-facetime-button:before {
+  content: "\e90c";
+}
+.lyd-send:before {
+  content: "\e90d";
+}
+.lyd-photo:before {
+  content: "\e90e";
 }
 .lyd-call:before {
-	content: "\e901";
+  content: "\e901";
+}
+.lyd-text:before {
+  content: "\e900";
 }
 .lyd-owl:before {
-	content: "\e902";
+  content: "\e902";
 }
 .lyd-owl-1:before {
-	content: "\e903";
+  content: "\e903";
 }
 .lyd-tag:before {
-	content: "\e904";
+  content: "\e904";
 }
 .lyd-low .path1:before {
-	content: "\e905";
-	color: rgb(250, 250, 250);
+  content: "\e905";
+  color: rgb(250, 250, 250);
 }
 .lyd-low .path2:before {
-	content: "\e906";
-	margin-left: -1em;
-	color: rgb(0, 0, 0);
+  content: "\e906";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
 }
 .lyd-low .path3:before {
-	content: "\e907";
-	margin-left: -1em;
-	color: rgb(0, 0, 0);
+  content: "\e907";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.lyd-low1 .path1:before {
+  content: "\e90f";
+  color: rgb(250, 250, 250);
+}
+.lyd-low1 .path2:before {
+  content: "\e910";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.lyd-low1 .path3:before {
+  content: "\e911";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
 }
 .lyd-wi-fi:before {
-	content: "\e908";
+  content: "\e908";
 }
 .lyd-signal:before {
-	content: "\e909";
+  content: "\e909";
 }
