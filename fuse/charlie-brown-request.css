@@ -1,0 +1,35 @@
+html[data-theme="dark"] .yagmcb { 
+--bg: 30,30,30; --bgbd: 100,100,100; 
+--stk: 255,255,255; --opp: 222,222,222;
+}
+.yagmcb { 
+--bg: 255,255,255; --bgbd: 222,222,222;
+--stk:30,30,30;  --opp: 100,100,100;
+width: calc(100% - 150px); text-align: justify; 
+background: rgb(var(--bg)); border: 1px solid rgba(var(--bgbd),0.5); 
+font-family: georgia; line-height: 15px; color: rgba(var(--opp)); 
+}
+.yagmcb b, .yagmcb i { color: rgba(var(--stk)); font-weight: bold; } 
+.yagmcb charlieb{ padding: 45px; display: block }
+.yagmcb charlieb span{ display: block; width: 100%; text-align: center;  }
+.yagmcb charlieb span:before, .yagmcb charlieb span:after {  
+  display: block; width: 33%; height: 1px; background: rgba(var(--bgbd),0.5); content: ''; margin: 0px auto; 
+}
+.yagmcb charlieb span:before { margin-bottom: 20px; } 
+.yagmcb charlieb span:after { margin-top: 20px; }
+.yagmcb charlieb h1 { font: italic 32px serif; letter-spacing: -1px; }
+.yagmcb charlieb h2 { font: normal 11px serif; letter-spacing: 0.5px; }
+.yagmcb charlieb h1, .yagmcb charlieb h2 { margin: 0px; text-transform: uppercase; line-height: 1em; padding: 0px; }
+.yagmcb schroeder { display: block; padding: 35px 0px; }
+.yagmcb snoopy { width: 100%; display: block; padding: 0px 0px 20px; font-size: 12px; }
+.yagmcb snoopy:before { width: 33%; height: 1px; background: rgba(var(--bgbd),0.5); content: ''; margin: 0px auto; display: block; }
+.yagmcb snoopy h3 { 
+  font: italic 15px serif; letter-spacing: -0.5px; text-align: center; background: rgba(var(--bg)); padding: 0px 10px; padding: 20px; margin: 0px; 
+}
+.yagmcb blockquote { margin: 10px 0px; background: rgba(var(--bgbd),0.2); border: 1px solid rgba(var(--bgbd),0.35); padding: 15px; font-size: 10px; }
+
+.yagmcb ul { padding: 5px 0px 0px 15px; }
+@media only screen and (max-width:760px) {
+.yagmcb { width: 100%!important; }
+.yagmcb charlieb{ padding: 15px!important;}
+}
