@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+html[data-theme="dark"] .tcpurple { --bg: 50,50,50; --stk: 0,0,0; --txth: 255,255,255; --txt: 188,188,188; }
+.tcpurple { --bg: 230,230,230; --stk: 255,255,255; --txth: 0,0,0; --txt: 144,144,144;
+padding: 40px; backround: rgba(var(--bg),0.5); display: flex; flex-flow: row wrap; 
+  justify-content: space-between; align-items: flex-start; width: calc(250px + 140px + 20px); 
+  border: 1px solid rgba(var(--bg)); 
+  --gradh: linear-gradient(90deg, rgba(var(--color1), 0.32) 0%, rgba(var(--color2), 0.32) 50%, rgba(var(--color3), 0.32) 100%); 
+  --gradv: linear-gradient(0deg, rgba(var(--color1), 0.32) 0%, rgba(var(--color2), 0.32) 50%, rgba(var(--color3), 0.32) 100%); 
+  font-family: var(--font); color: rgba(var(--txt)); 
+}
+.tcpurple .imhere { width: 250px; text-align: justify; font-size: 11px; line-height: 1.5em;  }
+.tcpurple .imhere b { 
+  background: var(--gradh);  background-repeat: repeat-x; background-size: 100% 43%; 
+  background-position: 0px 50%; padding: 0px 4px; 
+  color: rgba(var(--txth)); 
+}
+.tcpurple .imhere i { 
+  color: rgba(var(--txth)); color: rgba(var(--color1)); 
+  text-decoration: underline; 
+}
+.tcpurple img { 
+  width: 100px; height: 150px; object-fit: cover; object-position: center; 
+  position: relative; z-index: 1;
+} 
+.tcpurple gif { 
+  display: block; position: relative; width: 140px;  
+}
+.tcpurple purple { 
+  display: block; border: 1px solid rgba(var(--bg),1); 
+  height: 190px; padding: 20px; box-sizing: border-box;  
+  background: var(--gradv); overflow: hidden; 
+}
+.tcpurple purple:before { 
+  width: 100%; height: 96px; background: rgba(var(--bg),0.12); 
+  content: ''; display: block; position: absolute; top: 0px; 
+  left: 0px; border-bottom: 1px solid rgba(var(--bg)); padding: 0px; 
+}
+.tcpurple purple:after { 
+  width: 100%; box-sizing: padding-box; height: 95px; content: ''; 
+  display: block; position: absolute; top: 95px; left: 0px; 
+  padding: 0px; background: rgba(var(--stk),0.5); 
+}
+.tcpurple celie { 
+  display: block; font-size: 8px; line-height: 12px; 
+  text-transform: uppercase; padding: 5px 8px; 
+  border: 1px solid rgba(var(--bg),1); background: rgba(var(--bg)); 
+  margin-top: 15px; 
+}
