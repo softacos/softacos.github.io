@@ -21,7 +21,7 @@ padding: 40px; backround: rgba(var(--bg),0.5); display: flex; flex-flow: row wra
 }
 .tcpurple img { 
   width: 100px; height: 150px; object-fit: cover; object-position: center; 
-  position: relative; z-index: 1;
+  position: relative; z-index: 1; box-sizing: border-box; border: 1px solid rgba(var(--bg),1); 
 } 
 .tcpurple gif { 
   display: block; position: relative; width: 140px;  
