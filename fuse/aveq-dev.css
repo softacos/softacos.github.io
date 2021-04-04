@@ -21,7 +21,7 @@ html[data-theme="dark"] .aveq { --bg: 15,15,15; }
   width: 130px; display: block; text-align: right; 
   font-weight: bold; line-height: 1em; 
   background: linear-gradient(45deg, rgba(var(--color1), 1) 0%, rgba(var(--color2),1) 50%, rgba(var(--color3),1) 100%); 
-  -webkit-background-clip: text; background-clip: text; color: transparent; 
+  -webkit-background-clip: text; background-clip: text; color: transparent;   -webkit-box-decoration-break: clone;
 } 
 .aveq h3 { color: rgb(var(--color3)); margin-bottom: 0px; padding-bottom: 0px; }
 .aveq .ships line { width: 462px; height: 1px; background: rgb(var(--color3)); display: block; margin: 5px 0px; }
@@ -29,7 +29,7 @@ html[data-theme="dark"] .aveq { --bg: 15,15,15; }
 
 
 .aveq b { background: linear-gradient(45deg, rgba(var(--color1), 1) 0%, rgba(var(--color2),1) 50%, rgba(var(--color3),1) 100%); 
-  -webkit-background-clip: text; background-clip: text; color: transparent; }
+  -webkit-background-clip: text; background-clip: text; color: transparent;   -webkit-box-decoration-break: clone;}
 .aveq i {  background: linear-gradient(45deg, rgba(var(--color1), 1) 0%, rgba(var(--color2),1) 50%, rgba(var(--color3),1) 100%); 
  background-repeat: repeat-x;
  background-size: 100% 1px;
@@ -37,7 +37,6 @@ html[data-theme="dark"] .aveq { --bg: 15,15,15; }
 .aveq iframe { border-radius: 20px; width: 100%!important; height: 420px; }
 
 @media only screen and (max-width: 760px) {
-  .aveq b { color: rgb(var(--color3))!important; background-clip: none; -webkit-background-clip:none; background: transparent;  }
   .aveq .ships name { width: 60px!important; font-size: 9px; } 
   .aveq .ships dets { width: calc(100% - 80px)!important; font-size: 9px; }
 }
