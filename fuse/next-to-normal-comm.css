@@ -13,7 +13,7 @@
 .next-to-normal batt{ float: right; display: block; margin-right: 30px; }
 .next-to-normal iconic{ display: block; width: 90px; height: 90px; margin: 0px auto; position: relative; top: 80px; padding: 5px; background: linear-gradient(45deg, rgba(var(--color1),0.5), rgba(var(--color2),0.5)); border-radius: 100%; border: 3px double rgba(var(--color1),0.7); }
 .next-to-normal iconic img { width: 90px; height: 90px; border-radius: 100%; object-fit: cover; object-position: center; }
-.next-to-normal namely { display: block; width: 100%; text-align: center; font: bold 25px poppins; position: relative; top: 90px; color: transparent; background: linear-gradient(45deg, rgba(var(--color1),1), rgba(var(--color2),1)); background-clip: text; -webkit-background-clip: text; }
+.next-to-normal namely { display: block; width: 100%; text-align: center; font: bold 25px poppins; position: relative; top: 90px; color: transparent; background: linear-gradient(45deg, rgba(var(--color1),1), rgba(var(--color2),1)); background-clip: text; -webkit-background-clip: text;  -webkit-box-decoration-break: clone; }
 .next-to-normal home { width: 40%; margin: 0px 92px; background: rgba(var(--color1),0.7); display: block; height: 5px; border-radius: 5px; position: absolute; bottom: 5px; z-index: 1; }
 .next-to-normal msgs { display: block; width: 90%; margin: 0px auto; height: 287px; position: relative; top: 100px; overflow: auto; }
 .next-to-normal pads { display: block; padding: 10px 10px 20px; }
