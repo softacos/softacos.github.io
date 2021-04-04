@@ -9,9 +9,10 @@ html[data-theme="dark"] .ghost-tm { --bg: 33,33,33; --opp: 245, 245, 245; }
 .ghost-tm gif { background: rgba(var(--color2),0.5); background: linear-gradient(45deg, rgba(var(--color1),0.5) 0%, rgba(var(--color2),0.5) 50%, rgba(var(--color3), 0.5) 100%); border-radius: 0px 0px 250px 250px; width: 420px; position: absolute; margin-left: -140px; padding: 20px 0px 40px; height: 164px; }
 .ghost-tm gif img { width: 100px; height: 175px; object-fit: cover; object-position: center; border-radius: 7px; position: absolute; bottom: 30px; left: 160px; }
 .ghost-tm .more { position: absolute; bottom: 0px; font-size: 9px; text-transform: uppercase;  width: 100%; text-align: center; padding: 10px 15px; box-sizing: border-box; background: rgba(var(--color2),0.5); background: linear-gradient(45deg, rgba(var(--color1),0.5) 0%, rgba(var(--color2),0.5) 50%, rgba(var(--color3), 0.5) 100%); }
-.ghost-tm .more a { background: rgba(var(--opp),1); background-clip: text; -webkit-background-clip: text; }
+.ghost-tm .more a { background: rgba(var(--opp),1); background-clip: text; -webkit-background-clip: text;   -webkit-box-decoration-break: clone;}
 .ghost-tm unchainedmemory p { margin: 0px; padding: 9px 0px 0px; }
-.ghost-tm unchainedmemory b, .ghost-tm unchainedmemory i { background: rgba(var(--color2),0.5); background: linear-gradient(45deg, rgba(var(--color1),1) 0%, rgba(var(--color2),1) 50%, rgba(var(--color3), 1) 100%); background-clip: text; -webkit-background-clip: text; color: transparent; font-size: 13px; line-height: 15px; }
+.ghost-tm unchainedmemory b, .ghost-tm unchainedmemory i { background: rgba(var(--color2),0.5); background: linear-gradient(45deg, rgba(var(--color1),1) 0%, rgba(var(--color2),1) 50%, rgba(var(--color3), 1) 100%); background-
+  : text; -webkit-background-clip: text; color: transparent; font-size: 13px; line-height: 15px;   -webkit-box-decoration-break: clone;}
 
 @media only screen and (max-width: 760px) {
   .ghost-tm { width: 100%; }
