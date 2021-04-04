@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'lydia';
-  src:  url('https://softacos.github.io/icons/lydia.eot?foasfl');
-  src:  url('https://softacos.github.io/icons/lydia.eot?foasfl#iefix') format('embedded-opentype'),
-    url('https://softacos.github.io/icons/lydia.ttf?foasfl') format('truetype'),
-    url('https://softacos.github.io/icons/lydia.woff?foasfl') format('woff'),
-    url('https://softacos.github.io/icons/lydia.svg?foasfl#lydia') format('svg');
+  src:  url('https://softacos.github.io/icons/lydia.eot?mrdnv5');
+  src:  url('https://softacos.github.io/icons/lydia.eot?mrdnv5#iefix') format('embedded-opentype'),
+    url('https://softacos.github.io/icons/lydia.ttf?mrdnv5') format('truetype'),
+    url('https://softacos.github.io/icons/lydia.woff?mrdnv5') format('woff'),
+    url('https://softacos.github.io/icons/lydia.svg?mrdnv5#lydia') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,18 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.lyd-archive:before {
+  content: "\e912";
+}
+.lyd-comms:before {
+  content: "\e913";
+}
+.lyd-dev:before {
+  content: "\e914";
+}
+.lyd-threads:before {
+  content: "\e915";
+}
 .lyd-menu:before {
   content: "\e90a";
 }
