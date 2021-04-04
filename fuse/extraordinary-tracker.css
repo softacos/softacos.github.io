@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://softacos.github.io/icons/stylesheet.css');
-
+/* MOBILE CODE */
+@media only screen and (max-width: 760px) {
+.extraordinary {
+  width: 100% !important; 
+  padding: 10px 5px 5px!important;  
+}
+}
 
 html[data-theme="dark"] .extraordinary {
   --bg: 30,30,30;
