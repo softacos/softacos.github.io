@@ -47,3 +47,6 @@ padding: 40px; backround: rgba(var(--bg),0.5); display: flex; flex-flow: row wra
   border: 1px solid rgba(var(--bg),1); background: rgba(var(--bg)); 
   margin-top: 15px; 
 }
+
+.tcpurple celie a { background: none !important; -webkit-box-decoration-break: initial !important; -webkit-background-clip: initial !important; -webkit-text-fill-color: initial !important; color: rgba(var(--txth), 0.8) !important; }
+.tcpurple celie a:hover { color: rgba(var(--txth), 1) !important; }
