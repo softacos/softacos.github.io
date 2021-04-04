@@ -13,14 +13,20 @@ html[data-theme="dark"] .beetlejuice { --bg: 50,50,50; --text: #fefefe; }
 .beetlejuice h1 { display: inline-block; background: linear-gradient(45deg, rgba(var(--color1),1), rgba(var(--color2),1)); background-clip: text; -webkit-background-clip: text; color: transparent; margin: 12px 0px 0px; line-height: 30px;   -webkit-box-decoration-break: clone;}
 .beetlejuice h3 { font-style: italic; margin: 0px; position: relative; padding-bottom: 2px; text-decoration: none; display: inline-block; }
 .beetlejuice h3:after {content: ""; position: absolute; bottom: 2px; left: 0;  height: 1px; width: 100%; background: linear-gradient(45deg, rgba(var(--color1),1), rgba(var(--color2),1)); }
-.beetlejuice a:active, .beetlejuice a:link, .beetlejuice a:visited { position: relative; padding-bottom: 2px; text-decoration: none; color: rgba(var(--color1),1); font-weight: bold; }
+.beetlejuice a:active, .beetlejuice a:link, .beetlejuice a:visited { 
+color: rgba(var(--color1),1); 
+ background: none!important; -webkit-background-clip: initial!important; background-clip: initial!important; 
+ font-weight: bold; 
+}
 .beetlejuice li { list-style-type: none; }
 .beetlejuice .whyrush { display: flex; flex-flow: row wrap;  justify-content: space-between; align-content: space-between; align-items: center;  }
 .beetlejuice notyet { display: block; }
 .beetlejuice notyet img { width: 70px; height: 70px; object-fit: cover; object-position: center; padding: 5px; background: linear-gradient(45deg, rgba(var(--color1),1), rgba(var(--color2),1)); border-radius: 50px; }
 .beetlejuice saymyname { display: block; width: calc(100% - 100px); min-height: 80px; max-height: 150px; overflow: auto; padding: 5px; box-sizing: border-box;} 
 .beetlejuice .dayo { display: flex; flex-flow: row wrap;  justify-content: space-between; align-content: space-between; align-items: center; padding: 10px 5px; width: calc(100% + 50px); box-sizing: border-box; margin: 15px 0px 0px -25px; color: rgba(var(--color1),1); }
-.beetlejuice .dayo a { display: inline-block; border-radius: 5px; background: rgba(var(--color1),0.5); background: linear-gradient(45deg, rgba(var(--color1),0.3), rgba(var(--color2),0.3)); color: rgba(var(--color1),1)!important;  padding: 3px 5px; }
+.beetlejuice .dayo a { 
+ display: inline-block; border-radius: 5px; 
+ background: rgba(var(--color1),0.5); background: linear-gradient(45deg, rgba(var(--color1),0.3), rgba(var(--color2),0.3)); color: rgba(var(--color1),1)!important;  padding: 3px 5px; }
 .beetlejuice b { font-weight: bold; font-size: 14px; color: rgba(var(--color1),1); }
 .beetlejuice ch { display: inline-block; background: linear-gradient(45deg, rgba(var(--color1),1), rgba(var(--color2),1)); background-clip: text; -webkit-background-clip: text; color: transparent; font-size: 14px; line-height: 20px; margin: 12px 0px 0px;   -webkit-box-decoration-break: clone;}
 .beetlejuice bq { background: linear-gradient(45deg, rgba(var(--color1),0.4), rgba(var(--color2),0.4)); display: block; padding: 7px; border-radius: 10px; margin: 5px 0px; }
