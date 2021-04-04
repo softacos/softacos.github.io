@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://softacos.github.io/icons/stylesheet.css');
+
+
+.extraordinary {
+  --bg: 30,30,30;
+  --stk: 250,250,250;
+  --bgbd: 0,0,0;
+  --gradlt: linear-gradient(45deg, rgba(var(--color),0.2), rgba(var(--color2),0.2), rgba(var(--color3),0.2));
+  --gradmid: linear-gradient(45deg, rgba(var(--color),0.5), rgba(var(--color2),0.5), rgba(var(--color3),0.5));
+  --gradfull: linear-gradient(45deg, rgba(var(--color),1), rgba(var(--color2),1), rgba(var(--color3),1));
+  width: 500px; 
+  background: rgba(var(--bg));
+  border: 1px solid rgba(var(--bgbd));
+  padding: 10px 30px 30px; 
+}
+.extraordinary girl {
+  display: block; 
+  color: rgba(var(--stk));
+  font: italic 25px serif;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+  margin: 40px auto; 
+}
+.extraordinary girl:before, 
+.extraordinary girl:after {
+  content: '';
+  display: block;
+  height: 1px; 
+  width: 33%;
+  background: var(--gradmid); 
+  margin: 10px auto; 
+}
+.extraordinary rebel {
+  display: flex; flex-flow: row wrap; 
+  align-items: center; 
+  justify-content: space-between; 
+  font-family: montserrat, sans-serif; 
+  font-size: 11px; line-height: 1.2em; 
+  padding: 15px; 
+}
+.extraordinary rebel:before {
+  height: 1px; background: var(--gradfull);
+  content: ''; display: block; 
+  width: 100%; margin-bottom: 15px; 
+}
+.extraordinary rebel x {
+  width: 40px; height: 40px; 
+  font-size: 30px; display: block; 
+    background: var(--gradfull); 
+  line-height: 40px; text-align: center; 
+  background-clip: text; 
+  -webkit-background-clip: text; 
+  color: transparent; 
+  -webkit-box-decoration-break: clone;
+}
+.extraordinary twentyone {
+  display: block;
+  width: calc(100% - 60px);
+  text-align: justify; 
+}
+.extraordinary twentyone ul {
+  padding: 0px 0px 0px 10px; margin: 0px; 
+  line-height: 1.3em; 
+}
+.extraordinary twentyone a {
+  background: var(--gradfull);
+  background-clip: text; 
+  -webkit-background-clip: text;
+  color: transparent; 
+  text-decoration: none; 
+  -webkit-box-decoration-break: clone; 
+}
+.extraordinary .fire {
+  padding: 0px; 
+  font: 12px montserrat; 
+  width: calc(100% - 100px);
+  box-sizing: border-box; 
+  text-align: justify; 
+}
+.extraordinary .fire p {
+  margin: 0px; padding: 9px 0px 0px; }
+.extraordinary holiday {
+  display: flex; flex-flow: row wrap; 
+  align-items: flex-start; 
+  justify-content: space-between; 
+}
+.extraordinary holiday img { 
+  width: 70px;
+  height: 70px; 
+  object-fit: cover; 
+  object-position: center; 
+  border-radius: 100px; 
+}
+.extraordinary beans {
+  display: flex; width: 100%; 
+  flex-flow: row wrap; 
+  justify-content: space-between; 
+}
+.extraordinary beans:before,
+.extraordinary beans:after {
+  display: block; content: '';
+  height: 1px; width: 100%; 
+  margin: 15px 0px; 
+  background: var(--gradmid); 
+}
+.extraordinary beans a {
+  display: inline; 
+  background: var(--gradmid) !important;
+  -webkit-background-clip: initial !important; 
+  background-clip: initial !important; 
+  color: rgba(var(--stk))!important;
+  padding: 4px 8px; 
+  font-size: 11px; text-transform: uppercase; 
+  border-radius: 3px; 
+  text-decoration: none; 
+  font-family: montserrat, sans-serif; 
+  font-weight: bold; margin-top: 5px; 
+}
