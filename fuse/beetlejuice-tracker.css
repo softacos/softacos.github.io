@@ -16,6 +16,7 @@ html[data-theme="dark"] .beetlejuice { --bg: 50,50,50; --text: #fefefe; }
 .beetlejuice a:active, .beetlejuice a:link, .beetlejuice a:visited { 
 color: rgba(var(--color1),1); 
  background: none!important; -webkit-background-clip: initial!important; background-clip: initial!important; 
+ -webkit-box-decoration-break: initial!important;
  font-weight: bold; 
 }
 .beetlejuice li { list-style-type: none; }
