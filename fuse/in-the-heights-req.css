@@ -19,7 +19,7 @@ html[data-theme="light"] .in-the-heights { --reqbg: 240,240,240; }
 
 .in-the-heights h1 { padding: 0px 0px 0px 10px; margin: 0px; position: relative; padding-bottom: 2px; text-decoration: none; font-family: var(--font1); line-height: 150%; }
 .in-the-heights h1::after { content: ""; position: absolute; bottom: 2px; left: 0;  height: 2px; width: 100%; background: linear-gradient(45deg, rgba(var(--accent1),1), rgba(var(--accent2),1));  }
-.in-the-heights h2 { font: bold italic 14px var(--font1); line-height: 20px; background: linear-gradient(45deg, rgba(var(--accent1),1) 10%, rgba(var(--accent2),1) 90%); background-clip: text; -webkit-background-clip: text; color: transparent; padding: 10px 0px 0px 10px; margin: 12px 0px 0px; }
+.in-the-heights h2 { font: bold italic 14px var(--font1); line-height: 20px; background: linear-gradient(45deg, rgba(var(--accent1),1) 10%, rgba(var(--accent2),1) 90%); background-clip: text; -webkit-background-clip: text;   -webkit-box-decoration-break: clone;color: transparent; padding: 10px 0px 0px 10px; margin: 12px 0px 0px; }
 .in-the-heights blockquote, .in-the-heights b { background: linear-gradient(45deg, rgba(var(--accent1),0.2), rgba(var(--accent2),0.2)); padding: 7px; border-radius: 5px; font: 12px var(--font1); line-height: 20px; } .in-the-heights b { font-weight: bold; font-style: italic; }
 .in-the-heights i { padding: 0px; margin: 0px; position: relative; padding-bottom: 2px; text-decoration: none; line-height: 20px; font: italic 12px var(--font1); line-height: 20px; }
 .in-the-heights i::after { content: ""; position: absolute; bottom: 2px; left: 0;  height: 1px; width: 100%; background: linear-gradient(45deg, rgba(var(--accent1),1), rgba(var(--accent2),1));  }
