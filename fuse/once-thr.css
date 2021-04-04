@@ -65,12 +65,13 @@ display: inline-block; position: relative; top: 2px;
 font: bold italic 9px serif; 
 letter-spacing: 1px; background-image: none; 
 background-color: rgba(var(--ltbg),1)!important; 
-background-clip: none!important; webkit-background-clip: none; 
+background-clip: initial!important; webkit-background-clip: initial!important; 
+    -webkit-box-decoration-break: initial !important;
 padding: 0px 7px; text-decoration: none; 
 }
 .once-tm tag a {
-background: linear-gradient(0deg, rgba(var(--ltdk),1), rgba(var(--ltdk),1))!important; 
-background-clip: text!important; -webkit-background-clip: text!important; color: transparent!important; 
+background: none!important; background-clip: initial!important; -webkit-background-clip: initial!important; color: rgba(var(--ltdk),1); 
+    -webkit-box-decoration-break: initial !important;
 }
 
 .once-tm .north-strand b { font-size: 14px; }
