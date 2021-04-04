@@ -4,7 +4,6 @@
  .save-rocknroll  { width: 100%!important; }
  .save-rocknroll .yes { padding: 20px!important; }
  .save-rocknroll .yes img { width: 65px!important; height: 65px!important; margin: 0px auto 10px!important; padding: 10px!important; }
- .save-rocknroll .yes b { color: rgb(var(--color3))!important; background: rgba(var(--color2),0.0)!important; background-clip: none!important; -webkit-background-clip: none!important; }
 }
 
 html[data-theme="dark"] .save-rocknroll {--border: 0,0,0; --bg: 40,40,40; }
@@ -12,9 +11,9 @@ html[data-theme="dark"] .save-rocknroll {--border: 0,0,0; --bg: 40,40,40; }
 .save-rocknroll .no { width: 30px; height:inherit; box-sizing: border-box; position: relative; }
 .save-rocknroll .no .tag { writing-mode: vertical-lr; background: rgb(var(--bg)); border-radius: 0px 15px 15px 0px; line-height: 30px; width: 30px; transform: rotate(180deg); padding: 20px 0px;  margin: 40px 0px; 
  position: sticky;  position: -webkit-sticky; top: 130px; height: auto; white-space: nowrap; border-top: 1px solid rgb(var(--border)); border-right: 1px solid rgb(var(--border)); border-bottom: 1px solid rgb(var(--border)); z-index: 1; }
-.save-rocknroll .tag a { color: transparent; background: linear-gradient(45deg, rgb(var(--color1)) 0%, rgb(var(--color2)) 50%, rgb(var(--color3)) 100%); background-clip: text; -webkit-background-clip: text; font: 8px roboto; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; }
+.save-rocknroll .tag a { color: transparent; background: linear-gradient(45deg, rgb(var(--color1)) 0%, rgb(var(--color2)) 50%, rgb(var(--color3)) 100%); background-clip: text; -webkit-background-clip: text;   -webkit-box-decoration-break: clone;font: 8px roboto; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; }
 .save-rocknroll .yes { width: calc(100% - 29px); position: relative; box-sizing: border-box; background: rgb(var(--bg)); border-radius: 15px; padding: 60px; text-align: justify; border: 1px solid rgb(var(--border)); z-index: 0; font: 11px roboto; font-weight: 300; line-height: 16px; }
 .save-rocknroll .yes img { display: block; width: 120px; height: 120px; border-radius: 900px; margin: 0px auto 40px; object-position: center; object-fit: cover; padding: 15px; border: 3px solid rgb(var(--color1)); background: radial-gradient(circle, rgba(var(--color2),0.5) 40%, rgba(var(--color1), 1) 100%); box-sizing: border-box; }
-.save-rocknroll .yes b { font-size: 14px; line-height: 16px; color: transparent; background: linear-gradient(45deg, rgb(var(--color1)) 0%, rgb(var(--color2)) 50%, rgb(var(--color3)) 100%); background-clip: text; -webkit-background-clip: text; }
+.save-rocknroll .yes b { font-size: 14px; line-height: 16px; color: transparent; background: linear-gradient(45deg, rgb(var(--color1)) 0%, rgb(var(--color2)) 50%, rgb(var(--color3)) 100%); background-clip: text; -webkit-background-clip: text;   -webkit-box-decoration-break: clone;}
 .save-rocknroll .yes i { background: linear-gradient(45deg, rgba(var(--color1),0.2) 0% , rgba(var(--color2),0.2) 50% , rgba(var(--color3),0.2) 100%); padding: 2px 4px; border-radius: 3px; font-size: 14px; font-weight: 300; font-style: italic; line-height: 16px; }
 .save-rocknroll .yes p { margin: 0px; padding: 10px 0px 0px; }
