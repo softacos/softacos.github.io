@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;700&family=IBM+Plex+Serif:ital,wght@1,400;1,500&display=swap');
+ html[data-theme="dark"] .moonage-daydream {
+	--bg: 55, 55, 55;
+	--bgbd: 0, 0, 0;
+}
+.moonage-daydream {
+	--font: abhaya libre, serif;
+	--fonti: ibm plex serif, serif;
+	--bgbd: 230, 230, 230;
+	--bg: 252, 252, 252;
+	--grad25: linear-gradient(90deg, rgba(var(--accent), 0.45), rgba(var(--accent2), 0.45), rgba(var(--accent3), 0.45));
+	--grad100: linear-gradient(90deg, rgba(var(--accent), 1), rgba(var(--accent2), 1), rgba(var(--accent3), 1));
+	width: 420px;
+	border-radius: 15px;
+	padding: 30px;
+	margin: 0px auto;
+	text-align: justify;
+	border: 1px solid rgba(var(--bgbd));
+	background: rgba(var(--bg));
+	font-family: var(--font);
+	font-size: 14px;
+	line-height: 1.25em;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.moonage-daydream img {
+	width: 100px;
+	border: 1px solid rgba(var(--bgbd));
+	border-radius: 15px;
+	padding: 5px;
+	background: var(--grad25);
+}
+.moonage-daydream freakout {
+	display: block;
+	width: calc(100% - 135px);
+}
+.moonage-daydream b {
+	background: var(--grad100);
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+	-webkit-box-decoration-break: clone;
+}
+.moonage-daydream p {
+	margin: 0px;
+	padding: 9px 0px 0px;
+}
+.moonage-daydream i {
+	font-family: var(--fonti);
+	font-size: 12px;
+	background: var(--grad100);
+	background-repeat: repeat-x;
+	background-size: 100% 1px;
+	background-position: 0% 100%;
+	-webkit-box-decoration-break: clone;
+}
