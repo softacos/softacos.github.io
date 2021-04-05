@@ -73,6 +73,10 @@
 	background: var(--grad25);
 	line-height: 1.5em;
 }
+.cursed-child acttwo p {
+	padding: 9px 0px 0px; 
+	margin: 0px; 
+}
 .cursed-child b {
 	background: var(--grad100);
 	background-clip: text;
