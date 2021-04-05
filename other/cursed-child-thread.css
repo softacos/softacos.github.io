@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,700;1,400;1,700&display=swap');
+ html[data-theme="dark"] .cursed-child {
+	--bg: 33, 33, 33;
+	--bgbd: 0, 0, 0;
+	--stk: 255, 255, 255;
+}
+.cursed-child {
+	--bg: 242, 242, 242;
+	--bgbd: 200, 200, 200;
+	--stk: 0, 0, 0;
+	--grad100: linear-gradient(45deg, rgba(var(--color), 1) 0%, rgba(var(--color2), 1) 50%, rgba(var(--color3), 1) 100%);
+	--grad50: linear-gradient(45deg, rgba(var(--color), 0.5) 0%, rgba(var(--color2), 0.5) 50%, rgba(var(--color3), 0.5) 100%);
+	--grad25: linear-gradient(45deg, rgba(var(--color), 0.15) 0%, rgba(var(--color2), 0.15) 50%, rgba(var(--color3), 0.15) 100%);
+	width: 350px;
+	text-align: justify;
+	border: 3px double rgba(var(--bgbd));
+	font-family: Roboto, sans-serif;
+	font-size: 12px;
+	background: rgba(var(--bg));
+	color: rgba(var(--stk));
+}
+.cursed-child actone {
+	background: rgba(var(--bg));
+	padding: 50px;
+	display: block;
+	border-bottom: 1px solid rgba(var(--bgbd));
+	position: relative;
+}
+.cursed-child intermission {
+	display: block;
+	position: absolute;
+	width: calc(100% - 110px);
+	height: 20px;
+	font-size: 9px;
+	background: rgba(var(--bg), 0.75);
+	line-height: 20px;
+	bottom: 55px;
+	box-sizing: border-box;
+	left: calc((100% - (100% - 110px)) / 2);
+	padding: 0px 8px;
+	text-align: center;
+	opacity: 0;
+	-webkit-transition: 0.4s ease-in;
+	transition: 0.4s ease-in;
+}
+.cursed-child:hover intermission {
+	opacity: 1;
+}
+.cursed-child intermission a {
+	background: var(--grad100)!important;
+	background-clip: text!important;
+	-webkit-background-clip: text!important;
+	-webkit-text-fill-color: transparent;
+	-webkit-box-decoration-break: clone;
+	color: transparent;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.cursed-child actone img {
+	width: 100%;
+	height: 156px;
+	object-fit: cover;
+	object-position: center;
+	box-sizing: border-box;
+	padding: 3px;
+	background: var(--grad50);
+}
+.cursed-child acttwo {
+	display: block;
+	padding: 50px;
+	background: var(--grad25);
+	line-height: 1.5em;
+}
+.cursed-child b {
+	background: var(--grad100);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-box-decoration-break: clone;
+	color: transparent;
+}
+.cursed-child i {
+	background: var(--grad100);
+	background-repeat: repeat-x;
+	background-size: 100% 1px;
+	background-position: 0% 95%;
+	-webkit-box-decoration-break: clone;
+}
+.cursed-child b,
+.cursed-child i {
+	font-size: 13px;
+	font-family: Roboto Mono;
+}
