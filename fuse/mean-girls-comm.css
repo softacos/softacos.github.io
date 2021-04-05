@@ -109,7 +109,7 @@ width: calc(100% - 70px); margin: 40px auto; box-sizing: border-box; color: rgba
   object-position: center; 
   object-fit: cover; 
   border-radius: 5px;
-  background: rgba(var(--bgbd)); padding: 2px;
+  background: rgba(var(--bgbd),0.5); padding: 2px;
 }
 
 .mean-girls-tm2 ::-webkit-scrollbar-thumb {
