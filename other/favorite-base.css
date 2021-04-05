@@ -111,7 +111,7 @@ html[data-theme="dark"] .favorite-son {
 }
 .favorite-son a {
 	width: calc(100% - 13% - 1px);
-	background: rgba(var(--bg));
+	background: rgba(var(--bg)) !important;
 	-webkit-box-decoration-break: initial !important;
 	-webkit-background-clip: initial !important;
 	-webkit-text-fill-color: initial !important;
