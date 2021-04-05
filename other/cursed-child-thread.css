@@ -92,3 +92,19 @@
 	font-size: 13px;
 	font-family: Roboto Mono;
 }
+@media only screen and (max-width: 760px) {
+	.cursed-child {
+		width: 100%!important;
+	}
+	.cursed-child actone {
+		padding: 20px!important;
+	}
+	.cursed-child acttwo {
+		padding: 20px!important;
+	}
+	.cursed-child intermission {
+		bottom: 25px!important;
+		width: calc(100% - 50px);
+		left: calc((100% - (100% - 50px)) / 2);
+	}
+}
