@@ -111,3 +111,11 @@ width: calc(100% - 70px); margin: 40px auto; box-sizing: border-box; color: rgba
   border-radius: 5px;
   background: rgba(var(--bgbd)); padding: 2px;
 }
+
+.mean-girls-tm2 ::-webkit-scrollbar-thumb {
+  width: 3px; height: 3px; border-radius: 5px; 
+}
+.mean-girls-tm2 ::-webkit-scrollbar-thumb { 
+  background-image: none; background-color: rgba(var(--stk),0.6); 
+  width: 3px; height: 3px; border-radius: 5px; 
+}
