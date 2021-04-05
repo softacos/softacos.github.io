@@ -70,7 +70,7 @@ background-clip: initial!important; webkit-background-clip: initial!important;
 padding: 0px 7px; text-decoration: none; 
 }
 .once-tm tag a {
-background: none!important; background-clip: initial!important; -webkit-background-clip: initial!important; color: rgba(var(--ltdk),1); 
+background: none!important; background-clip: initial!important; -webkit-background-clip: initial!important; color: rgba(var(--ltdk),1)!important; 
     -webkit-box-decoration-break: initial !important;
 }
 
