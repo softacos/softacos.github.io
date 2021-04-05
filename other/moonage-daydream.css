@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;700&family=IBM+Plex+Serif:ital,wght@1,400;1,500&display=swap');
  html[data-theme="dark"] .moonage-daydream {
-	--bg: 55, 55, 55;
+	--bg: 33,33,33;
 	--bgbd: 0, 0, 0;
 }
 .moonage-daydream {
