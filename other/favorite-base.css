@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;800&family=IBM+Plex+Serif:ital,wght@1,400;1,500&display=swap');
+@media only screen and (max-width: 760px) {
+	.favorite-son {
+		width: 100%;
+	}
+}
+#LAZY {
+	--accent: 254, 172, 94;
+	--accent2: 199, 121, 208;
+	--accent3: 75, 192, 200;
+}
+html[data-theme="dark"] .favorite-son {
+	--bg: 55, 55, 55;
+	--bgbd: 0, 0, 0;
+}
+.favorite-son {
+	--grad100: linear-gradient(45deg, rgba(var(--accent), 1), rgba(var(--accent2), 1), rgba(var(--accent3), 1));
+	--grad25: linear-gradient(45deg, rgba(var(--accent), 0.44), rgba(var(--accent2), 0.44), rgba(var(--accent3), 0.44));
+	--bg: 252, 252, 252;
+	--bgbd: 233, 233, 233;
+	width: 300px;
+	padding: 1px;
+	font-family: abhaya libre, serif;
+	background: var(--grad100);
+}
+.favorite-son .ground {
+	display: block;
+	background: rgba(var(--bg));
+}
+.favorite-son running {
+	display: block;
+	padding: 45px 45px 50px;
+	font-size: 13px;
+	text-align: justify;
+	line-height: 1.4em;
+	position: relative;
+	top: 20px;
+}
+.favorite-son running b {
+	font-weight: 800;
+	background: var(--grad100);
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+	-webkit-box-decoration-break: clone;
+	font-size: 16px;
+}
+.favorite-son running i {
+	font-family: IBM Plex Serif, serif;
+	font-size: 11px;
+	font-style: italic;
+	background: var(--grad100);
+	background-repeat: repeat-x;
+	background-size: 100% 1px;
+	background-position: 0% 100%;
+	padding: 0px 2px;
+	-webkit-box-decoration-break: clone;
+}
+.favorite-son speed {
+	display: block;
+	background: var(--grad100);
+	width: 80px;
+	height: 80px;
+	border-radius: 100px;
+	position: relative;
+	top: 35px;
+	padding: 1px;
+	overflow: hidden;
+}
+.favorite-son oflight {
+	background: rgba(var(--bg));
+	display: block;
+	width: 80px;
+	height: 80px;
+	border-radius: 100%;
+	background-image: var(--gificn);
+	background-position: center;
+	background-size: 50px 50px;
+	background-repeat: no-repeat;
+}
+.favorite-son oflight img {
+	width: 80px;
+	height: 80px;
+	object-fit: cover;
+	object-position: center;
+	border-radius: 100%;
+}
+.favorite-son running p {
+	margin: 0px;
+	padding: 9px 0px 0px;
+}
+.favorite-son .drag {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	position: relative;
+	width: 100%;
+	margin-top: 1px;
+	align-items: stretch;
+	font-size: 9px;
+}
+.favorite-son .drag span {
+	display: block;
+	background-color: rgba(var(--bg));
+	background-image: var(--grad25);
+	padding: 5px 10px;
+	box-sizing: border-box;
+	width: 13%;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+.favorite-son a {
+	width: calc(100% - 13% - 1px);
+	background: rgba(var(--bg));
+	-webkit-box-decoration-break: initial !important;
+	-webkit-background-clip: initial !important;
+	-webkit-text-fill-color: initial !important;
+	color: rgba(var(--accent))!important;
+	padding: 5px 10px;
+	box-sizing: border-box;
+	text-decoration: none;
+	letter-spacing: 0.5px;
+	font-family: IBM Plex Serif, serif;
+	text-transform: lowercase;
+	font-size: 9px;
+	font-style: italic;
+}
+.favorite-son a:hover {
+	color: rgba(var(--accent2));
+}
