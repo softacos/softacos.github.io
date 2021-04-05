@@ -19,6 +19,7 @@
 	font-size: 12px;
 	background: rgba(var(--bg));
 	color: rgba(var(--stk));
+	letter-spacing: 0px; 
 }
 .cursed-child actone {
 	background: rgba(var(--bg));
