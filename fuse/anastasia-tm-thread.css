@@ -85,7 +85,11 @@ html[data-theme="dark"] .anastasia-tm {   --bg: 20,20,20; --opp: 222,222,222; }
 .anastasia-tm .countess span { background: rgba(var(--highlight),0.2); padding: 5px 10px; border-right: 1px solid rgba(var(--highlight),0.4); font: 8px lora; text-transform: uppercase; }
 .anastasia-tm .countess a { background: rgb(var(--highlight)); background-clip: text; -webkit-background-clip: text; color: transparent; font-style: italic; padding: 0px 10px; font-weight: bold; }
 
-.anastasia-tm b { font: bold italic 14px lora; color: rgb(var(--highlight)); border-bottom: 1px solid rgba(var(--highlight),0.4); line-height: 15px; padding: 0px 3px; }
+.anastasia-tm b { 
+  font: bold italic 14px lora; color: rgb(var(--highlight)); 
+  line-height: 15px; 
+  padding: 0px 3px; 
+}
 .anastasia-tm i { 
   font: italic 14px lora; 
   line-height: 15px; 
