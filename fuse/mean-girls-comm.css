@@ -49,7 +49,7 @@ html[data-theme="dark"] .mean-girls-tm {
   background: rgba(var(--bgbd),0.12);
   border-radius: 12px 12px 0px 12px;
   font: 12px lora; line-height: 1.4em; letter-spacing: 0.5px;
-  clear: none!important;
+  clear: right;
 }
 revenge p img, revenge p video {
   max-width: calc(100%)!important;
@@ -86,7 +86,7 @@ width: calc(100% - 70px); margin: 40px auto; box-sizing: border-box; color: rgba
   margin: 8px 0px 0px; 
   padding: 15px 18px; 
   color: rgba(var(--stk),0.8);
-  float: right; clear: none;
+  float: right; clear: right;
   text-align: justify; 
   border: 1px solid rgba(var(--bgbd),0.5); 
   background: rgba(var(--bgbd),0.12);
