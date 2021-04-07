@@ -9,7 +9,8 @@ body {
   --grad75: linear-gradient(45deg, rgba(var(--color),0.8) 0%, rgba(var(--color2),0.8) 52%, rgba(var(--color3),0.8) 90%);
   --grad100: linear-gradient(45deg, rgba(var(--color),1) 0%, rgba(var(--color2),1) 52%, rgba(var(--color3),1) 90%);
 --fave: linear-gradient(45deg, rgba(255,229,139,1) 0%, rgba(255,43,43,1) 50%, rgba(251,43,255) 100%);
-
+  background: rgba(var(--body)); 
+  color: rgba(var(--stk)); 
 }
 #isowrap {
   width: 100%; 
