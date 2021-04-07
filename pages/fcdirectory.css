@@ -6,6 +6,8 @@
 	--accent3: 75, 192, 200;
 	--bg: 242,242,242; --stk: 55,55,55; 
 	--bgbd: 200,200,200;
+	--grad: linear-gradient(45deg, rgba(var(--accent), 0.7), rgba(var(--accent2), 0.7), rgba(var(--accent3), 0.7));
+	--grad25: linear-gradient(45deg, rgba(var(--accent), 0.2), rgba(var(--accent2), 0.2), rgba(var(--accent3), 0.2));
 	overflow: hidden;
 	width: 100%;
 	margin: 0px auto;
@@ -25,7 +27,7 @@
 	padding: 25px;
 }
 .directory {
-	background: linear-gradient(45deg, rgba(var(--accent), 0.7), rgba(var(--accent2), 0.7), rgba(var(--accent3), 0.7));
+	background: var(--grad));
 	width: 100px;
 	height: 150px;
 	line-height: 150px;
@@ -68,7 +70,7 @@
 	transition: all 0.4s ease-in 0.4s;
 	-webkit-transition: all 0.4s ease-in 0.4s;
 }.directory .fdetails h1 {
-	color: black;
+	color: rgba(var(--stk));
 	font-size: 16px;
 	line-height: 1em;
 	margin: 0px;
@@ -91,7 +93,9 @@
 	margin: 0px 0px 5px;
 	height: 20px;
 	background-color: rgba(var(--bg));
-	cursor: pointer;
+	border: 1px solid rgba(var(--bgbd)); 
+	cursor: crosshair;
+	font-family: 
 }
 /* Add a light grey background on mouse-over */
 
@@ -101,6 +105,6 @@
 /* Add a dark background to the active button */
 
 .btn.active {
-	background-color: rgba(var(--bgbd));
-	color: white;
+	background: var(--grad25);
+	color: rgba(var(--stk));
 }
