@@ -153,6 +153,8 @@ body {
   left: 5px; text-align: center; 
   font-size: 12px; 
   opacity: 0; 
+  box-sizing: border-box; 
+  padding: 10px 5px;
   transition: all 0.4s ease-in 0.5s; 
   -webkit-transition: all 0.4s ease-in 0.5s; 
 }
