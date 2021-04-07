@@ -1,3 +1,106 @@
+<style>
+	#directory-wrap {
+	--accent: 254, 172, 94;
+	--accent2: 199, 121, 208;
+	--accent3: 75, 192, 200;
+	overflow: hidden;
+	width: 100%;
+	margin: 0px auto;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+.container {
+	overflow: hidden;
+	width: calc(100% - 115px);
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	background: #efefef;
+	box-sizing: border-box;
+	padding: 25px;
+}
+.directory {
+	background: linear-gradient(45deg, rgba(var(--accent), 0.7), rgba(var(--accent2), 0.7), rgba(var(--accent3), 0.7));
+	width: 100px;
+	height: 150px;
+	line-height: 150px;
+	text-align: center;
+	box-sizing: border-box;
+	position: relative;
+	display: table;
+	margin: 0px 0px 5px;
+	padding: 5px;
+	display: none;
+	/* Hidden by default */
+}
+.directory img {
+	width: 90px;
+	height: 140px;
+	object-fit: cover;
+	object-position: center;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+}
+.directory .fdetails {
+	position: absolute;
+	left: 5px;
+	top: 5px;
+	width: 90px;
+	height: 140px;
+	text-align: center;
+	background: rgba(255, 255, 255, 0.7);
+	box-sizing: border-box;
+	padding: 10px;
+	font-size: 12px;
+	line-height: 1.4em;
+	opacity: 0;
+	-webkit-transition: 0.4s ease-in;
+	transition: 0.4s ease-in;
+}
+.directory .fdetails:hover {
+	opacity: 1;
+}
+.directory .fdetails h1 {
+	color: black;
+	font-size: 16px;
+	line-height: 1em;
+	margin: 0px;
+	padding: 0px;
+}
+/* The "show" class is added to the filtered elements */
+
+.show {
+	display: block;
+}
+/* Style the buttons */
+
+.btn {
+	border: none;
+	outline: none;
+	width: 100px;
+	box-sizing: border-box;
+	line-height: 20px;
+	display: block;
+	margin: 0px 0px 5px;
+	height: 20px;
+	background-color: #f1f1f1;
+	cursor: pointer;
+}
+/* Add a light grey background on mouse-over */
+
+.btn:hover {
+	background-color: #ddd;
+}
+/* Add a dark background to the active button */
+
+.btn.active {
+	background-color: #666;
+	color: white;
+}
+
+</style>
 <div id="directory-wrap">
 	<!-- Control buttons -->
 	<div id="myBtnContainer">
