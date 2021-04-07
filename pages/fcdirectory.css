@@ -1,5 +1,25 @@
 * { box-sizing: border-box; }
 
+	:root[color-mode="light"] { 
+		--body: 255,255,255;
+		--bg: 242,242,242; 
+		--bgbu: 252,252,252; 
+		--stk: 77,77,77;
+	}
+	
+	:root[color-mode="dark"] { 
+		--body: 33,33,33;
+		--bg: 55,55,55; 
+		--bgbu: 22,22,22; 
+		--stk:222,222,222;
+	}
+	:root[color-mode="light"] .light--hidden { 	
+		display: none; 
+	}
+	:root[color-mode="dark"] .dark--hidden {
+		display: none; 
+	}
+
 body {
   font-family: sans-serif;
   --color: 250, 139, 255; 
@@ -12,6 +32,33 @@ body {
   background: rgba(var(--body)); 
   color: rgba(var(--stk)); 
 }
+
+	#page-wrapper { 
+		width: 1100px; margin: 10px auto; background: rgba(var(--bg));  padding: 25px; 
+	}
+	#page-wrapper h2 { 
+		font: 700 55px roboto; text-align: center; margin: 30px; padding: 5px; 
+		background: var(--grad100); background-clip: text; -webkit-background-clip: text; 
+		color: transparent; -webkit-box-decoration-break: clone; 
+	}
+	.button-group {
+  width: 100px; 
+  position: sticky;
+  position: -webkit-sticky; 
+  top: 10px; 
+}
+	button.color-mode__btn { 
+		position: fixed; top: 5px; right: 5px; 
+		background: rgba(var(--bg)); 
+		color: rgba(var(--stk)); 
+		border: 1px solid rgba(var(--bgbu)); 
+		text-transform: uppercase; 
+		letter-spacing: 1px; 
+		font-size: 8px; 
+	}
+
+	.cright { font-size: 12px; margin: 20px; text-align: center; }
+
 #isowrap {
   width: 100%; 
   display: flex; flex-flow: row wrap;
