@@ -1,123 +1,162 @@
-	@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+* { box-sizing: border-box; }
 
-#directory-wrap {
-	--accent: 254, 172, 94;
-	--accent2: 199, 121, 208;
-	--accent3: 75, 192, 200;
-	--bg: 242,242,242; --stk: 55,55,55; 
-	--bgbd: 200,200,200;
-	--grad: linear-gradient(45deg, rgba(var(--accent), 0.7), rgba(var(--accent2), 0.7), rgba(var(--accent3), 0.7));
-	--grad25: linear-gradient(45deg, rgba(var(--accent), 0.2), rgba(var(--accent2), 0.2), rgba(var(--accent3), 0.2));
-	--grad100: linear-gradient(45deg, rgba(var(--accent), 1), rgba(var(--accent2), 1), rgba(var(--accent3), 1));
-	overflow: hidden;
-	width: calc(100% - 100px);
-	margin: 0px auto;
-	font-family: roboto, sans-serif; 
-	display: flex;
-	flex-flow: row wrap; color: rgba(var(--stk)); 
-	justify-content: space-between;
-	height: inherit!important; 
+body {
+  font-family: sans-serif;
+  --color: 250, 139, 255; 
+  --color2: 43,210,255;
+  --color3: 43,255,136;
+  --grad75: linear-gradient(45deg, rgba(var(--color),0.8) 0%, rgba(var(--color2),0.8) 52%, rgba(var(--color3),0.8) 90%);
+  --grad100: linear-gradient(45deg, rgba(var(--color),1) 0%, rgba(var(--color2),1) 52%, rgba(var(--color3),1) 90%);
+--fave: linear-gradient(45deg, rgba(255,229,139,1) 0%, rgba(255,43,43,1) 50%, rgba(251,43,255) 100%);
+
 }
-.container {
-	overflow: hidden;
-	width: calc(100% - 115px);
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-between;
-	background: rgba(var(--bg));
-	box-sizing: border-box;
-	padding: 25px;
+#isowrap {
+  width: 100%; 
+  display: flex; flex-flow: row wrap;
+  box-sizing: border-box; 
+  justify-content: space-between;
+  
 }
-.directory {
-	background: var(--grad);
-	width: 100px;
-	height: 150px;
-	line-height: 150px;
-	text-align: center;
-	box-sizing: border-box;
-	position: relative;
-	display: table;
-	margin: 0px 0px 5px;
-	padding: 5px;
-	display: none;
-	/* Hidden by default */
+/* ---- button ---- */
+.button-group {
+  width: 100px; 
 }
-.directory img {
-	width: 90px;
-	height: 140px;
-	object-fit: cover;
-	object-position: center;
-	position: absolute;
-	top: 5px;
-	left: 5px;
-}
-.directory .fdetails {
-	position: absolute;
-	left: 5px;
-	top: 5px;
-	width: 90px;
-	height: 140px;
-	text-align: center;
-	background: rgba(255, 255, 255, 0.9);
-	box-sizing: border-box;
-	padding: 30px 5px 0px;
-	font-size: 12px;
-	line-height: 1.4em;
-	opacity: 0;
-	transition: all 0.4s ease-in 0s;
-	-webkit-transition: all 0.4s ease-in 0s;
-}
-.directory .fdetails:hover {
-	opacity: 1;
-	transition: all 0.4s ease-in 0.4s;
-	-webkit-transition: all 0.4s ease-in 0.4s;
-}.directory .fdetails h1 {
-	color: rgba(var(--stk));
-	font-size: 16px;
-	line-height: 1em;
-	margin: 0px;
-	padding: 0px;
+.button {
+  display: inline-block;
+  padding: 8px 12px;
+  margin-bottom: 5px;
+  box-sizing: border-box; 
+  width: 100%; 
+  background: #EEE;
+  border: none;
+  color: #222;
+  font-family: sans-serif;
+  font-size: 16px;
+  text-shadow: 0 1px white;
+  cursor: pointer;
 }
 
-.fave {
-	background: var(--grad100)!important; 
+.button:hover {
+  background-color: #8CF;
+  text-shadow: 0 1px hsla(0, 0%, 100%, 0.5);
+  color: #222;
 }
-/* The "show" class is added to the filtered elements */
 
-.show {
-	display: block;
-}
-/* Style the buttons */
-#myBtnContainer {
-	height: inherit; 
-	position: sticky; 
-	position: -webkit-sticky; 
-	top: 5px; 
-}
-.btn {
-	border: none;
-	outline: none;
-	width: 100px;
-	box-sizing: border-box;
-	line-height: 20px;
-	display: block;
-	margin: 0px 0px 5px;
-	height: 20px;
-	background-color: rgba(var(--bg));
-	border: 1px solid rgba(var(--bgbd)); 
-	cursor: crosshair;
-	font-family: roboto, sans-serif; 
-	font-size: 12px; 
-}
-/* Add a light grey background on mouse-over */
 
-.btn:hover {
-	background-color: rgba(var(--bgbd));
+.button.is-checked {
+  color: black;
+  background: var(--grad75); 
 }
-/* Add a dark background to the active button */
 
-.btn.active {
-	background: var(--grad);
-	color: rgba(var(--stk));
-	font-weight: 700; 
+.button:active {
+  background: var(--grad75); 
 }
+
+/* ---- button-group ---- */
+
+.button-group:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.button-group .button {
+  float: left;
+  border-radius: 0;
+  margin-left: 0;
+  margin-right: 1px;
+}
+
+/* ---- isotope ---- */
+
+.grid {
+  width: calc(100% - 140px);
+  display: flex; flex-flow: row wrap; 
+  justify-content: space-between; 
+  box-sizing: border-box; 
+  padding: 0px; 
+  margin: 0px; 
+}
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .element-item ---- */
+
+.element-item {
+  position: relative;
+  width: 100px;
+  height: 150px;
+  margin: 5px;
+  padding: 5px;
+  background: var(--grad75);
+  color: #262524;
+}
+
+.element-item > * {
+  margin: 0;
+  padding: 0;
+}
+
+.element-item .name {
+  position: absolute;
+
+  left: 10px;
+  top: 60px;
+  text-transform: none;
+  letter-spacing: 0;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.element-item .symbol {
+  position: absolute;
+  left: 10px;
+  top: 0px;
+  font-size: 42px;
+  font-weight: bold;
+  color: white;
+}
+
+.element-item .number {
+  position: absolute;
+  right: 8px;
+  top: 5px;
+}
+
+.element-item .weight {
+  position: absolute;
+  left: 10px;
+  top: 76px;
+  font-size: 12px;
+}
+
+.element-item.fave { background: var(--fave) }
+
+.element-item img { width: 90px; height: 140px; object-fit: cover; object-position: center; filter: grayscale(0.6); transition: all 0.1s ease-in 0s; -webkit-transition: all 0.1s ease-in 0s; }
+.element-item:hover img { filter: grayscale(0.1)!important; }
+
+.element-item .fdetails {
+  width: 90px; 
+  height: 140px; 
+  background: rgba(255,255,255,0.8); 
+  position: absolute; top: 5px; 
+  left: 5px; text-align: center; 
+  font-size: 12px; 
+  opacity: 0; 
+  transition: all 0.4s ease-in 0.5s; 
+  -webkit-transition: all 0.4s ease-in 0.5s; 
+}
+.element-item .fdetails:hover {
+  opacity: 1;
+}
+
+.element-item h1 {
+  font-size: 15px; 
+}
+.element-item i { font-style: normal; display: none; }
+.element-item i:before { content: ' • '; }
