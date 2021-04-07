@@ -3,11 +3,13 @@
 	--accent: 254, 172, 94;
 	--accent2: 199, 121, 208;
 	--accent3: 75, 192, 200;
+	--bg: 242,242,242; --stk: 100,100,100; 
+	--bgbd: 200,200,200;
 	overflow: hidden;
 	width: 100%;
 	margin: 0px auto;
 	display: flex;
-	flex-flow: row wrap;
+	flex-flow: row wrap; color: rgba(var(--stk)); 
 	justify-content: space-between;
 }
 .container {
@@ -16,7 +18,7 @@
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-between;
-	background: #efefef;
+	background: rgba(var(--bg));
 	box-sizing: border-box;
 	padding: 25px;
 }
@@ -85,18 +87,18 @@
 	display: block;
 	margin: 0px 0px 5px;
 	height: 20px;
-	background-color: #f1f1f1;
+	background-color: rgba(var(--bg));
 	cursor: pointer;
 }
 /* Add a light grey background on mouse-over */
 
 .btn:hover {
-	background-color: #ddd;
+	background-color: rgba(var(--bgbd));
 }
 /* Add a dark background to the active button */
 
 .btn.active {
-	background-color: #666;
+	background-color: rgba(var(--bgbd));
 	color: white;
 }
 
