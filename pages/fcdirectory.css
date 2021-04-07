@@ -19,12 +19,6 @@ body {
   
 }
 /* ---- button ---- */
-.button-group {
-  width: 100px; 
-  position: sticky;
-  position: -webkit-sticky; 
-  top: 10px; 
-}
 
 .button {
   display: inline-block;
