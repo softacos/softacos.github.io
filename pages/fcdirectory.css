@@ -27,7 +27,7 @@
 	padding: 25px;
 }
 .directory {
-	background: var(--grad));
+	background: var(--grad);
 	width: 100px;
 	height: 150px;
 	line-height: 150px;
