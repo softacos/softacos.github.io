@@ -16,6 +16,7 @@
 	display: flex;
 	flex-flow: row wrap; color: rgba(var(--stk)); 
 	justify-content: space-between;
+	height: inherit!important; 
 }
 .container {
 	overflow: hidden;
@@ -87,7 +88,12 @@
 	display: block;
 }
 /* Style the buttons */
-
+#myBtnContainer {
+	height: inherit; 
+	position: sticky; 
+	position: -webkit-sticky; 
+	top: 5px; 
+}
 .btn {
 	border: none;
 	outline: none;
@@ -100,7 +106,8 @@
 	background-color: rgba(var(--bg));
 	border: 1px solid rgba(var(--bgbd)); 
 	cursor: crosshair;
-	font-family: 
+	font-family: roboto, sans-serif; 
+	font-size: 12px; 
 }
 /* Add a light grey background on mouse-over */
 
@@ -112,4 +119,5 @@
 .btn.active {
 	background: var(--grad);
 	color: rgba(var(--stk));
+	font-weight: 700; 
 }
