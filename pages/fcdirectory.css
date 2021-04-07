@@ -8,6 +8,7 @@
 	--bgbd: 200,200,200;
 	--grad: linear-gradient(45deg, rgba(var(--accent), 0.7), rgba(var(--accent2), 0.7), rgba(var(--accent3), 0.7));
 	--grad25: linear-gradient(45deg, rgba(var(--accent), 0.2), rgba(var(--accent2), 0.2), rgba(var(--accent3), 0.2));
+	--grad100: linear-gradient(45deg, rgba(var(--accent), 1), rgba(var(--accent2), 1), rgba(var(--accent3), 1));
 	overflow: hidden;
 	width: 100%;
 	margin: 0px auto;
@@ -75,6 +76,10 @@
 	line-height: 1em;
 	margin: 0px;
 	padding: 0px;
+}
+
+.fave {
+	background: var(--grad100)!important; 
 }
 /* The "show" class is added to the filtered elements */
 
