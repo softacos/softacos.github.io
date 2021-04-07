@@ -26,13 +26,12 @@ body {
   margin-bottom: 5px;
   box-sizing: border-box; 
   width: 100%; 
-  background: #EEE;
+  background: rgba(var(--bgbu));
   border: none;
   color: #222;
   font-family: sans-serif;
   font-size: 16px;
-  text-shadow: 0 1px white;
-  cursor: pointer;
+  cursor: crosshair;
 }
 
 .button:hover {
