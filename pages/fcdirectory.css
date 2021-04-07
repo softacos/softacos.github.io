@@ -28,6 +28,7 @@ body {
   margin-bottom: 5px;
   box-sizing: border-box; 
   width: 100%; 
+  color: rgba(var(--stk));
   background: rgba(var(--bgbu));
   border: none;
   font-family: sans-serif;
