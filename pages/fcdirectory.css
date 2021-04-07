@@ -10,7 +10,7 @@
 	--grad25: linear-gradient(45deg, rgba(var(--accent), 0.2), rgba(var(--accent2), 0.2), rgba(var(--accent3), 0.2));
 	--grad100: linear-gradient(45deg, rgba(var(--accent), 1), rgba(var(--accent2), 1), rgba(var(--accent3), 1));
 	overflow: hidden;
-	width: 100%;
+	width: calc(100% - 100px);
 	margin: 0px auto;
 	font-family: roboto, sans-serif; 
 	display: flex;
