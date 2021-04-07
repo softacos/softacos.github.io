@@ -15,6 +15,7 @@ body {
   display: flex; flex-flow: row wrap;
   box-sizing: border-box; 
   justify-content: space-between;
+  height: inherit; 
   
 }
 /* ---- button ---- */
