@@ -30,7 +30,6 @@ body {
   width: 100%; 
   background: rgba(var(--bgbu));
   border: none;
-  color: #222;
   font-family: sans-serif;
   font-size: 12px;
   text-align: center; 
