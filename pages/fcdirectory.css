@@ -39,8 +39,8 @@ body {
 
 .button:hover {
   background-color: #8CF;
-  text-shadow: 0 1px hsla(0, 0%, 100%, 0.5);
-  color: #222;
+  background: var(--grad25);
+
 }
 
 
