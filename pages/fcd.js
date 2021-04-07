@@ -1,3 +1,5 @@
+
+
 // init Isotope
 var $grid = $('.grid').isotope({
   itemSelector: '.element-item',
@@ -19,11 +21,15 @@ var filterFns = {
     var name = $(this).find('.gender').text();
     return name.match( /nb$/ );
   },
-    // show if gender is female
   male: function() {
     var name = $(this).find('.gender').text();
     return name.match( /homme/ );
-  }
+  },
+    model: function() {
+    var name = $(this).find('.profession').text();
+    return name.match( /model$/ );
+  },
+
 };
 
 // bind filter button click
@@ -41,3 +47,5 @@ $('.button-group').each( function( i, buttonGroup ) {
     $( this ).addClass('is-checked');
   });
 });
+
+
