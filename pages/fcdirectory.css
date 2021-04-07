@@ -105,6 +105,6 @@
 /* Add a dark background to the active button */
 
 .btn.active {
-	background: var(--grad25);
+	background: var(--grad);
 	color: rgba(var(--stk));
 }
