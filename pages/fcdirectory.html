@@ -1,223 +1,1026 @@
-<style> #directory-wrap {
-  --accent: 254, 172, 94;
-	--accent2: 199, 121, 208;
-	--accent3: 75, 192, 200;
-  overflow: hidden;
-  width: 100%; margin: 0px auto; 
-  display: flex; flex-flow: row wrap; 
-  justify-content: space-between; 
-}
-.container {
-  overflow: hidden;
-  width: calc(100% - 115px); 
-  display: flex; flex-flow: row wrap; 
-  justify-content: space-between; 
-  background: #efefef; 
-  box-sizing: border-box; padding: 25px; 
-}
-
-.directory {
-  background: linear-gradient(45deg, rgba(var(--accent),0.7), rgba(var(--accent2),0.7), rgba(var(--accent3),0.7));
-  width: 100px;
-  height: 150px; 
-  line-height: 150px;
-  text-align: center;
-  box-sizing: border-box; 
-  position: relative; display: table; 
-  margin: 0px 0px 5px;
-  padding: 5px;
-  display: none; /* Hidden by default */
-}
-.directory img {
-  width: 90px; height: 140px; 
-  object-fit: cover; object-position: center;
-  position: absolute; top: 5px; left: 5px; 
-}
-.directory .fdetails {
-  position: absolute; left: 5px; top: 5px; 
-  width: 90px; height: 140px; 
-  text-align: center; background: rgba(255,255,255,0.7);
-  box-sizing: border-box; 
-  padding: 10px; 
-  font-size: 12px; 
-  line-height: 1.4em;  
-  opacity: 0; 
-  -webkit-transition: 0.4s ease-in; 
-  transition: 0.4s ease-in; 
-}
-.directory .fdetails:hover { opacity: 1; }
-.directory .fdetails h1 {
-  color: black; font-size: 16px; line-height: 1em; 
-  margin: 0px; padding: 0px; 
-}
-
-/* The "show" class is added to the filtered elements */
-.show {
-  display: block;
-}
-
-/* Style the buttons */
-.btn {
-  border: none;
-  outline: none;
-  width: 100px; box-sizing: border-box; 
-  line-height: 20px; 
-  display: block;
-  margin: 0px 0px 5px; 
-  height: 20px; 
-  background-color: #f1f1f1;
-  cursor: pointer;
-}
-
-/* Add a light grey background on mouse-over */
-.btn:hover {
-  background-color: #ddd;
-}
-
-/* Add a dark background to the active button */
-.btn.active {
-  background-color: #666;
-  color: white;
-}
-</style>
 <div id="directory-wrap">
-<!-- Control buttons -->
-<div id="myBtnContainer">
-  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
-  <button class="btn" onclick="filterSelection('gents')"> male</button>
-  <button class="btn" onclick="filterSelection('ladies')"> female</button>
-  <button class="btn" onclick="filterSelection('twenty')"> 18-24</button>
-  <button class="btn" onclick="filterSelection('twotwo')"> 25-29</button>
-  <button class="btn" onclick="filterSelection('thirty')"> 30-34</button>
-  <button class="btn" onclick="filterSelection('threetwo')"> 35-39</button>
-  <button class="btn" onclick="filterSelection('forty')"> 40-44</button>
-  <button class="btn" onclick="filterSelection('older')"> 45 +</button>
-  <button class="btn" onclick="filterSelection('poc')"> POC</button>
-
-  </div>
-
-<!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
-<div class="container">
-  <div class="directory gents thirty"><img src="https://img.nickpic.host/lQTvgc.jpg"><div class="fdetails"><h1>aaron tyler johnson</h1> 30 // male </div></div><div class="directory threetwo gents"><img src="https://img.nickpic.host/lQTaBs.jpg"><div class="fdetails"><h1>aaron tveit</h1> 37 // male </div></div>
-  <div class="directory ladies poc thirty"><img src="https://www.tvovermind.com/wp-content/uploads/2018/09/aditi-rao-hydari.jpg">
-    <div class="fdetails">
-      <h1>aditi rao hydari</h1>
-      34 // female 
-    </div>
-  </div>
-  <div class="directory ladies thirty poc"><img src="https://img.nickpic.host/lQTBP1.jpg">
-    <div class="fdetails">
-      <h1>adrienne warren</h1>
-      33 // female 
-    </div></div>
-<div class="directory gents twenty"><img src="https://img.nickpic.host/lQTjh2.jpg"><div class="fdetails"><h1>alberto rosende</h1> 28 // male </div></div><div class="directory thirty gents poc"><img src="https://img.nickpic.host/lQTSIx.jpg"><div class="fdetails"><h1>alfred enoch</h1>32 // male </div></div>
-    <div class="directory ladies threetwo poc"><img src="https://img.nickpic.host/lQTx4W.jpg">
-    <div class="fdetails">
-      <h1>ali wong</h1>
-      38 // female // poc 
-    </div></div>
-
-    <div class="directory ladies twotwo poc"><img src="https://img.nickpic.host/lQPEvA.jpg">
-    <div class="fdetails">
-      <h1>alia bhatt</h1>
-      28 // female 
-    </div></div>
-<div class="directory ladies older"><img src="https://img.nickpic.host/lQTpGz.jpg">
-  <div class="fdetails"><h1>amy poehler</h1>
-    49 // female 
-  </div>
-  </div>
-  
- <div class="directory ladies twotwo"><img src="https://images.fashionmodeldirectory.com/images/models/7114/anais-pouliot-134872-fit.jpg">
-  <div class="fdetails"><h1>anais pouliot</h1>
-    29 // female 
-  </div>
-  </div> 
-  <div class="directory gents thirty model"><img src="https://img.nickpic.host/lQTcgN.jpg"><div class="fdetails"><h1>andre hamann</h1> 33 // male </div></div>
-  <div class="directory gents threetwo"><img src="https://img.nickpic.host/lQTEnq.jpg"><div class="fdetails"><h1>andrew keenan-bolger</h1>35 // male </div></div><div class="directory forty gents"><img src="https://img.nickpic.host/lQT6BD.jpg"><div class="fdetails"><h1>andy samberg</h1> 42 // male </div></div>
- <div class="directory ladies poc thirty"><img src="https://img.nickpic.host/lQTBP1.jpg">
-  <div class="fdetails"><h1>anna diop</h1>
-    33 // female 
-  </div>
-  </div> <div class="directory gents twotwo"><img src="https://img.nickpic.host/lQTXIM.jpg"><div class="fdetails"><h1>ansel elgort</h1> 27 // male </div></div><div class="directory gents forty poc"><img src="https://img.nickpic.host/lQTtTX.jpg"><div class="fdetails"><h1>anthony mackie</h1> 42 // male </div></div>
-  <div class="directory gents poc twotwo"><img src="https://img.nickpic.host/lQTnDe.jpg"><div class="fdetails"><h1>anthony ramos</h1> 29 // male </div></div><div class="directory gents twotwo poc"><img src="https://img.nickpic.host/lQT1nf.jpg"><div class="fdetails"><h1>avan jogia</h1>29 // male </div></div>
-   <div class="directory ladies poc threetwo"><img src="https://img.nickpic.host/lQT496.jpg">
-  <div class="fdetails"><h1>arden cho</h1>
-    35 // female 
-  </div>
-  </div> 
-   <div class="directory ladies threetwo"><img src="https://img.nickpic.host/lQTwbp.jpg">
-  <div class="fdetails"><h1>aubrey plaza</h1>
-    36 // female 
-  </div>
-  </div> 
-   <div class="directory ladies poc twenty"><img src="https://img.nickpic.host/lQTKmG.md.jpg">
-  <div class="fdetails"><h1>auli'i cravalho</h1>
-    20 // female 
-  </div>
-  </div> 
-   <div class="directory ladies twotwo"><img src="https://img.nickpic.host/lQTYqz.jpg">
-  <div class="fdetails"><h1>barbara palvin</h1>
-    27 // female 
-  </div>
-  </div> 
-  <div class="directory gents twotwo"><img src="https://img.nickpic.host/lQT0tj.jpg"><div class="fdetails"><h1>ben platt</h1> 27 // male </div></div><div class="directory gents forty"><img src="https://img.nickpic.host/lQT29J.jpg"><div class="fdetails"><h1>bill hader</h1> 42 // male </div></div>
-  <div class="directory ladies poc twotwo"><img src="https://img.nickpic.host/lQTkCs.jpg"><div class="fdetails"><h1>blanca padilla</h1> 26 // female </div></div>
-  <div class="directory gents threetwo"><img src="https://img.nickpic.host/lQTPmQ.jpg"><div class="fdetails"><h1>bob morley</h1> 36 // male </div></div><div class="directory threetwo"><img src="https://img.nickpic.host/lQTWwN.jpg"><div class="fdetails"><h1>brant daugherty</h1> 35 // male </div></div><div class="directory thirty gents"><img src="https://img.nickpic.host/lQTZWO.jpg"><div class="fdetails"><h1>brenton thwaites</h1> 31 // male </div></div>
-  <div class="directory twenty ladies"><img src="https://img.nickpic.host/lQTylm.jpg"><div class="fdetails"><h1>bridget satterlee</h1> 22 // female </div></div><div class="thirty directory ladies"><img src="https://img.nickpic.host/lQWpCD.jpg"><div class="fdetails"><h1>brie larson</h1> 31 // female </div></div>
-  <div class="directory ladies poc twenty"><img src="https://img.nickpic.host/lQWvN5.jpg"><div class="fdetails"><h1>brittany o’grady</h1>24 // female </div></div>
-  <div class="directory ladies threetwo"><img src="https://img.nickpic.host/lQWbuM.jpg"><div class="fdetails"><h1>brittany snow</h1>35 // female </div></div>
-  
-  <div class="directory ladies thirty"><img src="https://img.nickpic.host/lQWSQp.jpg"><div class="fdetails"><h1>candice accola-king</h1> 33 // female </div></div><div class="directory poc ladies thirty"><img src="https://img.nickpic.host/lQWEZc.jpg"><div class="fdetails"><h1>candice patton</h1> 32 // female </div></div><div class="directory gents poc thirty"><img src="https://img.nickpic.host/lQWhlW.jpg"><div class="fdetails"><h1>carlos valdes</h1> 31 // male </div></div>
-  <div class="directory twenty ladies"><img src="https://img.nickpic.host/lQWCkj.jpg"><div class="fdetails"><h1>carmella rose</h1> 25 // female </div></div><div class="directory thirty ladies"><img src="https://img.nickpic.host/lQWR7x.jpg"><div class="fdetails"><h1>caroline innerbichler</h1> 30s // female </div></div>
-  <div class="directory threetwo gents"><img src="https://img.nickpic.host/lQZF8Q.png"><div class="fdetails"><h1>charlie cox</h1> 38 // male </div></div>
-  <div class="directory older ladies"><img src="https://img.nickpic.host/lQZayx.jpg"><div class="fdetails"><h1>cherlize theron</h1> 45 // female </div></div><div class="directory twenty ladies"><img src="https://img.nickpic.host/lQZlSN.jpg"><div class="fdetails"><h1>chloe grace moretz</h1> 24 // female </div></div><div class="directory threetwo gents"><img src="https://img.nickpic.host/lQdNWF.jpg"><div class="fdetails"><h1>chris evans</h1> 39 // male </div></div><div class="directory gents threetwo"><img src="https://img.nickpic.host/lQdYqP.jpg"><div class="fdetails"><h1>chris hemsworth</h1> 37 // male </div></div><div class="directory gents forty"><img src="https://img.nickpic.host/lQdKm5.jpg"><div class="fdetails"><h1>chris pine</h1> 40 // male </div></div><div class="directory gents forty"><img src="https://img.nickpic.host/lQdHwM.jpg"><div class="fdetails"><h1>chris pratt</h1> 41 // male </div></div><div class="directory thirty gents"><img src="https://img.nickpic.host/IQV8X1.png"><div class="fdetails"><h1>chris wood</h1> 32 // male </div></div><div class="directory ladies twotwo"><img src="https://img.nickpic.host/7Q5bz.jpg"><div class="fdetails"><h1>chrissy costanza</h1>25 // female </div></div>
-  
-  <div class="directory twotwo ladies poc"><img src="https://img.nickpic.host/lQdZWz.jpg"><div class="fdetails"><h1>cierra ramirez</h1> 26 // female </div></div><div class="directory ladies thirty"><img src="https://img.nickpic.host/lQdylc.jpg"><div class="fdetails"><h1>claire holt</h1> 32 // female</div></div><div class="directory gents twenty"><img src="https://img.nickpic.host/lQybu2.jpg"><div class="fdetails"><h1>colin ford</h1> 24 // male </div></div><div class="directory gents forty"><img src="https://img.nickpic.host/lQyBos.jpg"><div class="fdetails"><h1>colin o'donoghue</h1> 40 // male </div></div><div class="directory threetwo ladies"><img src="https://img.nickpic.host/lQyrzQ.jpg"><div class="fdetails"><h1>constance wu</h1> 39 // female </div></div><div class="directory ladies poc threetwo"><img src="https://img.nickpic.host/lQyjkm.jpg"><div class="fdetails"><h1>courtney reed</h1> 35 // female</div></div><div class="directory ladies threetwo"><img src="https://img.nickpic.host/lQyFlN.jpg"><div class="fdetails"><h1>crystal reed</h1> 36 // female </div></div>
-  
-  <div class="directory ladies twotwo"><img src="https://img.nickpic.host/lQyUsb.jpg"><div class="fdetails"><h1>danielle campbell</h1> 26 // female </div></div>
-  <div class="directory ladies"><img src="https://img.nickpic.host/lQyCkX.jpg"><div class="fdetails"><h1>danielle panabaker</h1>33 // female </div></div>
-  <div class="directory poc threetwo gents"><img src="https://img.nickpic.host/lQy6Me.jpg"><div class="fdetails"><h1>daveed diggs</h1> 39 // male </div></div><div class="directory older gents"><img src="https://img.nickpic.host/lQyXQf.jpg"><div class="fdetails"><h1>david tennant</h1> 49 // male </div></div>
-  <div class="directory threetwo ladies"><img src="https://img.nickpic.host/lQyKUj.jpg"><div class="fdetails"><h1>deborah ann woll</h1> 36 // female </div></div>
-<div class="directory twotwo gents"><img src="https://img.nickpic.host/lQy8s1.jpg"><div class="fdetails"><h1>derek klena</h1> 29 // male </div></div><div class="directory thirty gents"><img src="https://img.nickpic.host/lQyYVJ.jpg"><div class="fdetails"><h1>dev patel</h1> 30 // male </div></div><div class="directory gents"><img src="/"><div class="fdetails"><h1>dylan o'brien</h1></div></div><div class="directory gents"><img src="/"><div class="fdetails"><h1>dylan sprayberry</h1></div></div>  
-  <div class="directory ladies"><img src="/"><div class="fdetails"><h1>elizabeth olsen</h1></div></div><div class="directory ladies"><img src="/"><div class="fdetails"><h1>elle fanning</h1></div></div><div class="directory ladies"><img src="/"><div class="fdetails"><h1>elsa hosk</h1></div></div><div class="directory ladies"><img src="/"><div class="fdetails"><h1>emilia clarke</h1></div></div><div class="directory ladies"><img src="/"><div class="fdetails"><h1>emily blunt</h1></div></div><div class="directory ladies"><img src="/"><div class="fdetails"><h1>eva de dominici</h1></div></div><div class="directory ladies"><img src="/"><div class="fdetails"><h1>eva noblezada</h1></div></div>
-  <div class="directory gents"><img src="/"><div class="fdetails"><h1>francisco lachowski</h1></div></div>
-  <div class="directory ladies"><img src="/"><div class="fdetails"><h1>freya mavor</h1></div></div>
-  
-  <div class="directory ladies"><img src="/"><div class="fdetails"><h1>gemma ward</h1></div></div>
-  <div class="directory gents"><img src="/"><div class="fdetails"><h1>grant gustin</h1></div></div>
-  
-  <div class="directory ladies"><img src="/"><div class="fdetails"><h1>hailee steinfeld</h1></div></div><div class="directory ladies"><img src="/"><div class="fdetails"><h1>hannah murray</h1></div></div><div class="directory gents"><img src="/"><div class="fdetails"><h1>harry styles</h1></div></div><div class="directory ladies"><img src="/"><div class="fdetails"><h1>helena mckelvie</h1></div></div>
-  <div class="directory gents"><img src="/"><div class="fdetails"><h1>henry golding</h1></div></div>
-  <div class="directory ladies"><img src="/"><div class="fdetails"><h1>holland roden</h1></div></div>
-    <div class="directory gents"><img src="/"><div class="fdetails"><h1>ian somerhalder</h1></div></div>
-  <div class="directory ladies"><img src="/"><div class="fdetails"><h1>im yeojin</h1></div></div>
-  
-  <div class="directory ladies"><img src="/"><div class="fdetails"><h1>jameela jamil</h1></div></div><div class="directory gents"><img src="/"><div class="fdetails"><h1>james marsden</h1></div></div><div class="directory gents"><img src="/"><div class="fdetails"><h1>jason momoa</h1></div></div><div class="directory gents"><img src="/"><div class="fdetails"><h1>jean-luc bilodeau</h1></div></div><div class="directory gents"><img src="/"><div class="fdetails"><h1>jelani alladin</h1></div></div><div class="directory ladies"><img src="/"><div class="fdetails"><h1>jennie kim</h1></div></div><div class="directory gents"><img src="/"><div class="fdetails"><h1>jeremy jordan</h1></div></div><div class="directory ladies"><img src="/"><div class="fdetails"><h1>jessica sula</h1></div></div><div class="directory gents"><img src="/"><div class="fdetails"><h1>joe dempsie</h1></div></div><div class="directory gents"><img src="/"><div class="fdetails"><h1>john mulaney</h1></div></div><div class="directory gents"><img src="/"><div class="fdetails"><h1>jordan fisher</h1></div></div><div class="directory gents"><img src="/"><div class="fdetails"><h1>joseph morgan</h1></div></div><div class="directory ladies"><img src="/"><div class="fdetails"><h1>josephine skriver</h1></div></div><div class="directory gents"><img src="/"><div class="fdetails"><h1>jung taek-woon (leo)</h1></div></div><div class="directory ladies"><img src="/"><div class="fdetails"><h1>jurnee smollett</h1></div></div><div class="directory gents"><img src="/"><div class="fdetails"><h1>justice smith</h1></div></div>
-  
-  <div class="directory ladies"><img src="/"><div class="fdetails"><h1>kat dennings</h1></div></div><div class="directory ladies"><img src="/"><div class="fdetails"><h1>kat graham</h1></div></div><div class="directory ladies"><img src="/"><div class="fdetails"><h1>kathryn newton</h1></div></div><div class="directory ladies"><img src="/"><div class="fdetails"><h1>kerry butler</h1></div></div><div class="directory ladies"><img src="/"><div class="fdetails"><h1>kiernan shipka</h1></div></div><div class="directory ladies"><img src="/"><div class="fdetails"><h1>kim hyuna</h1></div></div><div class="directory ladies"><img src="/"><div class="fdetails"><h1>kim seul-gi</h1></div></div>
-  <div class="directory gents"><img src="/"><div class="fdetails"><h1>kit harrington</h1></div></div>
-  
-  <div class="directory ladies"><img src="/"><div class="fdetails"><h1>laura osnes</h1></div></div><div class="directory gents"><img src="/"><div class="fdetails"><h1>leslie odom jr.</h1></div></div><div class="directory ladies"><img src="/"><div class="fdetails"><h1>letitia wright</h1></div></div><div class="directory ladies"><img src="/"><div class="fdetails"><h1>liana liberato</h1></div></div><div class="directory ladies"><img src="/"><div class="fdetails"><h1>lily collins</h1></div></div><div class="directory ladies"><img src="/"><div class="fdetails"><h1>lily james</h1></div></div><div class="directory gents"><img src="/"><div class="fdetails"><h1>lin-manuel miranda</h1></div></div><div class="directory gents"><img src="/"><div class="fdetails"><h1>luke newberry</h1></div></div><div class="directory gents"><img src="/"><div class="fdetails"><h1>luke pasqualino</h1></div></div>
-  
-  <div class="directory ladies"><img src="/"><div class="fdetails"><h1>maisie richardson sellers</h1></div></div><div class="directory ladies"><img src="/"><div class="fdetails"><h1>maisie williams</h1></div></div><div class="directory ladies"><img src="/"><div class="fdetails"><h1>margot robbie</h1></div></div><div class="directory gents"><img src="/"><div class="fdetails"><h1>marlon teixeira</h1></div></div><div class="directory ladies"><img src="/"><div class="fdetails"><h1>mary elizabeth winstead</h1></div></div><div class="directory gents"><img src="/"><div class="fdetails"><h1>matthew daddario</h1></div></div><div class="directory ladies"><img src="/"><div class="fdetails"><h1>melissa benoist</h1></div></div><div class="directory ladies"><img src="/"><div class="fdetails"><h1>melissa fumero</h1></div></div><div class="directory gents"><img src="/"><div class="fdetails"><h1>michael b jordan</h1></div></div><div class="directory gents"><img src="/"><div class="fdetails"><h1>michael johnston</h1></div></div><div class="directory ladies"><img src="/"><div class="fdetails"><h1>mila kunis</h1></div></div><div class="directory ladies"><img src="/"><div class="fdetails"><h1>ming-na wen</h1></div></div><div class="directory ladies"><img src="/"><div class="fdetails"><h1>minka kelly</h1></div></div><div class="directory ladies"><img src="/"><div class="fdetails"><h1>morena baccarin</h1></div></div><div class="directory ladies"><img src="/"><div class="fdetails"><h1>morgan saylor</h1></div></div>
-  
-  <div class="directory ladies"><img src="/"><div class="fdetails"><h1>naomi scott</h1></div></div><div class="directory ladies"><img src="/"><div class="fdetails"><h1>nastassia lindes</h1></div></div><div class="directory ladies"><img src="/"><div class="fdetails"><h1>natalie dormer</h1></div></div><div class="directory gents"><img src="/"><div class="fdetails"><h1>nathaniel buzolic</h1></div></div><div class="directory gents"><img src="/"><div class="fdetails"><h1>niall horan</h1></div></div><div class="directory gents"><img src="/"><div class="fdetails"><h1>nick hoult</h1></div></div><div class="directory gents"><img src="/"><div class="fdetails"><h1>nick jonas</h1></div></div><div class="directory ladies"><img src="/"><div class="fdetails"><h1>nina dobrev</h1></div></div><div class="directory ladies"><img src="/"><div class="fdetails"><h1>nina nesbitt</h1></div></div>
-  <div class="directory gents"><img src="/"><div class="fdetails"><h1>paul rudd</h1></div></div><div class="directory gents"><img src="/"><div class="fdetails"><h1>paul wesley</h1></div></div><div class="directory ladies"><img src="/"><div class="fdetails"><h1>poppy drayton</h1></div></div><div class="directory gents"><img src="/"><div class="fdetails"><h1>puttichai kasetsin</h1></div></div><div class="directory gents"><img src="/"><div class="fdetails"><h1>randall park</h1></div></div>
-<div class="directory gents"><img src="/"><div class="fdetails"><h1>richard madden</h1></div></div><div class="directory gents"><img src="/"><div class="fdetails"><h1>robert downey jr</h1></div></div>  
-  <div class="directory ladies"><img src="/"><div class="fdetails"><h1>rosario dawson</h1></div></div><div class="directory ladies"><img src="/"><div class="fdetails"><h1>rose leslie</h1></div></div>
-  <div class="directory gents"><img src="/"><div class="fdetails"><h1>ryan kelley</h1></div></div><div class="directory gents"><img src="/"><div class="fdetails"><h1>ryan mccartan</h1></div></div><div class="directory gents"><img src="/"><div class="fdetails"><h1>ryan potter</h1></div></div><div class="directory gents"><img src="/"><div class="fdetails"><h1>ryan reynolds</h1></div></div>
-  
-  <div class="directory gents"><img src="/"><div class="fdetails"><h1>sam claflin</h1></div></div><div class="directory gents"><img src="/"><div class="fdetails"><h1>sean bean</h1></div></div><div class="directory gents"><img src="/"><div class="fdetails"><h1>sean opry</h1></div></div><div class="directory gents"><img src="/"><div class="fdetails"><h1>sean o'donnell</h1></div></div>
-  <div class="directory ladies"><img src="/"><div class="fdetails"><h1>shay mitchell</h1></div></div><div class="directory ladies"><img src="/"><div class="fdetails"><h1>sophie turner</h1></div></div><div class="directory gents"><img src="/"><div class="fdetails"><h1>stefano masciolini</h1></div></div><div class="directory ladies"><img src="/"><div class="fdetails"><h1>stephanie beatriz</h1></div></div>
-  <div class="directory ladies"><img src="/"><div class="fdetails"><h1>taylor louderman</h1></div></div><div class="directory ladies"><img src="/"><div class="fdetails"><h1>taylor marie hill</h1></div></div>
-  <div class="directory gents"><img src="/"><div class="fdetails"><h1>terry crews</h1></div></div><div class="directory ladies"><img src="/"><div class="fdetails"><h1>tessa thompson</h1></div></div>
-  <div class="directory gents"><img src="/"><div class="fdetails"><h1>theo james</h1></div></div><div class="directory gents"><img src="/"><div class="fdetails"><h1>timothee chalamet</h1></div></div><div class="directory ladies"><img src="/"><div class="fdetails"><h1>tina fey</h1></div></div><div class="directory gents"><img src="/"><div class="fdetails"><h1>tom holland</h1></div></div>
-  <div class="directory gents"><img src="/"><div class="fdetails"><h1>tyler hoechlin</h1></div></div>
-  <div class="directory gents"><img src="/"><div class="fdetails"><h1>tyler posey</h1></div></div>
-  <div class="directory gents"><img src="/"><div class="fdetails"><h1>william jackson harper</h1></div></div>
-  <div class="directory gents"><img src="/"><div class="fdetails"><h1>zac efron</h1></div></div><div class="directory gents"><img src="/"><div class="fdetails"><h1>zachary levi</h1></div></div><div class="directory gents"><img src="/"><div class="fdetails"><h1>zayn </h1></div></div>
-  <div class="directory ladies"><img src="/"><div class="fdetails"><h1>zendaya</h1></div></div><div class="directory ladies"><img src="/"><div class="fdetails"><h1>zoe saldana</h1></div></div><div class="directory ladies"><img src="/"><div class="fdetails"><h1>zoey deutch</h1></div></div>
-
-    </div></div>
+	<!-- Control buttons -->
+	<div id="myBtnContainer">
+		<button class="btn active" onclick="filterSelection('all')">Show all</button>
+		<button class="btn" onclick="filterSelection('gents')">male</button>
+		<button class="btn" onclick="filterSelection('ladies')">female</button>
+		<button class="btn" onclick="filterSelection('twenty')">18-24</button>
+		<button class="btn" onclick="filterSelection('twotwo')">25-29</button>
+		<button class="btn" onclick="filterSelection('thirty')">30-34</button>
+		<button class="btn" onclick="filterSelection('threetwo')">35-39</button>
+		<button class="btn" onclick="filterSelection('forty')">40-44</button>
+		<button class="btn" onclick="filterSelection('older')">45 +</button>
+		<button class="btn" onclick="filterSelection('poc')">POC</button>
+	</div>
+	<!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
+	<div class="container">
+		<div class="directory gents thirty">
+			<img src="https://img.nickpic.host/lQTvgc.jpg">
+			<div class="fdetails">
+				<h1>aaron tyler johnson</h1> 30 // male</div>
+		</div>
+		<div class="directory threetwo gents">
+			<img src="https://img.nickpic.host/lQTaBs.jpg">
+			<div class="fdetails">
+				<h1>aaron tveit</h1> 37 // male</div>
+		</div>
+		<div class="directory ladies poc thirty">
+			<img src="https://www.tvovermind.com/wp-content/uploads/2018/09/aditi-rao-hydari.jpg">
+			<div class="fdetails">
+				<h1>aditi rao hydari</h1>
+				34 // female</div>
+		</div>
+		<div class="directory ladies thirty poc">
+			<img src="https://img.nickpic.host/lQTBP1.jpg">
+			<div class="fdetails">
+				<h1>adrienne warren</h1>
+				33 // female</div>
+		</div>
+		<div class="directory gents twenty">
+			<img src="https://img.nickpic.host/lQTjh2.jpg">
+			<div class="fdetails">
+				<h1>alberto rosende</h1> 28 // male</div>
+		</div>
+		<div class="directory thirty gents poc">
+			<img src="https://img.nickpic.host/lQTSIx.jpg">
+			<div class="fdetails">
+				<h1>alfred enoch</h1>32 // male</div>
+		</div>
+		<div class="directory ladies threetwo poc">
+			<img src="https://img.nickpic.host/lQTx4W.jpg">
+			<div class="fdetails">
+				<h1>ali wong</h1>
+				38 // female // poc</div>
+		</div>
+		<div class="directory ladies twotwo poc">
+			<img src="https://img.nickpic.host/lQPEvA.jpg">
+			<div class="fdetails">
+				<h1>alia bhatt</h1>
+				28 // female</div>
+		</div>
+		<div class="directory ladies older">
+			<img src="https://img.nickpic.host/lQTpGz.jpg">
+			<div class="fdetails">
+				<h1>amy poehler</h1>
+				49 // female</div>
+		</div>
+		<div class="directory ladies twotwo">
+			<img src="https://images.fashionmodeldirectory.com/images/models/7114/anais-pouliot-134872-fit.jpg">
+			<div class="fdetails">
+				<h1>anais pouliot</h1>
+				29 // female</div>
+		</div>
+		<div class="directory gents thirty model">
+			<img src="https://img.nickpic.host/lQTcgN.jpg">
+			<div class="fdetails">
+				<h1>andre hamann</h1> 33 // male</div>
+		</div>
+		<div class="directory gents threetwo">
+			<img src="https://img.nickpic.host/lQTEnq.jpg">
+			<div class="fdetails">
+				<h1>andrew keenan-bolger</h1>35 // male</div>
+		</div>
+		<div class="directory forty gents">
+			<img src="https://img.nickpic.host/lQT6BD.jpg">
+			<div class="fdetails">
+				<h1>andy samberg</h1> 42 // male</div>
+		</div>
+		<div class="directory ladies poc thirty">
+			<img src="https://img.nickpic.host/lQTBP1.jpg">
+			<div class="fdetails">
+				<h1>anna diop</h1>
+				33 // female</div>
+		</div>
+		<div class="directory gents twotwo">
+			<img src="https://img.nickpic.host/lQTXIM.jpg">
+			<div class="fdetails">
+				<h1>ansel elgort</h1> 27 // male</div>
+		</div>
+		<div class="directory gents forty poc">
+			<img src="https://img.nickpic.host/lQTtTX.jpg">
+			<div class="fdetails">
+				<h1>anthony mackie</h1> 42 // male</div>
+		</div>
+		<div class="directory gents poc twotwo">
+			<img src="https://img.nickpic.host/lQTnDe.jpg">
+			<div class="fdetails">
+				<h1>anthony ramos</h1> 29 // male</div>
+		</div>
+		<div class="directory gents twotwo poc">
+			<img src="https://img.nickpic.host/lQT1nf.jpg">
+			<div class="fdetails">
+				<h1>avan jogia</h1>29 // male</div>
+		</div>
+		<div class="directory ladies poc threetwo">
+			<img src="https://img.nickpic.host/lQT496.jpg">
+			<div class="fdetails">
+				<h1>arden cho</h1>
+				35 // female</div>
+		</div>
+		<div class="directory ladies threetwo">
+			<img src="https://img.nickpic.host/lQTwbp.jpg">
+			<div class="fdetails">
+				<h1>aubrey plaza</h1>
+				36 // female</div>
+		</div>
+		<div class="directory ladies poc twenty">
+			<img src="https://img.nickpic.host/lQTKmG.md.jpg">
+			<div class="fdetails">
+				<h1>auli'i cravalho</h1>
+				20 // female</div>
+		</div>
+		<div class="directory ladies twotwo">
+			<img src="https://img.nickpic.host/lQTYqz.jpg">
+			<div class="fdetails">
+				<h1>barbara palvin</h1>
+				27 // female</div>
+		</div>
+		<div class="directory gents twotwo">
+			<img src="https://img.nickpic.host/lQT0tj.jpg">
+			<div class="fdetails">
+				<h1>ben platt</h1> 27 // male</div>
+		</div>
+		<div class="directory gents forty">
+			<img src="https://img.nickpic.host/lQT29J.jpg">
+			<div class="fdetails">
+				<h1>bill hader</h1> 42 // male</div>
+		</div>
+		<div class="directory ladies poc twotwo">
+			<img src="https://img.nickpic.host/lQTkCs.jpg">
+			<div class="fdetails">
+				<h1>blanca padilla</h1> 26 // female</div>
+		</div>
+		<div class="directory gents threetwo">
+			<img src="https://img.nickpic.host/lQTPmQ.jpg">
+			<div class="fdetails">
+				<h1>bob morley</h1> 36 // male</div>
+		</div>
+		<div class="directory threetwo">
+			<img src="https://img.nickpic.host/lQTWwN.jpg">
+			<div class="fdetails">
+				<h1>brant daugherty</h1> 35 // male</div>
+		</div>
+		<div class="directory thirty gents">
+			<img src="https://img.nickpic.host/lQTZWO.jpg">
+			<div class="fdetails">
+				<h1>brenton thwaites</h1> 31 // male</div>
+		</div>
+		<div class="directory twenty ladies">
+			<img src="https://img.nickpic.host/lQTylm.jpg">
+			<div class="fdetails">
+				<h1>bridget satterlee</h1> 22 // female</div>
+		</div>
+		<div class="thirty directory ladies">
+			<img src="https://img.nickpic.host/lQWpCD.jpg">
+			<div class="fdetails">
+				<h1>brie larson</h1> 31 // female</div>
+		</div>
+		<div class="directory ladies poc twenty">
+			<img src="https://img.nickpic.host/lQWvN5.jpg">
+			<div class="fdetails">
+				<h1>brittany o’grady</h1>24 // female</div>
+		</div>
+		<div class="directory ladies threetwo">
+			<img src="https://img.nickpic.host/lQWbuM.jpg">
+			<div class="fdetails">
+				<h1>brittany snow</h1>35 // female</div>
+		</div>
+		<div class="directory ladies thirty">
+			<img src="https://img.nickpic.host/lQWSQp.jpg">
+			<div class="fdetails">
+				<h1>candice accola-king</h1> 33 // female</div>
+		</div>
+		<div class="directory poc ladies thirty">
+			<img src="https://img.nickpic.host/lQWEZc.jpg">
+			<div class="fdetails">
+				<h1>candice patton</h1> 32 // female</div>
+		</div>
+		<div class="directory gents poc thirty">
+			<img src="https://img.nickpic.host/lQWhlW.jpg">
+			<div class="fdetails">
+				<h1>carlos valdes</h1> 31 // male</div>
+		</div>
+		<div class="directory twenty ladies">
+			<img src="https://img.nickpic.host/lQWCkj.jpg">
+			<div class="fdetails">
+				<h1>carmella rose</h1> 25 // female</div>
+		</div>
+		<div class="directory thirty ladies">
+			<img src="https://img.nickpic.host/lQWR7x.jpg">
+			<div class="fdetails">
+				<h1>caroline innerbichler</h1> 30s // female</div>
+		</div>
+		<div class="directory threetwo gents">
+			<img src="https://img.nickpic.host/lQZF8Q.png">
+			<div class="fdetails">
+				<h1>charlie cox</h1> 38 // male</div>
+		</div>
+		<div class="directory older ladies">
+			<img src="https://img.nickpic.host/lQZayx.jpg">
+			<div class="fdetails">
+				<h1>cherlize theron</h1> 45 // female</div>
+		</div>
+		<div class="directory twenty ladies">
+			<img src="https://img.nickpic.host/lQZlSN.jpg">
+			<div class="fdetails">
+				<h1>chloe grace moretz</h1> 24 // female</div>
+		</div>
+		<div class="directory threetwo gents">
+			<img src="https://img.nickpic.host/lQdNWF.jpg">
+			<div class="fdetails">
+				<h1>chris evans</h1> 39 // male</div>
+		</div>
+		<div class="directory gents threetwo">
+			<img src="https://img.nickpic.host/lQdYqP.jpg">
+			<div class="fdetails">
+				<h1>chris hemsworth</h1> 37 // male</div>
+		</div>
+		<div class="directory gents forty">
+			<img src="https://img.nickpic.host/lQdKm5.jpg">
+			<div class="fdetails">
+				<h1>chris pine</h1> 40 // male</div>
+		</div>
+		<div class="directory gents forty">
+			<img src="https://img.nickpic.host/lQdHwM.jpg">
+			<div class="fdetails">
+				<h1>chris pratt</h1> 41 // male</div>
+		</div>
+		<div class="directory thirty gents">
+			<img src="https://img.nickpic.host/IQV8X1.png">
+			<div class="fdetails">
+				<h1>chris wood</h1> 32 // male</div>
+		</div>
+		<div class="directory ladies twotwo">
+			<img src="https://img.nickpic.host/7Q5bz.jpg">
+			<div class="fdetails">
+				<h1>chrissy costanza</h1>25 // female</div>
+		</div>
+		<div class="directory twotwo ladies poc">
+			<img src="https://img.nickpic.host/lQdZWz.jpg">
+			<div class="fdetails">
+				<h1>cierra ramirez</h1> 26 // female</div>
+		</div>
+		<div class="directory ladies thirty">
+			<img src="https://img.nickpic.host/lQdylc.jpg">
+			<div class="fdetails">
+				<h1>claire holt</h1> 32 // female</div>
+		</div>
+		<div class="directory gents twenty">
+			<img src="https://img.nickpic.host/lQybu2.jpg">
+			<div class="fdetails">
+				<h1>colin ford</h1> 24 // male</div>
+		</div>
+		<div class="directory gents forty">
+			<img src="https://img.nickpic.host/lQyBos.jpg">
+			<div class="fdetails">
+				<h1>colin o'donoghue</h1> 40 // male</div>
+		</div>
+		<div class="directory threetwo ladies">
+			<img src="https://img.nickpic.host/lQyrzQ.jpg">
+			<div class="fdetails">
+				<h1>constance wu</h1> 39 // female</div>
+		</div>
+		<div class="directory ladies poc threetwo">
+			<img src="https://img.nickpic.host/lQyjkm.jpg">
+			<div class="fdetails">
+				<h1>courtney reed</h1> 35 // female</div>
+		</div>
+		<div class="directory ladies threetwo">
+			<img src="https://img.nickpic.host/lQyFlN.jpg">
+			<div class="fdetails">
+				<h1>crystal reed</h1> 36 // female</div>
+		</div>
+		<div class="directory ladies twotwo">
+			<img src="https://img.nickpic.host/lQyUsb.jpg">
+			<div class="fdetails">
+				<h1>danielle campbell</h1> 26 // female</div>
+		</div>
+		<div class="directory ladies">
+			<img src="https://img.nickpic.host/lQyCkX.jpg">
+			<div class="fdetails">
+				<h1>danielle panabaker</h1>33 // female</div>
+		</div>
+		<div class="directory poc threetwo gents">
+			<img src="https://img.nickpic.host/lQy6Me.jpg">
+			<div class="fdetails">
+				<h1>daveed diggs</h1> 39 // male</div>
+		</div>
+		<div class="directory older gents">
+			<img src="https://img.nickpic.host/lQyXQf.jpg">
+			<div class="fdetails">
+				<h1>david tennant</h1> 49 // male</div>
+		</div>
+		<div class="directory threetwo ladies">
+			<img src="https://img.nickpic.host/lQyKUj.jpg">
+			<div class="fdetails">
+				<h1>deborah ann woll</h1> 36 // female</div>
+		</div>
+		<div class="directory twotwo gents">
+			<img src="https://img.nickpic.host/lQy8s1.jpg">
+			<div class="fdetails">
+				<h1>derek klena</h1> 29 // male</div>
+		</div>
+		<div class="directory thirty gents">
+			<img src="https://img.nickpic.host/lQyYVJ.jpg">
+			<div class="fdetails">
+				<h1>dev patel</h1> 30 // male</div>
+		</div>
+		<div class="directory gents">
+			<img src="/">
+			<div class="fdetails">
+				<h1>dylan o'brien</h1>
+			</div>
+		</div>
+		<div class="directory gents">
+			<img src="/">
+			<div class="fdetails">
+				<h1>dylan sprayberry</h1>
+			</div>
+		</div>
+		<div class="directory ladies">
+			<img src="/">
+			<div class="fdetails">
+				<h1>elizabeth olsen</h1>
+			</div>
+		</div>
+		<div class="directory ladies">
+			<img src="/">
+			<div class="fdetails">
+				<h1>elle fanning</h1>
+			</div>
+		</div>
+		<div class="directory ladies">
+			<img src="/">
+			<div class="fdetails">
+				<h1>elsa hosk</h1>
+			</div>
+		</div>
+		<div class="directory ladies">
+			<img src="/">
+			<div class="fdetails">
+				<h1>emilia clarke</h1>
+			</div>
+		</div>
+		<div class="directory ladies">
+			<img src="/">
+			<div class="fdetails">
+				<h1>emily blunt</h1>
+			</div>
+		</div>
+		<div class="directory ladies">
+			<img src="/">
+			<div class="fdetails">
+				<h1>eva de dominici</h1>
+			</div>
+		</div>
+		<div class="directory ladies">
+			<img src="/">
+			<div class="fdetails">
+				<h1>eva noblezada</h1>
+			</div>
+		</div>
+		<div class="directory gents">
+			<img src="/">
+			<div class="fdetails">
+				<h1>francisco lachowski</h1>
+			</div>
+		</div>
+		<div class="directory ladies">
+			<img src="/">
+			<div class="fdetails">
+				<h1>freya mavor</h1>
+			</div>
+		</div>
+		<div class="directory ladies">
+			<img src="/">
+			<div class="fdetails">
+				<h1>gemma ward</h1>
+			</div>
+		</div>
+		<div class="directory gents">
+			<img src="/">
+			<div class="fdetails">
+				<h1>grant gustin</h1>
+			</div>
+		</div>
+		<div class="directory ladies">
+			<img src="/">
+			<div class="fdetails">
+				<h1>hailee steinfeld</h1>
+			</div>
+		</div>
+		<div class="directory ladies">
+			<img src="/">
+			<div class="fdetails">
+				<h1>hannah murray</h1>
+			</div>
+		</div>
+		<div class="directory gents">
+			<img src="/">
+			<div class="fdetails">
+				<h1>harry styles</h1>
+			</div>
+		</div>
+		<div class="directory ladies">
+			<img src="/">
+			<div class="fdetails">
+				<h1>helena mckelvie</h1>
+			</div>
+		</div>
+		<div class="directory gents">
+			<img src="/">
+			<div class="fdetails">
+				<h1>henry golding</h1>
+			</div>
+		</div>
+		<div class="directory ladies">
+			<img src="/">
+			<div class="fdetails">
+				<h1>holland roden</h1>
+			</div>
+		</div>
+		<div class="directory gents">
+			<img src="/">
+			<div class="fdetails">
+				<h1>ian somerhalder</h1>
+			</div>
+		</div>
+		<div class="directory ladies">
+			<img src="/">
+			<div class="fdetails">
+				<h1>im yeojin</h1>
+			</div>
+		</div>
+		<div class="directory ladies">
+			<img src="/">
+			<div class="fdetails">
+				<h1>jameela jamil</h1>
+			</div>
+		</div>
+		<div class="directory gents">
+			<img src="/">
+			<div class="fdetails">
+				<h1>james marsden</h1>
+			</div>
+		</div>
+		<div class="directory gents">
+			<img src="/">
+			<div class="fdetails">
+				<h1>jason momoa</h1>
+			</div>
+		</div>
+		<div class="directory gents">
+			<img src="/">
+			<div class="fdetails">
+				<h1>jean-luc bilodeau</h1>
+			</div>
+		</div>
+		<div class="directory gents">
+			<img src="/">
+			<div class="fdetails">
+				<h1>jelani alladin</h1>
+			</div>
+		</div>
+		<div class="directory ladies">
+			<img src="/">
+			<div class="fdetails">
+				<h1>jennie kim</h1>
+			</div>
+		</div>
+		<div class="directory gents">
+			<img src="/">
+			<div class="fdetails">
+				<h1>jeremy jordan</h1>
+			</div>
+		</div>
+		<div class="directory ladies">
+			<img src="/">
+			<div class="fdetails">
+				<h1>jessica sula</h1>
+			</div>
+		</div>
+		<div class="directory gents">
+			<img src="/">
+			<div class="fdetails">
+				<h1>joe dempsie</h1>
+			</div>
+		</div>
+		<div class="directory gents">
+			<img src="/">
+			<div class="fdetails">
+				<h1>john mulaney</h1>
+			</div>
+		</div>
+		<div class="directory gents">
+			<img src="/">
+			<div class="fdetails">
+				<h1>jordan fisher</h1>
+			</div>
+		</div>
+		<div class="directory gents">
+			<img src="/">
+			<div class="fdetails">
+				<h1>joseph morgan</h1>
+			</div>
+		</div>
+		<div class="directory ladies">
+			<img src="/">
+			<div class="fdetails">
+				<h1>josephine skriver</h1>
+			</div>
+		</div>
+		<div class="directory gents">
+			<img src="/">
+			<div class="fdetails">
+				<h1>jung taek-woon (leo)</h1>
+			</div>
+		</div>
+		<div class="directory ladies">
+			<img src="/">
+			<div class="fdetails">
+				<h1>jurnee smollett</h1>
+			</div>
+		</div>
+		<div class="directory gents">
+			<img src="/">
+			<div class="fdetails">
+				<h1>justice smith</h1>
+			</div>
+		</div>
+		<div class="directory ladies">
+			<img src="/">
+			<div class="fdetails">
+				<h1>kat dennings</h1>
+			</div>
+		</div>
+		<div class="directory ladies">
+			<img src="/">
+			<div class="fdetails">
+				<h1>kat graham</h1>
+			</div>
+		</div>
+		<div class="directory ladies">
+			<img src="/">
+			<div class="fdetails">
+				<h1>kathryn newton</h1>
+			</div>
+		</div>
+		<div class="directory ladies">
+			<img src="/">
+			<div class="fdetails">
+				<h1>kerry butler</h1>
+			</div>
+		</div>
+		<div class="directory ladies">
+			<img src="/">
+			<div class="fdetails">
+				<h1>kiernan shipka</h1>
+			</div>
+		</div>
+		<div class="directory ladies">
+			<img src="/">
+			<div class="fdetails">
+				<h1>kim hyuna</h1>
+			</div>
+		</div>
+		<div class="directory ladies">
+			<img src="/">
+			<div class="fdetails">
+				<h1>kim seul-gi</h1>
+			</div>
+		</div>
+		<div class="directory gents">
+			<img src="/">
+			<div class="fdetails">
+				<h1>kit harrington</h1>
+			</div>
+		</div>
+		<div class="directory ladies">
+			<img src="/">
+			<div class="fdetails">
+				<h1>laura osnes</h1>
+			</div>
+		</div>
+		<div class="directory gents">
+			<img src="/">
+			<div class="fdetails">
+				<h1>leslie odom jr.</h1>
+			</div>
+		</div>
+		<div class="directory ladies">
+			<img src="/">
+			<div class="fdetails">
+				<h1>letitia wright</h1>
+			</div>
+		</div>
+		<div class="directory ladies">
+			<img src="/">
+			<div class="fdetails">
+				<h1>liana liberato</h1>
+			</div>
+		</div>
+		<div class="directory ladies">
+			<img src="/">
+			<div class="fdetails">
+				<h1>lily collins</h1>
+			</div>
+		</div>
+		<div class="directory ladies">
+			<img src="/">
+			<div class="fdetails">
+				<h1>lily james</h1>
+			</div>
+		</div>
+		<div class="directory gents">
+			<img src="/">
+			<div class="fdetails">
+				<h1>lin-manuel miranda</h1>
+			</div>
+		</div>
+		<div class="directory gents">
+			<img src="/">
+			<div class="fdetails">
+				<h1>luke newberry</h1>
+			</div>
+		</div>
+		<div class="directory gents">
+			<img src="/">
+			<div class="fdetails">
+				<h1>luke pasqualino</h1>
+			</div>
+		</div>
+		<div class="directory ladies">
+			<img src="/">
+			<div class="fdetails">
+				<h1>maisie richardson sellers</h1>
+			</div>
+		</div>
+		<div class="directory ladies">
+			<img src="/">
+			<div class="fdetails">
+				<h1>maisie williams</h1>
+			</div>
+		</div>
+		<div class="directory ladies">
+			<img src="/">
+			<div class="fdetails">
+				<h1>margot robbie</h1>
+			</div>
+		</div>
+		<div class="directory gents">
+			<img src="/">
+			<div class="fdetails">
+				<h1>marlon teixeira</h1>
+			</div>
+		</div>
+		<div class="directory ladies">
+			<img src="/">
+			<div class="fdetails">
+				<h1>mary elizabeth winstead</h1>
+			</div>
+		</div>
+		<div class="directory gents">
+			<img src="/">
+			<div class="fdetails">
+				<h1>matthew daddario</h1>
+			</div>
+		</div>
+		<div class="directory ladies">
+			<img src="/">
+			<div class="fdetails">
+				<h1>melissa benoist</h1>
+			</div>
+		</div>
+		<div class="directory ladies">
+			<img src="/">
+			<div class="fdetails">
+				<h1>melissa fumero</h1>
+			</div>
+		</div>
+		<div class="directory gents">
+			<img src="/">
+			<div class="fdetails">
+				<h1>michael b jordan</h1>
+			</div>
+		</div>
+		<div class="directory gents">
+			<img src="/">
+			<div class="fdetails">
+				<h1>michael johnston</h1>
+			</div>
+		</div>
+		<div class="directory ladies">
+			<img src="/">
+			<div class="fdetails">
+				<h1>mila kunis</h1>
+			</div>
+		</div>
+		<div class="directory ladies">
+			<img src="/">
+			<div class="fdetails">
+				<h1>ming-na wen</h1>
+			</div>
+		</div>
+		<div class="directory ladies">
+			<img src="/">
+			<div class="fdetails">
+				<h1>minka kelly</h1>
+			</div>
+		</div>
+		<div class="directory ladies">
+			<img src="/">
+			<div class="fdetails">
+				<h1>morena baccarin</h1>
+			</div>
+		</div>
+		<div class="directory ladies">
+			<img src="/">
+			<div class="fdetails">
+				<h1>morgan saylor</h1>
+			</div>
+		</div>
+		<div class="directory ladies">
+			<img src="/">
+			<div class="fdetails">
+				<h1>naomi scott</h1>
+			</div>
+		</div>
+		<div class="directory ladies">
+			<img src="/">
+			<div class="fdetails">
+				<h1>nastassia lindes</h1>
+			</div>
+		</div>
+		<div class="directory ladies">
+			<img src="/">
+			<div class="fdetails">
+				<h1>natalie dormer</h1>
+			</div>
+		</div>
+		<div class="directory gents">
+			<img src="/">
+			<div class="fdetails">
+				<h1>nathaniel buzolic</h1>
+			</div>
+		</div>
+		<div class="directory gents">
+			<img src="/">
+			<div class="fdetails">
+				<h1>niall horan</h1>
+			</div>
+		</div>
+		<div class="directory gents">
+			<img src="/">
+			<div class="fdetails">
+				<h1>nick hoult</h1>
+			</div>
+		</div>
+		<div class="directory gents">
+			<img src="/">
+			<div class="fdetails">
+				<h1>nick jonas</h1>
+			</div>
+		</div>
+		<div class="directory ladies">
+			<img src="/">
+			<div class="fdetails">
+				<h1>nina dobrev</h1>
+			</div>
+		</div>
+		<div class="directory ladies">
+			<img src="/">
+			<div class="fdetails">
+				<h1>nina nesbitt</h1>
+			</div>
+		</div>
+		<div class="directory gents">
+			<img src="/">
+			<div class="fdetails">
+				<h1>paul rudd</h1>
+			</div>
+		</div>
+		<div class="directory gents">
+			<img src="/">
+			<div class="fdetails">
+				<h1>paul wesley</h1>
+			</div>
+		</div>
+		<div class="directory ladies">
+			<img src="/">
+			<div class="fdetails">
+				<h1>poppy drayton</h1>
+			</div>
+		</div>
+		<div class="directory gents">
+			<img src="/">
+			<div class="fdetails">
+				<h1>puttichai kasetsin</h1>
+			</div>
+		</div>
+		<div class="directory gents">
+			<img src="/">
+			<div class="fdetails">
+				<h1>randall park</h1>
+			</div>
+		</div>
+		<div class="directory gents">
+			<img src="/">
+			<div class="fdetails">
+				<h1>richard madden</h1>
+			</div>
+		</div>
+		<div class="directory gents">
+			<img src="/">
+			<div class="fdetails">
+				<h1>robert downey jr</h1>
+			</div>
+		</div>
+		<div class="directory ladies">
+			<img src="/">
+			<div class="fdetails">
+				<h1>rosario dawson</h1>
+			</div>
+		</div>
+		<div class="directory ladies">
+			<img src="/">
+			<div class="fdetails">
+				<h1>rose leslie</h1>
+			</div>
+		</div>
+		<div class="directory gents">
+			<img src="/">
+			<div class="fdetails">
+				<h1>ryan kelley</h1>
+			</div>
+		</div>
+		<div class="directory gents">
+			<img src="/">
+			<div class="fdetails">
+				<h1>ryan mccartan</h1>
+			</div>
+		</div>
+		<div class="directory gents">
+			<img src="/">
+			<div class="fdetails">
+				<h1>ryan potter</h1>
+			</div>
+		</div>
+		<div class="directory gents">
+			<img src="/">
+			<div class="fdetails">
+				<h1>ryan reynolds</h1>
+			</div>
+		</div>
+		<div class="directory gents">
+			<img src="/">
+			<div class="fdetails">
+				<h1>sam claflin</h1>
+			</div>
+		</div>
+		<div class="directory gents">
+			<img src="/">
+			<div class="fdetails">
+				<h1>sean bean</h1>
+			</div>
+		</div>
+		<div class="directory gents">
+			<img src="/">
+			<div class="fdetails">
+				<h1>sean opry</h1>
+			</div>
+		</div>
+		<div class="directory gents">
+			<img src="/">
+			<div class="fdetails">
+				<h1>sean o'donnell</h1>
+			</div>
+		</div>
+		<div class="directory ladies">
+			<img src="/">
+			<div class="fdetails">
+				<h1>shay mitchell</h1>
+			</div>
+		</div>
+		<div class="directory ladies">
+			<img src="/">
+			<div class="fdetails">
+				<h1>sophie turner</h1>
+			</div>
+		</div>
+		<div class="directory gents">
+			<img src="/">
+			<div class="fdetails">
+				<h1>stefano masciolini</h1>
+			</div>
+		</div>
+		<div class="directory ladies">
+			<img src="/">
+			<div class="fdetails">
+				<h1>stephanie beatriz</h1>
+			</div>
+		</div>
+		<div class="directory ladies">
+			<img src="/">
+			<div class="fdetails">
+				<h1>taylor louderman</h1>
+			</div>
+		</div>
+		<div class="directory ladies">
+			<img src="/">
+			<div class="fdetails">
+				<h1>taylor marie hill</h1>
+			</div>
+		</div>
+		<div class="directory gents">
+			<img src="/">
+			<div class="fdetails">
+				<h1>terry crews</h1>
+			</div>
+		</div>
+		<div class="directory ladies">
+			<img src="/">
+			<div class="fdetails">
+				<h1>tessa thompson</h1>
+			</div>
+		</div>
+		<div class="directory gents">
+			<img src="/">
+			<div class="fdetails">
+				<h1>theo james</h1>
+			</div>
+		</div>
+		<div class="directory gents">
+			<img src="/">
+			<div class="fdetails">
+				<h1>timothee chalamet</h1>
+			</div>
+		</div>
+		<div class="directory ladies">
+			<img src="/">
+			<div class="fdetails">
+				<h1>tina fey</h1>
+			</div>
+		</div>
+		<div class="directory gents">
+			<img src="/">
+			<div class="fdetails">
+				<h1>tom holland</h1>
+			</div>
+		</div>
+		<div class="directory gents">
+			<img src="/">
+			<div class="fdetails">
+				<h1>tyler hoechlin</h1>
+			</div>
+		</div>
+		<div class="directory gents">
+			<img src="/">
+			<div class="fdetails">
+				<h1>tyler posey</h1>
+			</div>
+		</div>
+		<div class="directory gents">
+			<img src="/">
+			<div class="fdetails">
+				<h1>william jackson harper</h1>
+			</div>
+		</div>
+		<div class="directory gents">
+			<img src="/">
+			<div class="fdetails">
+				<h1>zac efron</h1>
+			</div>
+		</div>
+		<div class="directory gents">
+			<img src="/">
+			<div class="fdetails">
+				<h1>zachary levi</h1>
+			</div>
+		</div>
+		<div class="directory gents">
+			<img src="/">
+			<div class="fdetails">
+				<h1>zayn </h1>
+			</div>
+		</div>
+		<div class="directory ladies">
+			<img src="/">
+			<div class="fdetails">
+				<h1>zendaya</h1>
+			</div>
+		</div>
+		<div class="directory ladies">
+			<img src="/">
+			<div class="fdetails">
+				<h1>zoe saldana</h1>
+			</div>
+		</div>
+		<div class="directory ladies">
+			<img src="/">
+			<div class="fdetails">
+				<h1>zoey deutch</h1>
+			</div>
+		</div>
+	</div>
+</div>
 <script src="/site/fcdirectory.js"></script>
