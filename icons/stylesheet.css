@@ -1,10 +1,11 @@
+
 @font-face {
   font-family: 'lydia';
-  src:  url('https://softacos.github.io/icons/lydia.eot?mrdnv5');
-  src:  url('https://softacos.github.io/icons/lydia.eot?mrdnv5#iefix') format('embedded-opentype'),
-    url('https://softacos.github.io/icons/lydia.ttf?mrdnv5') format('truetype'),
-    url('https://softacos.github.io/icons/lydia.woff?mrdnv5') format('woff'),
-    url('https://softacos.github.io/icons/lydia.svg?mrdnv5#lydia') format('svg');
+  src:  url('https://softacos.github.io/icons/lydia.eot?bpddsm');
+  src:  url('https://softacos.github.io/icons/lydia.eot?bpddsm#iefix') format('embedded-opentype'),
+    url('https://softacos.github.io/icons/lydia.ttf?bpddsm') format('truetype'),
+    url('https://softacos.github.io/icons/lydia.woff?bpddsm') format('woff'),
+    url('https://softacos.github.io/icons/lydia.svg?bpddsm#lydia') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +26,114 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.lyd-l-bulb-lt .path1:before {
+  content: "\e916";
+  color: rgb(0, 0, 0);
+}
+.lyd-l-bulb-lt .path2:before {
+  content: "\e917";
+  margin-left: -1em;
+  color: rgb(35, 31, 32);
+}
+.lyd-l-bulb-lt .path3:before {
+  content: "\e918";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.lyd-l-bulb-lt .path4:before {
+  content: "\e919";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.lyd-l-bulb-lt .path5:before {
+  content: "\e91a";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.lyd-l-bulb-lt .path6:before {
+  content: "\e91b";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.lyd-l-bulb-lt .path7:before {
+  content: "\e91c";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.lyd-l-bulb-lt .path8:before {
+  content: "\e91d";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.lyd-l-bulb-lt .path9:before {
+  content: "\e91e";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.lyd-l-bulb-lt .path10:before {
+  content: "\e91f";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.lyd-l-bulb-lt .path11:before {
+  content: "\e920";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.lyd-l-bulb-dark .path1:before {
+  content: "\e921";
+  color: rgb(0, 0, 0);
+}
+.lyd-l-bulb-dark .path2:before {
+  content: "\e922";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.lyd-l-bulb-dark .path3:before {
+  content: "\e923";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.lyd-l-bulb-dark .path4:before {
+  content: "\e924";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.lyd-l-bulb-dark .path5:before {
+  content: "\e925";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.lyd-l-bulb-dark .path6:before {
+  content: "\e926";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.lyd-l-bulb-dark .path7:before {
+  content: "\e927";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.lyd-l-bulb-dark .path8:before {
+  content: "\e928";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.lyd-l-bulb-dark .path9:before {
+  content: "\e929";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.lyd-l-bulb-dark .path10:before {
+  content: "\e92a";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.lyd-l-bulb-dark .path11:before {
+  content: "\e92b";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
 .lyd-archive:before {
   content: "\e912";
 }
@@ -100,4 +209,5 @@
 }
 .lyd-signal:before {
   content: "\e909";
-}
+}    
+    
