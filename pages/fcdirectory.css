@@ -80,7 +80,8 @@ body {
   background: rgba(var(--bgbu));
   border: none;
   font-family: sans-serif;
-  font-size: 12px;
+  font-size: 9px;
+  text-transform: uppercase; 
   text-align: center; 
   cursor: crosshair;
 }
