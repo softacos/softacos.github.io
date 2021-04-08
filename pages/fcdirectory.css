@@ -43,6 +43,7 @@ body {
 	}
 	.button-group {
   width: 100px; 
+  height: auto;
   position: sticky;
   position: -webkit-sticky; 
   top: 10px; 
