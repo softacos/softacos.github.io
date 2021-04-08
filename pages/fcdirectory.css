@@ -59,6 +59,12 @@ body {
 		letter-spacing: 1px; 
 		font-size: 8px; 
 	}
+.iconic {
+	font-size: 14px; 
+	display: block; 
+	text-align: center; 
+	line-height: 1em; 
+}
 
 	.cright { font-size: 12px; margin: 20px; text-align: center; }
 
