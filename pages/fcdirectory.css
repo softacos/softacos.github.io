@@ -65,13 +65,14 @@ body {
 button.color-mode__btn {
 	position: fixed;
 	top: 5px;
-	right: 5px;
+	right: 9px;
 	background: rgba(var(--bg));
 	color: rgba(var(--stk));
 	border: 1px solid rgba(var(--bgbu));
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	font-size: 8px
+	font-size: 8px;
+	padding: 5px 11px;
 }
 x {
 	display: block
