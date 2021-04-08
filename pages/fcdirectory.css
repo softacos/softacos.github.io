@@ -122,11 +122,10 @@ x {
 .button:active {
 	background: var(--grad75)
 }
-.button-group:after {
-	content: '';
-	display: block;
-	clear: both
+.button-group, .filters-button-group {
+	height: auto!important; 
 }
+
 .button-group .button {
 	float: left;
 	border-radius: 0;
