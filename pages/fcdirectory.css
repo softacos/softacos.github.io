@@ -55,13 +55,7 @@ body {
 	color: transparent;
 	-webkit-box-decoration-break: clone
 }
-.button-group {
-	width: 100px;
-	height: auto;
-	position: sticky;
-	position: -webkit-sticky;
-	top: 10px
-}
+
 button.color-mode__btn {
 	position: fixed;
 	top: 5px;
@@ -95,6 +89,16 @@ x {
 	box-sizing: border-box;
 	justify-content: space-between;
 	height: inherit
+}
+.button-group {
+  width: 100px; 
+}
+.buttonsticker {
+	width: 100px;
+	height: auto;
+	position: sticky;
+	position: -webkit-sticky;
+	top: 10px;
 }
 .button {
 	display: inline-block;
