@@ -48,4 +48,34 @@ $('.button-group').each( function( i, buttonGroup ) {
   });
 });
 
+      const toggleColorMode = e => {
+        //switch to Light Mode
+        if (e.currentTarget.classList.contains("dark--hidden")) {
+          //sets the custom html attribute 
+          document.documentElement.setAttribute("color-mode", "dark");
+          //sets the user's preference in local storage 
+          localStorage.setItem("color-mode", "dark");
+          return;
+        }
+        /* switch to dark mode
+        sets the custom hrml attribute */
+        document.documentElement.setAttribute("color-mode", "light");
+        // sets the user's preference in local storage 
+        localStorage.setItem("color-mode", "light");
+      };
+      //get the buttons in the dom
+      const toggleColorButtons = document.querySelectorAll(".color-mode__btn");
+      // set up even listeners 
+      toggleColorButtons.forEach(btn => {
+        btn.addEventListener("click", toggleColorMode);
+      });
+      // save the color mode 
+      if (
+        localStorage.getItem('color-mode') === 'light' ||
+        (window.matchMedia('(prefers-color-scheme: light)').matches &&
+          !localStorage.getItem('color-mode'))
+      ) {
+        document.documentElement.setAttribute('color-mode', 'light')
+      };
+
 
