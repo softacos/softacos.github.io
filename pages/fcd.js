@@ -17,17 +17,25 @@ var filterFns = {
     var name = $(this).find('.gender').text();
     return name.match( /femme$/ );
   },
+  // show if gender is nonbinary
   nb: function() {
     var name = $(this).find('.gender').text();
     return name.match( /nb$/ );
   },
+  // show if gender is male
   male: function() {
     var name = $(this).find('.gender').text();
     return name.match( /homme/ );
   },
+  // show if profession is model
     model: function() {
     var name = $(this).find('.profession').text();
     return name.match( /model$/ );
+  },
+  // show if profession is theatre
+    theatre: function() {
+    var name = $(this).find('.profession').text();
+    return name.match( /theatre$/ );
   },
 
 };
