@@ -111,6 +111,13 @@ html[data-theme="dark"] .little-shop-horrors {
   margin: 0px; 
   padding: 9px 0px 0px; 
 }
+.little-shop-horrors .drabble b {
+  background: var(--bdgrad); 
+  background-clip: text; 
+  -webkit-background-clip: text; 
+  -webkit-box-decoration-break: clone; 
+  color: transparent; 
+}
 .little-shop-horrors scroll {
   padding: 0px 4px; 
   display: block; 
