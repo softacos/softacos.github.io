@@ -74,6 +74,10 @@ html[data-theme="dark"] .little-shop-horrors {
   justify-content: space-between; 
   align-items: stretch; 
 }
+.little-shop-horrors .double img, .little-shop-horrors .moodboard img {
+  object-position: center; 
+  object-fit: cover; 
+}
 .little-shop-horrors .double img {
   width: 49%; 
 }
