@@ -137,3 +137,14 @@ html[data-theme="dark"] .little-shop-horrors {
   color: transparent;
   -webkit-box-decoration-break: clone; 
 }
+.little-shop-horrors iframe { 
+  width: 100%; 
+  height: 275px; 
+  background: var(--bggrad); 
+  padding: 5px; 
+}
+.little-shop-horrors video { 
+  width: 100%; height: 275px; 
+  background: var(--bggrad); 
+  padding: 5px; 
+}
