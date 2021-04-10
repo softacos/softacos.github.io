@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&family=Damion&display=swap");
+
+html[data-theme="dark"] .little-shop-horrors {
+  --bg: 21, 21, 21;
+  --stk: 244,244,244;
+  --bgbd: 0, 0, 0;
+}
+.little-shop-horrors {
+  --bg: 251, 251, 251;
+  --bggrad: linear-gradient(
+    45deg,
+    rgba(var(--accent), 0.45),
+    rgba(var(--accent2), 0.45),
+    rgba(var(--accent3), 0.45)
+  );
+  --bdgrad: linear-gradient(
+    45deg,
+    rgba(var(--accent)),
+    rgba(var(--accent2)),
+    rgba(var(--accent3))
+  );
+  --stk: 0, 0, 0;
+  --bgbd: 232, 232, 232;
+  background: var(--bggrad);
+  width: 500px;
+  border: 1px solid rgba(var(--bgbd));
+  color: rgba(var(--stk)); 
+}
+.little-shop-horrors * {
+  box-sizing: border-box;
+}
+.little-shop-horrors img {
+  padding: 5px;
+  background: var(--bdgrad);
+  margin-bottom: 10px; 
+
+}
+.little-shop-horrors .single img {
+  width: 100%;
+}
+.little-shop-horrors .single img:last-child {
+  margin: 0px; 
+} 
+.little-shop-horrors .seymour {
+  background: rgba(var(--bg));
+  margin: 0px 2px 2px;
+  padding: 10px 15px;
+  text-align: left;
+  font: bold 9px poppins;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.little-shop-horrors .seymour span {
+  background: var(--bdgrad);
+  background-repeat: repeat-x;
+  background-size: 100% 1px;
+  padding: 3px 1px;
+  background-position: 0 95%;
+}
+.little-shop-horrors .seymour span:before {
+  content: "# ";
+  background: var(--bdgrad);
+  display: inline-block;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.little-shop-horrors .suddenly {
+  padding: 35px 35px 30px;
+  background: rgba(var(--bg));
+  margin: 2px;
+  display: flex; 
+  flex-flow: row wrap;
+  justify-content: space-between; 
+}
+.little-shop-horrors .double img {
+  width: 49%; 
+}
+.little-shop-horrors .moodboard img {
+  width: 32%; 
+}
+.little-shop-horrors .quote {
+  text-align: center;  
+  font-family: damion;
+  font-size: 28px;
+  text-shadow: 1.5px 1.5px 4px rgba(var(--accent2)); 
+}
+.little-shop-horrors .quote byline {
+  font-family: poppins, serif; 
+  font-size: 11px; 
+  letter-spacing: 1px; 
+  font-weight: bold; 
+  text-shadow: 0px 0px 0px rgba(var(--accent2),0);
+  text-transform: uppercase; 
+  padding: 14px 0px 0px;
+  display: block; 
+  background: var(--bdgrad);
+  background-repeat: repeat-x;
+  background-size: 100% 1px;
+  padding: 14px 1px 3px;
+  background-position: 0 95%;
+  margin: 0px 0px 0px auto; 
+}
+
+.little-shop-horrors .drabble {
+  text-align: justify; 
+  font-size: 12px; 
+  line-height: 1.2em; 
+}
+.little-shop-horrors .drabble p {
+  margin: 0px; 
+  padding: 9px 0px 0px; 
+}
+.little-shop-horrors scroll {
+  padding: 0px 4px; 
+  display: block; 
+  max-height: 450px; 
+  overflow: auto; 
+}
+.little-shop-horrors app {
+  display: block; 
+  white-space: pre-line; 
+}
+.little-shop-horrors a {
+  background: var(--bdgrad);
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  -webkit-box-decoration-break: clone; 
+}
