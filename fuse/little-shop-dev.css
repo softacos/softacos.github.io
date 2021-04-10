@@ -82,7 +82,9 @@ html[data-theme="dark"] .little-shop-horrors {
 .little-shop-horrors .quote {
   text-align: center;  
   font-family: damion;
+  font-style: normal; 
   font-size: 28px;
+  line-height: 1.5em;
   text-shadow: 1.5px 1.5px 4px rgba(var(--accent2)); 
 }
 .little-shop-horrors .quote byline {
