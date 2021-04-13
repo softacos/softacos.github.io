@@ -146,4 +146,5 @@ color: rgba(var(--stk)) !Important;
  -webkit-background-clip: text; 
  color: transparent; 
  -webkit-text-fill-color: transparent;
+  -webkit-box-decoration-break: clone;
 }
