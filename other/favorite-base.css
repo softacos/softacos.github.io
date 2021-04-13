@@ -4,10 +4,15 @@
 		width: 100%;
 	}
 }
-#LAZY {
+#DEFAULT {
 	--accent: 254, 172, 94;
 	--accent2: 199, 121, 208;
 	--accent3: 75, 192, 200;
+}
+#LAZY { 
+	--accent: var(--mgrgb);
+	--accent2: var(--mgrgb2);
+	--accent3: var(--mgrgb3);
 }
 html[data-theme="dark"] .favorite-son {
 	--bg: 55, 55, 55;
