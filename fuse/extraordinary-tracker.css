@@ -129,8 +129,8 @@ html[data-theme="dark"] .extraordinary {
   background-clip: initial !important; 
   -webkit-text-fill-color: initial !important;
   color: rgba(var(--stk), 0.8)!important; 
-  padding: 4px 8px; 
-  font-size: 11px; text-transform: uppercase; 
+  padding: 3px 7px; 
+  font-size: 10px; text-transform: uppercase; 
   border-radius: 3px; 
   text-decoration: none; 
   font-family: montserrat, sans-serif; 
@@ -139,4 +139,11 @@ html[data-theme="dark"] .extraordinary {
 .extraordinary beans a:hover {
 color: rgba(var(--stk)) !Important; 
   background: var(--gradfull)!important;
+}
+.extraordinary .fire b {
+ background: var(--gradfull); 
+ background-clip: text; 
+ -webkit-background-clip: text; 
+ color: transparent; 
+ -webkit-text-fill-color: transparent;
 }
