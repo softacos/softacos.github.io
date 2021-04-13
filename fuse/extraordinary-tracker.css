@@ -1,29 +1,36 @@
+ @import url("https://use.typekit.net/yld2uri.css");
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://softacos.github.io/icons/stylesheet.css');
+
 /* MOBILE CODE */
 @media only screen and (max-width: 760px) {
-.extraordinary {
-  width: 100% !important; 
-  padding: 10px 5px 5px!important;  
-}
+.extraordinary { width: 100%!important; box-sizing: border-box; }
+.extraordinary holiday img {   width: 40px !important;  height: 40px!important; }
+.extraordinary .fire {   width: calc(100% - 50px)!important; }
+.extraordinary beans a {  padding: 2px 4px!important;   font-size: 8px !important; }
+.extraordinary rebel x { width: 20px!important; height: 20px!important; font-size: 15px!important; line-height: 20px!important }
+.extraordinary twentyone {   width: calc(100% - 35px)!important; }
 }
 
-html[data-theme="dark"] .extraordinary {
+html[data-theme="dark"] .extraordinary { 
   --bg: 30,30,30;
   --stk: 250,250,250;
   --bgbd: 0,0,0;
 }
+
+#TRACK .extraordinary { --color: 254,172,94; --color2: 199,121,208; --color3: 75,192,200; }
+
 .extraordinary {
-  --bg: 252,252,252;
-  --stk: 60,60,60;
-  --bgbd: 230,230,230;
+  --bg: 250,250,250;
+  --stk: 50,50,50;
+  --bgbd: 222,222,222;
   --gradlt: linear-gradient(45deg, rgba(var(--color),0.2), rgba(var(--color2),0.2), rgba(var(--color3),0.2));
   --gradmid: linear-gradient(45deg, rgba(var(--color),0.5), rgba(var(--color2),0.5), rgba(var(--color3),0.5));
   --gradfull: linear-gradient(45deg, rgba(var(--color),1), rgba(var(--color2),1), rgba(var(--color3),1));
-  width: 500px; 
+  width: 500px; color: rgba(var(--stk)); 
   background: rgba(var(--bg));
   border: 1px solid rgba(var(--bgbd));
-  padding: 10px 30px 30px; color: rgba(var(--stk)); 
+  padding: 10px 30px 30px; 
 }
 .extraordinary girl {
   display: block; 
@@ -39,7 +46,7 @@ html[data-theme="dark"] .extraordinary {
   display: block;
   height: 1px; 
   width: 33%;
-  background: var(--gradmid); 
+  background: var(--gradfull); 
   margin: 10px auto; 
 }
 .extraordinary rebel {
@@ -51,7 +58,7 @@ html[data-theme="dark"] .extraordinary {
   padding: 15px; 
 }
 .extraordinary rebel:before {
-  height: 1px; background: var(--gradfull);
+  height: 1px; background: var(--gradmid);
   content: ''; display: block; 
   width: 100%; margin-bottom: 15px; 
 }
@@ -120,12 +127,16 @@ html[data-theme="dark"] .extraordinary {
   background: var(--gradmid) !important;
   -webkit-background-clip: initial !important; 
   background-clip: initial !important; 
-  color: rgba(var(--stk))!important;
-  white-space: nowrap; 
+  -webkit-text-fill-color: initial !important;
+  color: rgba(var(--stk), 0.8)!important; 
   padding: 4px 8px; 
   font-size: 11px; text-transform: uppercase; 
   border-radius: 3px; 
   text-decoration: none; 
   font-family: montserrat, sans-serif; 
   font-weight: bold; margin-top: 5px; 
+}
+.extraordinary beans a:hover {
+color: rgba(var(--stk)) !Important; 
+  background: var(--gradfull)!important;
 }
