@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;800&family=IBM+Plex+Serif:ital,wght@1,400;1,500&display=swap');
 @media only screen and (max-width: 760px) {
 	.favorite-son {
-		width: 100%;
+		width: 100%!important;
+                box-sizing: border-box; 
 	}
 }
 #DEFAULT {
