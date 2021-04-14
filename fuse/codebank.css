@@ -72,6 +72,7 @@ border: 1px solid rgba(var(--border)); overflow: hidden; position: relative;
     -webkit-writing-mode: horizontal-tb !important; 
     -webkit-transform: rotate(0deg)!important;
   }
+ #mobile .codebank .musical { width: 100%!important; box-sizing: border-box; }
   #mobile .codebank .space:before { 
    height: 5px; width: 100%; right: initial!important; bottom: 0px; 
 }
