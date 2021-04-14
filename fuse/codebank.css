@@ -66,18 +66,21 @@ position: relative;
 
 @media only screen and (max-width: 760px) {
   #mobile .codebank { width: 100%!important; display: block!important; }
-  #mobile .codebank title { font-size: 20px!important; 
+  #mobile .codebank title { font-size: 20px!important; width: auto!important; 
     writing-mode: horizontal-tb !important; 
     transform: rotate(0deg)!important;
     -webkit-writing-mode: horizontal-tb !important; 
     -webkit-transform: rotate(0deg)!important;
   }
- #mobile .codebank .musical { width: 100%!important; box-sizing: border-box; }
+ #mobile .codebank .musical { width: 100%!important; box-sizing: border-box; padding: 0px 30px 30px!Important; }
  #mobile .codebank .space {
-  margin: 0px!important; width: initial!important; height: initial!important; 
-
+  margin: 20px!important; width: initial!important; height: initial!important; 
+}
   #mobile .codebank .space:before { 
-   height: 5px; width: 100%; right: initial!important; bottom: 0px; 
+   height: 5px!important; width: 50%!important; right: 25%!important; left: 25%!important; bottom: 0px!important; 
+}
+
+
 }
 #LYDIA h1 { 
   --color2: 199,121,208; --color3: 75,192,200;
