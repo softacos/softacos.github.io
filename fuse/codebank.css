@@ -72,7 +72,8 @@ border: 1px solid rgba(var(--border)); overflow: hidden; position: relative;
     -webkit-writing-mode: horizontal-tb !important; 
     -webkit-transform: rotate(0deg)!important;
   }
-  
+  #mobile .codebank .space:before { 
+   height: 5px; width: 100%; right: initial!important; bottom: 0px; 
 }
 #LYDIA h1 { 
   --color2: 199,121,208; --color3: 75,192,200;
