@@ -27,5 +27,5 @@
 .next-to-normal messaging { display: block; border-radius: 15px; padding: 10px; height: 38px; font-size: 12px; line-height: 18px; margin: 0px; background: rgba(150,150,150,0.1); box-sizing: border-box; width: 90%; position: absolute; bottom: 20px; left: 15px; z-index: 1; }
 
 @media only screen and (max-width: 760px) {
- .next-to-normal { width: 100%!important; }
+ #mobile .next-to-normal { width: 100%!important; }
 }
