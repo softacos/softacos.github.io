@@ -99,14 +99,14 @@ html[data-theme="dark"] .anastasia-tm {   --bg: 20,20,20; --opp: 222,222,222; }
 
 /* MOBILE CODE */
 @media only screen and (max-width: 760px) {
-  .anastasia-tm { 
+ #mobile .anastasia-tm { 
     width: 100%; box-sizing: border-box;
     display: block; padding: 30px; 
   }
-  .anastasia-tm .mypetersburg {
+ #mobile .anastasia-tm .mypetersburg {
     margin: 20px auto 40px; 
   }
-  .anastasia-tm .journeytothepast,  .anastasia-tm .onceuponadecember { width: 100%; }
-  .anastasia-tm gif { 
+ #mobile .anastasia-tm .journeytothepast,  .anastasia-tm .onceuponadecember { width: 100%; }
+ #mobile .anastasia-tm gif { 
   display: block; position: relative; top: auto!important; }
 }
