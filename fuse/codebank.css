@@ -8,8 +8,10 @@ html[data-theme="dark"] #LYDIA .codebank { --bg: 60,60,60; --border: 0,0,0; }
 .codebank {
   width: 470px; 
   background: rgb(var(--bg));
-  display: flex; flex-wrap: row wrap; 
-  align-content: center; justify-content: space-between; 
+  display: flex; 
+  flex-wrap: row wrap; 
+  align-content: center; 
+  justify-content: space-between; 
   align-items: center; 
   border-radius: 30px;
   border: 1px solid rgb(var(--border)); 
