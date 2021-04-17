@@ -96,6 +96,7 @@ html[data-theme="dark"] .little-shop-horrors {
   font-family: poppins, serif; 
   font-size: 11px; 
   letter-spacing: 1px; 
+  line-height: 12px;
   font-weight: bold; 
   text-shadow: 0px 0px 0px rgba(var(--accent2),0);
   text-transform: uppercase; 
