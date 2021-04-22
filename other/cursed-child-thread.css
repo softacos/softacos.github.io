@@ -47,6 +47,7 @@
 	text-overflow: ellipsis; 
 	text-transform: uppercase; 
 	letter-spacing: 0.5px; 
+	color: rgba(244,244,244,1);
 }
 .cursed-child:hover intermission {
 	opacity: 1;
