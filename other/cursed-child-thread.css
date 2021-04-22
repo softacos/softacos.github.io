@@ -34,7 +34,7 @@
 	width: calc(100% - 110px);
 	height: 20px;
 	font-size: 9px;
-	background: rgba(var(--bg), 0.75);
+	background: rgba(33,33,33, 0.75);
 	line-height: 20px;
 	bottom: 55px;
 	box-sizing: border-box;
