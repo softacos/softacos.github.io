@@ -72,7 +72,6 @@ html[data-theme="dark"] .little-shop-horrors {
   display: flex; 
   flex-flow: row wrap;
   justify-content: space-between; 
-  align-items: stretch; 
 }
 .little-shop-horrors .double img, .little-shop-horrors .moodboard img {
   object-position: center; 
