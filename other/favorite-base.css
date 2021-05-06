@@ -115,13 +115,9 @@ html[data-theme="dark"] .favorite-son {
 	font-weight: 800;
 	text-transform: uppercase;
 }
-.favorite-son a {
+.favorite-son sad {
 	width: calc(100% - 13% - 1px);
-	background: rgba(var(--bg)) !important;
-	-webkit-box-decoration-break: initial !important;
-	-webkit-background-clip: initial !important;
-	-webkit-text-fill-color: initial !important;
-	color: rgba(var(--accent))!important;
+	background: rgba(var(--bg));
 	padding: 5px 10px;
 	box-sizing: border-box;
 	text-decoration: none;
@@ -129,8 +125,16 @@ html[data-theme="dark"] .favorite-son {
 	font-family: IBM Plex Serif, serif;
 	text-transform: lowercase;
 	font-size: 9px;
-	font-style: italic;
+	font-style: italic; display: block;
+	color: rgba(var(--accent));
 }
-.favorite-son a:hover {
-	color: rgba(var(--accent2));
+.favorite-son a, .favorite-son sad:hover {
+	background: rgba(var(--bg))!important;
+	-webkit-box-decoration-break: initial !important;
+	-webkit-background-clip: initial !important;
+	-webkit-text-fill-color: initial !important;
+	color: rgba(var(--accent))!important;
+}
+.favorite-son a:hover, .favorite-son sad:hover {
+	color: rgba(var(--accent2))!important;
 }
