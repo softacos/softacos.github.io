@@ -77,9 +77,17 @@ html[data-theme="dark"] .rent {
   display: block;
   font-size: 10px; 
   line-height: 12px; 
-  margin-top: 5px; 
-  color: rgba(var(--stk),0.5);
   text-transform: uppercase;
+    background: var(--gradfl);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-box-decoration-break: clone;
+  color: transparent;
+
+}
+.rent contact:before {
+  content: 'CONVERSATION WITH ';
+  color: rgba(var(--stk),0.5);
 }
 .rent .lightmycandle {
   height: 273px;
@@ -97,7 +105,6 @@ html[data-theme="dark"] .rent {
   float: right; 
   clear: both;
 }
-
 .lightmycandle p img {
   max-width: calc(100% - 10px); 
 }
