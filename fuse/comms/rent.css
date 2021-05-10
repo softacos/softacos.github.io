@@ -3,32 +3,21 @@
 
 /* MOBILE CODE */
 @media only screen and (max-width: 760px) {
-
+.rent {
+  width: 100%!important; 
+  }
 }
 
-
-/*
-LIGHT MODE 
-body { background: #fff;  color: #1a1a1a }
-*/
-
-/* OVERRIDE LINK GRADIENTS 
-
--- single color: {
-background: none !important;
--webkit-box-decoration-break: initial !important;
--webkit-background-clip: initial !important;
--webkit-text-fill-color: initial !important;
-color: rgba(RGBHERE, 1) !important;
-} 
-
--- gradient : {
-background: GRADIENTHERE !important;
+.rent a {
+background: var(--gradfl)!important;
 -webkit-background-clip: text !important;
 -webkit-text-fill-color: transparent;
 color: transparent;
 }
-*/ 
+html[data-theme="dark"] .rent {
+  --bg: 17,17,17;
+  --stk: 252,252,252;
+}
 
 .rent {
   width: 270px; 
