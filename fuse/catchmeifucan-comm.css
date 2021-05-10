@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 html[data-theme="dark"] .catchmeifucan-left {
-  --bg: 42,42,42;
+  --bg: 31,31,31;
   --bg2: 22,22,22;
 }
 html[data-theme="dark"] .catchmeifucan-right {
-  --bg: 42,42,42;
+  --bg: 31,31,31;
   --bg2: 22,22,22;
 }
 
