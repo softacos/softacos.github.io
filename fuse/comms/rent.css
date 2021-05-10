@@ -1,0 +1,110 @@
+  @import url("https://use.typekit.net/yld2uri.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* MOBILE CODE */
+@media only screen and (max-width: 760px) {
+
+}
+
+
+/*
+LIGHT MODE 
+body { background: #fff;  color: #1a1a1a }
+*/
+
+/* OVERRIDE LINK GRADIENTS 
+
+-- single color: {
+background: none !important;
+-webkit-box-decoration-break: initial !important;
+-webkit-background-clip: initial !important;
+-webkit-text-fill-color: initial !important;
+color: rgba(RGBHERE, 1) !important;
+} 
+
+-- gradient : {
+background: GRADIENTHERE !important;
+-webkit-background-clip: text !important;
+-webkit-text-fill-color: transparent;
+color: transparent;
+}
+*/ 
+
+.rent {
+  width: 270px; 
+  height: 480px; 
+  box-sizing: border-box; 
+  padding: 10px;
+  background: rgba(var(--bg));
+  border-radius: var(--br); 
+  --gimg: 90px;
+  --br: 35px;
+  --bg: 244,244,244;
+  --gradlt: linear-gradient(45deg, rgba(var(--accent),0.22), rgba(var(--accent2),0.22), rgba(var(--accent3),0.22));
+  --gradfl: linear-gradient(45deg, rgba(var(--accent)), rgba(var(--accent2)), rgba(var(--accent3)));
+  --gradmd: linear-gradient(90deg, rgba(var(--accent3),0.52), rgba(var(--accent2),0.52), rgba(var(--accent),0.52));
+  --stk: 22,22,22;
+}
+.onesong {
+  width: calc(100%);
+  height: calc(100%);
+  background: var(--gradlt);
+  border-radius: calc(var(--br) - 10px);
+  position: relative; 
+  color: rgba(var(--stk));
+  overflow: hidden;
+}
+.rent char {
+  display: block; 
+  font-size: 9px; 
+  font-weight: bold; 
+  line-height: 1.6em;
+  text-transform: uppercase; 
+  padding: 12px 0px;
+  background: var(--gradfl);
+  background-repeat: repeat-x; 
+  background-size: 100% 1px;
+  background-position: 0 100%;
+  color: rgba(var(--stk));
+}
+.rent span {
+  background: var(--gradfl);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-box-decoration-break: clone;
+  color: transparent;
+}
+.rent gif img { 
+  width: var(--gimg);
+  height: var(--gimg);
+  object-position: center;
+  object-fit: cover; 
+  border-radius: 100%; 
+  filter: drop-shadow(3px 3px 6px rgb(var(--stk),0.15));
+}
+.rent gif {
+  display: block; padding: 20px 0px;
+}
+.rent contact {
+  display: block;
+  font-size: 10px; 
+  line-height: 12px; 
+  color: rgba(var(--stk),0.5);
+  text-transform: uppercase;
+}
+.rent .lightmycandle {
+  height: 273px;
+  padding: 5px; 
+  box-sizing: border-box;
+  overflow: auto;
+}
+.rent .lightmycandle p {
+  background: var(--gradmd);
+  margin: 0px 10px 5px;
+  font: 11px/1.2em poppins; 
+  text-align: justify;
+  padding: 9px 13px;
+  border-radius: 14px;
+  float: right; 
+  clear: both;
+}
