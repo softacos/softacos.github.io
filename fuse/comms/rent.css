@@ -83,7 +83,7 @@ html[data-theme="dark"] .rent {
   -webkit-background-clip: text;
   -webkit-box-decoration-break: clone;
   color: transparent;
-
+  padding-top: 5px;
 }
 .rent contact:before {
   content: 'CONVERSATION WITH ';
