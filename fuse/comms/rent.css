@@ -108,3 +108,18 @@ html[data-theme="dark"] .rent {
 .lightmycandle p img {
   max-width: calc(100% - 10px); 
 }
+
+.rent .lightmycandle-call {
+  font: 11px/1.2em poppins; 
+  text-align: justify;
+  padding: 0px 20px;
+  height: 243px;
+  background: rgba(222,222,222);
+}
+.rent .endcall {
+  font-size: 14px; 
+  text-transform: uppercase; 
+  line-height: 29px; 
+  height: 29px; 
+  color: rgba(var(--stk),0.5);
+}
