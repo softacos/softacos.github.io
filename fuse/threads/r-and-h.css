@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,300;1,700&display=swap');
+
+html[data-theme="dark"] .RandH {
+  --bg: 33,33,33;
+  --bd: 0,0,0;
+  --stk: 245,245,245;
+}
+
+.RandH {
+  --bg: 240,240,240;
+  --bd: 249,249,249;
+  --stk: 44,44,44;
+  --gradlt: linear-gradient(45deg, rgba(var(--accent),0.22), rgba(var(--accent2),0.22), rgba(var(--accent3),0.22));
+  --grad50: linear-gradient(45deg, rgba(var(--accent),0.56), rgba(var(--accent2),0.56), rgba(var(--accent3),0.56));
+  --grad100: linear-gradient(45deg, rgba(var(--accent)), rgba(var(--accent2)), rgba(var(--accent3)));
+  background: rgba(var(--bg));
+  border: 1px solid rgba(var(--bd));
+  width: 310px; 
+  color: rgba(var(--stk));
+  box-sizing: border-box; 
+}
+.RandH .showboat {
+  background: var(--grad50);
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 12px; 
+  letter-spacing: 0.5px;
+}
+.RandH .showboat span {
+  font-family: Roboto;
+  font-size: 9px; 
+  text-transform: uppercase; 
+  padding: 8px 12px;
+  display: block;
+  background: rgba(var(--bg),0.26);
+}
+.RandH .showboat img {
+  width: 100%; 
+  height: 210px;
+  object-position: center; 
+  object-fit: cover;
+  box-sizing: border-box; 
+  border: 45px solid rgba(var(--bg),0);
+}
+.RandH .cinderella {
+  background: rgba(var(--bg),0.56);
+  border-top: 1px solid rgba(var(--bd));
+  border-bottom: 1px solid rgba(var(--bd));
+  padding: 45px;
+  font-family: Roboto;
+  font-size: 12px; 
+line-height: 14px;
+  text-align: justify;
+}
+.RandH .showboat a {
+  background: transparent!important;
+  background-clip: initial!important; 
+  -webkit-background-clip: initial!important;
+  -webkit-text-fill-color: initial;
+  color: rgba(var(--accent2));
+  font-weight: bold;  
+}
+.RandH .showboat b {
+  background: var(--grad100);
+  background-clip: text; 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-box-decoration-break: clone;
+}
+.RandH .showboat i {
+  background: var(--grad100);
+  background-repeat: repeat-x;
+  background-size: 100% 1px;
+  background-position: 0 85%;
+  -webkit-box-decoration-break: clone;
+}
+.RandH .showboat p {
+  margin: 0px 0px 9px; 
+}
