@@ -1,0 +1,112 @@
+html[data-theme="dark"] .bemorechill {
+    --bd: 0,0,0;
+  --bg: 18,18,18;
+  --stk: 200,200,200;
+}
+
+.bemorechill { 
+  width: 280px; 
+  height: 500px; 
+  border: 1px solid rgba(var(--bd));
+  background: var(--grad100);
+  border-radius: 28px; 
+  --bd: 244,244,244;
+  --bg: 255,255,255;
+  --stk: 10,10,10;
+  --grad100: linear-gradient(45deg, rgba(var(--accent)), rgba(var(--accent2)), rgba(var(--accent3)));
+  --grad10: linear-gradient(45deg, rgba(var(--accent),0.2), rgba(var(--accent2),0.2), rgba(var(--accent3),0.2));
+  overflow: hidden;
+  position: relative; 
+}
+.bemorechill .morethansurvive {
+  background: rgba(var(--bg), 0.89);
+  width: 100%; 
+}
+.bemorechill gif {
+  display: block;
+  padding: 23px;
+  box-sizing: border-box; 
+  width: 100%; 
+  height: calc(155px + 46px);
+}
+.bemorechill gif img { 
+  width: 234px; 
+  height: 155px;
+  object-fit: cover; 
+  object-position: center; 
+  border-radius: 12px;
+}
+.bemorechill .voicesinmyhead {
+  background: rgba(var(--bg), 0.80);
+  width: 100%; 
+  margin-top: 1px; 
+  height: calc(100% - (155px + 47px));
+  box-sizing: border-box; 
+  padding: 20px; 
+text-align: justify; 
+font: 11px/1.3em poppins;
+}
+.bemorechill .smartphonehour {
+  position: absolute; 
+  bottom: 20px; 
+  width: calc(100% - 40px);
+  left: 20px; 
+  background: var(--grad10);
+  border-radius: 8px;
+  font: bold 9px poppins;
+text-align: center;
+  letter-spacing: 0.5px; 
+  padding: 8px 0;
+}
+.bemorechill .upgrade {
+  font: bold 9px/12px poppins; 
+  letter-spacing: 0.5px; 
+  background: rgba(var(--bg),.89);
+  margin-top: 1px; 
+  padding: 12px 7px;
+  text-align: center;
+}
+.bemorechill .voicesinmyhead p {
+  margin: 0px 0px 9px; 
+  float: right; 
+  clear: both; 
+  font: 11px poppins; 
+  background: var(--grad10);
+  padding: 7px 12px; 
+  border-radius: 7px; 
+  letter-spacing: 0.5; 
+}
+.bemorechill .squip {
+  height: 180px; 
+  overflow: auto; 
+  padding-right: 4px; 
+}
+.bemorechill .squip::-webkit-scrollbar{
+width: 3px!important; 
+}
+.bemorechill .squip::-webkit-scrollbar-thumb {
+width: 3px!important; 
+background: var(--grad100); 
+}
+
+.bemorechill p img {
+  max-width: calc(100%); 
+  border-radius: 3px;
+  padding: 0px!important; 
+  margin: 0px!important; 
+}
+.bemorechill b {
+  background: var(--grad100);
+  background-clip: text; 
+  -webkit-background-clip: text; 
+  -webkit-box-decoration-break: clone; 
+  color: transparent; 
+}
+.bemorechill i {
+  background: var(--grad100);
+  background-size: 100% 1px;
+  background-repeat: repeat-x; 
+  background-position: 0 95%;
+  -webkit-box-decoration-break: clone; 
+  letter-spacing: 0.5px; 
+}
