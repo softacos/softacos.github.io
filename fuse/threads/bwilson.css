@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,600;1,300;1,600&display=swap');
+
+#LAZY { --accent: var(--mgrgb); --accent2: var(--mgrgb2); --accent3: var(--mgrgb3); }
+
+html[data-theme="dark"] .brianwilson { 
+--bg: 15,15,15;
+--stk: 222,222,222;
+}
+.brianwilson { 
+--grad100: linear-gradient(45deg, rgba(var(--accent)), rgba(var(--accent2)), rgba(var(--accent3))); 
+--width: 300px; 
+--height: 175px;
+--bg: 238,238,238;
+--stk: 99,99,99;
+width: calc(var(--width) + 50px); }
+.pavlov { 
+padding: 25px; 
+font-family: montserrat;
+font-weight: 300;
+width: var(--width);
+background: rgba(var(--bg)); 
+border-radius: 30px;
+text-align: justify;
+margin: 12px;
+font-size: 12px; line-height: 1.3em;
+}
+.brianwilson img { 
+width: var(--width); 
+height: var(--height); 
+object-position: center; 
+object-fit: cover;
+border-radius: 10px; 
+}
+.brianwilson b {
+background: var(--grad100); 
+background-clip: text; 
+-webkit-background-clip: text; 
+color: transparent;
+-webkit-box-decoration-break: clone; 
+font-weight: 600;
+}
+.brianwilson i {
+background: var(--grad100); 
+background-repeat: repeat-x; 
+background-position: 0 94%; 
+background-size: 100% 1px;
+-webkit-box-decoration-break: clone; 
+}
+.pavlov tag { 
+display: block; 
+margin-top: 15px;
+padding-top: 12px; 
+text-align: center;
+font: 600 8px/12px montserrat;
+text-transform: uppercase;
+background: var(--grad100); 
+background-repeat: repeat-x; 
+background-size: 100% 1px;
+}
