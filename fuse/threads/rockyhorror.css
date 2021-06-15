@@ -1,5 +1,5 @@
 html[data-theme="dark"] .rockyhorror { --bg: 0,0,0; }
-.rockyhorror { width: calc(220px + 60px); --imgw: 220px; --gradient: linear-gradient(45deg, rgba(var(--accent), 0.4), rgba(var(--accent2),0.4), rgba(var(--accent3),0.4)); --bg: 255,255,255; margin-top: 40px; background: var(--gradient); padding: 60px; }
+.rockyhorror { width: calc(var(--imgw) + 60px); --imgw: 220px; --gradient: linear-gradient(45deg, rgba(var(--accent), 0.4), rgba(var(--accent2),0.4), rgba(var(--accent3),0.4)); --bg: 255,255,255; margin-top: 40px; background: var(--gradient); padding: 60px; }
 .rockyhorror img { width: var(--imgw); }
 .rockyhorror timewarp { display: block; width: var(--imgw); padding: 30px; background: rgba(var(--bg)); }
 .rockyhorror touchme { display: block; width: var(--imgw); padding: 30px; background: rgba(var(--bg)); margin-top: 20px; }
