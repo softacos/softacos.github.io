@@ -42,7 +42,7 @@ html[data-theme="dark"] .favorite-son {
 	position: relative;
 	top: 20px;
 }
-.favorite-son running b {
+.favorite-son running b, .favorite-son champion b {
 	font-weight: 800;
 	background: var(--grad100);
 	background-clip: text;
@@ -51,7 +51,7 @@ html[data-theme="dark"] .favorite-son {
 	-webkit-box-decoration-break: clone;
 	font-size: 16px;
 }
-.favorite-son running i {
+.favorite-son running i, .favorite-son champion i {
 	font-family: IBM Plex Serif, serif;
 	font-size: 11px;
 	font-style: italic;
@@ -91,7 +91,7 @@ html[data-theme="dark"] .favorite-son {
 	object-position: center;
 	border-radius: 100%;
 }
-.favorite-son running p {
+.favorite-son running p, .favorite-son champion p {
 	margin: 0px;
 	padding: 9px 0px 0px;
 }
@@ -138,3 +138,7 @@ html[data-theme="dark"] .favorite-son {
 .favorite-son a:hover, .favorite-son sad:hover {
 	color: rgba(var(--accent2))!important;
 }
+
+.favorite-son sexmachine { display: block; width: 220px; padding-top: 40px; }
+.favorite-son sexmachine img { width: 218px; height: 118px; object-position: center; object-fit: cover; background: var(--grad100); padding: 1px; }
+.favorite-son champion { display: block; padding: 25px 45px 50px; font-size: 13px; text-align: justify; line-height: 1.4em; }
