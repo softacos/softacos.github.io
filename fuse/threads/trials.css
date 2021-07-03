@@ -1,0 +1,93 @@
+/*******************************************
+  trials code made for quick rfs by Lydia 
+         fuse // 163 — july 2021 
+********************************************/
+
+html[data-theme="dark"] .tryme { 
+  --bg: 10,10,10;
+  --stk: 222,222,222;
+}
+@media only screen and (max-width: 760px) {
+  .tryme { --width: 100% !important; }
+}
+.tryme { 
+  margin: 0px auto; 
+  width: var(--width); 
+  --width: 320px; 
+  --bg: 255,255,255;
+  --stk: 77,77,77;
+  --grad01: linear-gradient(45deg, rgba(var(--accent)), rgba(var(--accent2)), rgba(var(--accent3))); 
+  background: var(--grad01);
+  padding: 1px;
+  font-family: poppins; 
+color: rgba(var(--stk)); 
+}
+.tryme .expectations { 
+  background: rgba(var(--bg),0.89);
+  width: var(--width); 
+  height: calc(var(--width) / 1.5); 
+  margin-bottom: 1px; 
+}
+.tryme gif {
+  display: block;
+  width: calc(var(--width) - 70px); 
+  height: calc((var(--width) / 1.5) - 70px); 
+  padding: 35px;
+  background: var(--gificn);
+  background-size: 25%;
+  background-position: center; 
+  background-repeat: no-repeat; 
+}
+.tryme gif img {
+  display: block;
+  width: 100%; 
+  height: calc((var(--width) / 1.5) - 70px); 
+  object-position: center; 
+  object-fit: cover; 
+}
+
+.tryme .out { 
+  padding: 35px; 
+  background: rgba(var(--bg),0.74);
+  text-align: justify;
+  font-size: 11px; 
+  line-height: 1.2em; 
+    margin-bottom: 1px; 
+  letter-spacing: 0.5px; 
+}
+.tryme .untangle { 
+  background: rgba(var(--bg),0.89);
+  width: calc(100% - 70px);
+  padding: 15px 35px;
+  font-size: 8px; 
+  font-weight: bold;
+  text-transform: uppercase; 
+  text-align: center; 
+  letter-spacing: 1px;
+}
+.tryme .out p { margin: 0px; padding: 0px 0px 9px; } 
+.tryme .out b { 
+  background: var(--grad01);
+  background-clip: text; 
+  -webkit-background-clip: text; 
+  color: transparent; 
+  -webkit-box-decoration-break: clone; 
+  font-size: 13px; 
+  line-height: 11px; 
+}
+.tryme .out i {
+  font-size: 13px; 
+  line-height: 11px; 
+  color: rgba(var(--accent3));
+  background: var(--grad01);
+  background-size: 100% 1px;
+  background-repeat: repeat-x; 
+  background-position: 0% 85%;
+  -webkit-box-decoration-break: clone; 
+}
+.tryme .untangle a {
+background: var(--grad01);
+-webkit-background-clip: text !important;
+-webkit-text-fill-color: transparent;
+color: transparent;
+}
