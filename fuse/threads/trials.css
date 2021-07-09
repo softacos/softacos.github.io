@@ -65,7 +65,7 @@ color: rgba(var(--stk));
   text-align: center; 
   letter-spacing: 1px;
 }
-.tryme .out p { margin: 0px; padding: 0px 0px 9px; } 
+.tryme .out p { margin: 0px; padding: 9px 0px 0px; } 
 .tryme .out b { 
   background: var(--grad01);
   background-clip: text; 
